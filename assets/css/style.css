@@ -1,0 +1,247 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  background-color: #fff;
+  background-image: url("../img/xp.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: "Open Sans", Helvetica, sans-serif;
+  font-size: 10px;
+  color: #222;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.no-touch a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+h1,
+h2 {
+  font-size: 24px;
+}
+
+/**
+ * The CSS in this file is for styling the demo page, 
+ * Meny's critical styles (such as transforms) are applied
+ * via JavaScript.
+ *
+ * See the documentation here: https://github.com/hakimel/meny#meny
+ *
+ * @author Hakim El Hattab | http://hakim.se
+ */
+/**
+ * Typography
+ */
+.meny {
+  display: none;
+  padding: 20px;
+  overflow: auto;
+  background: #00b6ad;
+  color: #fff;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.meny ul {
+  padding-bottom: 10px;
+}
+
+.meny ul li {
+  display: inline-block;
+  width: 160px;
+  list-style: none;
+  font-size: 14px;
+  padding: 3px 35px;
+}
+
+.meny h1 {
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+.meny h2 {
+  font-size: 14px;
+}
+
+.meny li.space {
+  line-height: 1px;
+}
+
+section .social {
+  margin: 10px 0 0 35px;
+  font-family: 'icomoon';
+  font-size: 28px;
+}
+
+.social a:hover {
+  text-decoration: none;
+}
+
+/**
+ * Hint graphic that appears while menu is inactive
+ */
+.meny-arrow {
+  position: absolute;
+  z-index: 100;
+  color: #fff;
+  border: 10px solid transparent;
+  -webkit-transition: opacity 0.4s ease 0.4s;
+  -moz-transition: opacity 0.4s ease 0.4s;
+  -ms-transition: opacity 0.4s ease 0.4s;
+  -o-transition: opacity 0.4s ease 0.4s;
+  transition: opacity 0.4s ease 0.4s;
+}
+
+.meny-left .meny-arrow {
+  left: 14px;
+  top: 50%;
+  margin-top: -16px;
+  border-left: 16px solid white;
+}
+
+.meny-active .meny-arrow {
+  opacity: 0;
+  -webkit-transition: opacity 0.2s ease;
+  -moz-transition: opacity 0.2s ease;
+  -ms-transition: opacity 0.2s ease;
+  -o-transition: opacity 0.2s ease;
+  transition: opacity 0.2s ease;
+}
+
+/**
+ * icons
+ */
+@font-face {
+  font-family: 'icomoon';
+  src: url("../fonts/icomoon.eot");
+  src: url("../fonts/icomoon.eot?#iefix") format("embedded-opentype"), url("../fonts/icomoon.svg#icomoon") format("svg"), url("../fonts/icomoon.woff") format("woff"), url("../fonts/icomoon.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-icon]:before {
+  font-family: 'icomoon';
+  content: attr(data-icon);
+  speak: none;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Use the following CSS code if you want to have a class per icon */
+/*
+Instead of a list of all class selectors,
+you can use the generic selector below, but it's slower:
+[class*="icon-"]:before {
+*/
+.icon-cube:before, .icon-logo:before, .icon-chat:before, .icon-atom:before, .icon-facebook:before, .icon-twitter:before, .icon-github:before {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  font-size: 28px;
+  vertical-align: middle;
+  margin-right: 8px;
+}
+
+.icon-cube:before {
+  content: "\e000";
+}
+
+.icon-logo:before {
+  content: "\e003";
+  font-size: 24px;
+  vertical-align: sub;
+}
+
+.icon-chat:before {
+  content: "\e001";
+}
+
+.icon-atom:before {
+  content: "\e002";
+}
+
+.icon-facebook:before {
+  content: "\e005";
+}
+
+.icon-twitter:before {
+  content: "\e006";
+}
+
+.icon-github:before {
+  content: "\e007";
+}
+
+/**
+ * Main contents area
+ */
+.contents {
+  background: #fff;
+  width: 100%;
+  height: 100%;
+  -webkit-overflow-scrolling: touch;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.contents > article {
+  max-width: 400px;
+}
+
+.contents p {
+  margin: 10px 0 10px 0;
+  font-size: 16px;
+  line-height: 1.32;
+}
+
+.contents small {
+  display: block;
+  margin-top: 10px;
+  padding-top: 10px;
+  color: #333;
+  font-size: 0.85em;
+  border-top: 1px dashed #cccccc;
+  -webkit-text-size-adjust: none;
+}
+
+.contents .sharing {
+  position: absolute;
+  bottom: 20px;
+}
+
+aside {
+  color: #fff;
+  position: absolute;
+  z-index: 10;
+  background: rgba(0, 182, 173, 0.6);
+  width: 260px;
+  height: 100%;
+  float: left;
+}
+
+aside section {
+  padding: 20px 20px;
+}

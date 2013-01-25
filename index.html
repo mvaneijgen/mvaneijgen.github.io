@@ -4,130 +4,74 @@
     <head>
         <meta charset="utf-8">
         
-        <title>Jong creatief enzo experiment</title>
+        <title>Jong creatief enzo</title>
 
-        <meta name="description" content="Experimentele nieuwe technologieën ">
+        <meta name="description" content="Wij laten zien dat je geen doorgewinterde ondernemer hoeft te zijn om een bedrijf op te richten. Je moet weten waar je voor staat en je hart in je werk stoppen.">
         <meta name="author" content="M van Eijgen">
+        
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+        <script>
+        if (!("ontouchstart" in document.documentElement)) {
+            document.documentElement.className += " no-touch";
+            }
+        </script>
+        
         <!-- Begin meny -->
-                    <meta name="viewport" content="width=800, user-scalable=no">
-                    <script src="assets/js/menymin.js" type="text/javascript"></script>
-                    <script src="assets/js/meny.js" type="text/javascript"></script>
-                    <link rel="stylesheet" href="assets/css/meny.css">
+        <meta name="viewport" content="width=800, user-scalable=no">
+        <script src="assets/js/menymin.js" type="text/javascript"></script>
+        <script src="assets/js/meny.js" type="text/javascript"></script>
+        <link rel="stylesheet" href="assets/css/style.css">
         <!-- End meny -->
                     
         <!-- Begin embed experiment -->
-                <link rel="stylesheet" href="paperjs/css/style.css">
-                <script type="text/javascript" src="paperjs/lib/paper.js"></script>
-                <script type="text/paperscript" canvas="canvas">
-                    // The amount of symbol we want to place;
-                    var count = 400;
-                
-                    // Create a symbol, which we will use to place instances of later:
-                    var path = new Path.Circle(new Point(0, 0), 5);
-                    path.style = {
-                        fillColor: 'white',
-                        strokeColor: '#00B6AD'
-                    };
-                
-                    var symbol = new Symbol(path);
-                
-                    // Place the instances of the symbol:
-                    for (var i = 0; i < count; i++) {
-                        // The center position is a random point in the view:
-                        var center = Point.random() * view.size;
-                        var placed = symbol.place(center);
-                        placed.scale(i / count);
-                        placed.data = {};
-                        placed.data.vector = new Point({
-                            angle: Math.random() * 360,
-                            length : (i / count) * Math.random() / 5
-                        });
-                    }
-                
-                    var vector = new Point({
-                        angle: 45,
-                        length: 0
-                    });
-                
-                    var mouseVector = vector.clone();
-                
-                                    
-                    // The onFrame function is called up to 60 times a second:
-                    function onFrame(event) {
-                        vector = vector + (mouseVector - vector) / 30;
-                
-                        // Run through the active layer's children list and change
-                        // the position of the placed symbols:
-                        for (var i = 0; i < count; i++) {
-                            var item = project.activeLayer.children[i];
-                            var size = item.bounds.size;
-                            var length = vector.length / 10 * size.width / 10;
-                            item.position += vector.normalize(length) + item.data.vector;
-                            keepInView(item);
-                        }
-                    }
-                
-                    function keepInView(item) {
-                        var position = item.position;
-                        var itemBounds = item.bounds;
-                        var bounds = view.bounds;
-                        if (itemBounds.left > bounds.width) {
-                            position.x = -item.bounds.width;
-                        }
-                
-                        if (position.x < -itemBounds.width) {
-                            position.x = bounds.width + itemBounds.width;
-                        }
-                
-                        if (itemBounds.top > view.size.height) {
-                            position.y = -itemBounds.height;
-                        }
-                
-                        if (position.y < -itemBounds.height) {
-                            position.y = bounds.height  + itemBounds.height / 2;
-                        }
-                    }
-                </script>
+
         <!-- End embed experiment -->
     </head>
     
     <body>
 
         <div class="meny">
-            <h1><a href="http://jcenzo.nl/">Jong creatief enzo</a></h1>
+            <h1 class="icon-logo" ><a href="http://jcenzo.nl/">Jong creatief enzo</a></h1>
             <nav>
-            <ul>
-                <li><a href="http://jcenzo.nl/portfolio">Portfolio</a></li>
-                <li><a href="http://jcenzo.nl/blog">Blog</a></li>
-                <li><a href="http://jcenzo.nl/contact">Contact</a></li>
-            </ul>
-            
-            <h2><a href="http://jcenzo.nl/portfolio">Werk</a></h2>
-            <ul>
-                <li><a href="http://jcenzo.nl/grafisch">Grafisch ontwerp</a></li>
-                <li><a href="http://jcenzo.nl/web">Webdesign</a></li>
-                <li><a href="http://jcenzo.nl/app">Applicaties</a></li>
-                <li><a href="http://jcenzo.nl/font">Lettertypes</a></li>
-            </ul>
-
-            <h2>Experimenten</h2>
-            <ul>
-                <li><a href="http://jcenzo.nl/paperjs">Paper.js</a></li>
-                <li><a href="http://jcenzo.nl/mask">Mask enzo</a></li>
-                <li><a href="http://jcenzo.nl/8bit">8Bit font</a></li>
-            </ul>
+                <ul>
+                    <li><a href="http://jcenzo.nl/portfolio">Portfolio</a></li>
+                    <li><a href="http://jcenzo.nl/blog">Blog</a></li>
+                    <li><a href="http://jcenzo.nl/contact">Contact</a></li>
+                </ul>
+                
+                <h2 class="icon-cube"><a href="http://jcenzo.nl/portfolio">Ontwerp</a></h2>
+                <ul>
+                    <li><a href="http://jcenzo.nl/grafisch">Grafisch ontwerp</a></li>
+                    <li><a href="http://jcenzo.nl/web">Webdesign</a></li>
+                    <li><a href="http://jcenzo.nl/app">Applicaties</a></li>
+                    <li><a href="http://jcenzo.nl/font">Letter ontwerp</a></li>
+                </ul>
+    
+                <h2 class="icon-atom"><a href="http://jcenzo.nl/experimenten">Experimenten</a></h2>
+                <ul>
+                    <li><a href="http://jcenzo.nl/paperjs">Paper.js</a></li>
+                    <li><a href="http://jcenzo.nl/mask">Mask enzo</a></li>
+                    <li><a href="http://jcenzo.nl/8bit">8Bit font</a></li>
+                </ul>
             </nav>
             
-            <h2>Contact</h2>
-            <div class="vcard">
-            <p class="fn"><a class="url" href="#">M van Eijgen</a><p>
-            <p class="adr">
-            <span class="street-address">Gonnetstraat 26</span><br>
-            <span class="region">Haarlem</span><br>
-            <span class="postal-code">2011 KA</span><br>
-            </p>
-            <p class="tel">06 38 63 27 35</p>
-            </div>
+            <section>
+                <h2 class="icon-chat">Contact</h2>
+                <ul>
+                    <li>Mitchel van Eijgen</li>
+                    <li class="space">&nbsp;</li>
+                    <li>Mitchel@jcenzo.nl</li>
+                    <li>06 38 63 27 35</li>
+                    <li class="space">&nbsp;</li>
+                    <li>Gonnetstraat 26</li>
+                    <li>2011 KA Haarlem</li>
+                </ul>
+                <section class="social">
+                <span><a class="data-icon" href="http://www.facebook.com/jongcreatiefenzo" id="facebook" target="_blank" rel="no-follow">&#xe005;</a></span>
+                <span><a class="data-icon" href="http://www.twitter.com/mvaneijgen" id="twitter" target="_blank" rel="no-follow">&#xe006;</a>        </span>
+                <span><a class="data-icon" href="http://www.github.com/mvaneijgen" id="twitter" target="_blank" rel="no-follow">&#xe007;</a>         </span>
+                </section>
+            </section>
         </div>
 
         <div class="meny-arrow"></div>
@@ -136,13 +80,9 @@
         <!-- Begin experiment -->
             <aside>
                 <section>
-                    <h1>Space</h1>
-                    <p>
-                        gemaakt met paper.js
-                    </p>
                 </section>
             </aside>
-            <canvas id="canvas" resize style='background:#00B6AD'></canvas>
+
         <!-- end experiment -->
         </div>
         <!-- Begin meny -->
