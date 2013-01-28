@@ -1,3 +1,7 @@
+$brand-color: #00b6ad;
+$action-color: #67a54b;
+$function-color: #f2f2f2;
+$alert-color: #b22727;
 
 * {
     margin: 0;
@@ -11,12 +15,11 @@ body {
 }
 
 body {
-    background-color: #fff;
-    background-image: url('../img/xp.jpg');
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+background-color: #eee;
+background-image: linear-gradient(45deg, $brand-color 25%, transparent 25%, transparent 75%, $brand-color 75%, $brand-color), 
+linear-gradient(-45deg, $brand-color 25%, transparent 25%, transparent 75%, $brand-color 75%, $brand-color);
+background-size:60px 60px;
+
 
     font-family: 'Open Sans', Helvetica, sans-serif;
     font-size: 10px;
@@ -38,8 +41,8 @@ h2 {
 
 
 @import "meny";
-
-
+@import "aside";
+@import "contents";
 /**
  * Main contents area
  */
@@ -76,15 +79,4 @@ h2 {
         position: absolute;
         bottom: 20px;
     }
-aside { 
-    color: #fff;
-    position: absolute;
-    z-index: 10;
-    background: rgba(0, 182, 173, 0.6);
-    width: 260px;
-    height: 100%;
-    float: left;
-}
-aside section { 
-    padding: 20px 20px;
-}
+@import "icomoon";
