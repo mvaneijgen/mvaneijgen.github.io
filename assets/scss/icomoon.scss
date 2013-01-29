@@ -14,12 +14,12 @@
 
 /* Use the following CSS code if you want to use data attributes for inserting your icons */
 [data-icon]:before {
-    font-family: 'icomoon';
-    content: attr(data-icon);
-    speak: none;
-    font-weight: normal;
-    line-height: 1;
-    -webkit-font-smoothing: antialiased;
+	font-family: 'icomoon';
+	content: attr(data-icon);
+	speak: none;
+	font-weight: normal;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
 }
 
 /* Use the following CSS code if you want to have a class per icon */
@@ -28,37 +28,38 @@ Instead of a list of all class selectors,
 you can use the generic selector below, but it's slower:
 [class*="icon-"]:before {
 */
-.icon-cube:before, .icon-logo:before, .icon-chat:before, .icon-atom:before, .icon-facebook:before, .icon-twitter:before, .icon-github:before {
-    font-family: 'icomoon';
-    speak: none;
-    font-style: normal;
-    font-weight: normal;
-    line-height: 1;
-    -webkit-font-smoothing: antialiased;
-    font-size: 28px;
-    vertical-align:middle;
+.icon-cube:before, .icon-logo:before, .icon-chat:before, .icon-atom:before, .icon-facebook:before, .icon-twitter:before, .icon-github:before, .icon-dribbble:before {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 28px;
+	line-height: 1;
+	vertical-align:middle;
     margin-right: 8px;
+	-webkit-font-smoothing: antialiased;
 }
 .icon-cube:before {
-    content: "\e000";
+	content: "\e000";
 }
 .icon-logo:before {
-    content: "\e003";
-    font-size: 24px;
-    vertical-align: sub;
+	content: "\e003";
 }
 .icon-chat:before {
-    content: "\e001";
+	content: "\e001";
 }
 .icon-atom:before {
-    content: "\e002";
+	content: "\e002";
 }
 .icon-facebook:before {
-    content: "\e005";
+	content: "\e005";
 }
 .icon-twitter:before {
-    content: "\e006";
+	content: "\e006";
 }
 .icon-github:before {
-    content: "\e007";
+	content: "\e007";
+}
+.icon-dribbble:before {
+	content: "\e004";
 }
