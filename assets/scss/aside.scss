@@ -16,8 +16,34 @@ aside {
   -o-transition: opacity 0.3s ease-in-out;
   transition: opacity 0.3s ease-in-out; }
 
+.contents aside p span {
+  font-family: 'icomoon';
+  font-size: 18px;
+  vertical-align: middle;
+  margin-left: 5px; }
+
+aside h2, aside h1 {
+  margin-bottom: 10px; }
+
 aside section {
-  width: 220px; }
+  width: 220px;
+  margin: 20px; }
+
+aside section div {
+  margin-bottom: 20px; }
+
+aside .tumb img {
+  margin: 3px;
+  height: 100px;
+  width: 100px; }
+aside .bijschrift {  
+    font-size: 11px;
+    line-height: 16px;
+}
+aside ul {  
+    list-style-type: none;
+}
+
 
 aside:hover {
   opacity: 1;
@@ -26,21 +52,6 @@ aside:hover {
   -ms-transition: opacity 0.3s ease-in-out;
   -o-transition: opacity 0.3s ease-in-out;
   transition: opacity 0.3s ease-in-out; }
-
-aside .post h1 {
-  font-size: 14px; }
-
-aside .post p {
-  font-size: 11px;
-  border-bottom: 1px solid white;
-  padding-bottom: 10px; }
-
-aside .post article {
-  visibility: hidden;
-  position: absolute; }
-
-aside .post:hover + article {
-  visibility: visible; }
 
 /* Webkit custom scrollbar */
 ::-webkit-scrollbar {
