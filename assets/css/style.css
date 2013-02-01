@@ -1,1 +1,339 @@
-*{margin:0;padding:0}html,body{height:100%;overflow:hidden}body{background-color:#eee;font-family:"Open Sans",Helvetica,sans-serif;font-size:10px;color:#222}a{color:#fff;text-decoration:none}.no-touch a:hover{color:#fff;text-decoration:underline}h1{text-transform:uppercase;font-size:16px;font-weight:600}h2{font-size:14px;font-weight:600}p{font-size:12px;margin-bottom:5px;font-weight:400;line-height:18px}button{text-align:left;padding:0 5px;margin-bottom:10px;width:100%;height:40px;font-size:12px;font-weight:600;background-color:#fff;color:#00b6ad;border:0;opacity:0.5}button:hover{opacity:1}.meny{display:none;padding:20px;overflow:auto;background:#00b6ad;color:#fff;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}.meny ul{padding-bottom:10px}.meny ul li{display:inline-block;width:160px;list-style:none;font-size:14px;padding:3px 35px}.meny li.space{line-height:1px}section .social{margin:10px 0 0 35px;font-family:'icomoon';font-size:28px}.social a:hover{text-decoration:none}.meny-arrow{position:absolute;z-index:100;color:#fff;border:10px solid transparent;-webkit-transition:opacity 0.4s ease 0.4s;-moz-transition:opacity 0.4s ease 0.4s;-ms-transition:opacity 0.4s ease 0.4s;-o-transition:opacity 0.4s ease 0.4s;transition:opacity 0.4s ease 0.4s}.meny-left .meny-arrow{left:14px;top:50%;margin-top:-16px;border-left:16px solid #fff}.meny-active .meny-arrow{opacity:0;-webkit-transition:opacity 0.2s ease;-moz-transition:opacity 0.2s ease;-ms-transition:opacity 0.2s ease;-o-transition:opacity 0.2s ease;transition:opacity 0.2s ease}.contents{background:#fff;width:100%;height:100%;-webkit-overflow-scrolling:touch;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}.contents>article{max-width:400px}.contents .sharing{position:absolute;bottom:20px}.contents{overflow:hidden}.contents .hidden{visibility:hidden;position:absolute}@font-face{font-family:'icomoon';src:url("../fonts/icomoon.eot");src:url("../fonts/icomoon.eot?#iefix") format("embedded-opentype"),url("../fonts/icomoon.svg#icomoon") format("svg"),url("../fonts/icomoon.woff") format("woff"),url("../fonts/icomoon.ttf") format("truetype");font-weight:normal;font-style:normal}[data-icon]:before{font-family:'icomoon';content:attr(data-icon);speak:none;font-weight:normal;line-height:1;-webkit-font-smoothing:antialiased}.icon-cube:before,.icon-logo:before,.icon-chat:before,.icon-atom:before,.icon-facebook:before,.icon-twitter:before,.icon-github:before,.icon-dribbble:before{font-family:'icomoon';speak:none;font-style:normal;font-weight:normal;font-size:28px;line-height:1;vertical-align:middle;margin-right:8px;-webkit-font-smoothing:antialiased}.icon-cube:before{content:"\e000"}.icon-logo:before{content:"\e003"}.icon-chat:before{content:"\e001"}.icon-atom:before{content:"\e002"}.icon-facebook:before{content:"\e005"}.icon-twitter:before{content:"\e006"}.icon-github:before{content:"\e007"}.icon-dribbble:before{content:"\e004"}.icon-tags:before{content:"\e009"}.icon-globe:before{content:"\e008"}aside{color:#fff;position:absolute;z-index:10;background:#00b6ad;width:260px;height:100%;float:left;overflow-y:scroll;overflow-x:hidden;border-left:5px solid #00b6ad;opacity:0.3;-webkit-transition:opacity 0.3s ease-in-out;-moz-transition:opactiy 0.3s ease-in-out;-ms-transition:opacity 0.3s ease-in-out;-o-transition:opacity 0.3s ease-in-out;transition:opacity 0.3s ease-in-out}.contents aside p span{font-family:'icomoon';font-size:18px;vertical-align:middle;margin-left:5px}aside h2,aside h1{margin-bottom:10px}aside section{width:220px;margin:20px}aside section div{margin-bottom:20px}aside .tumb img{margin:3px;height:100px;width:100px}aside .bijschrift{font-size:11px;line-height:16px}aside ul{list-style-type:none}aside:hover{opacity:1;-webkit-transition:opacity 0.3s ease-in-out;-moz-transition:opactiy 0.3s ease-in-out;-ms-transition:opacity 0.3s ease-in-out;-o-transition:opacity 0.3s ease-in-out;transition:opacity 0.3s ease-in-out}::-webkit-scrollbar{width:1px}::-webkit-scrollbar-track{-webkit-box-shadow:inset 0 0 6px rgba(0,0,0,0);-webkit-border-radius:10px;border-radius:10px}::-webkit-scrollbar-thumb{-webkit-border-radius:10px;border-radius:10px;background:rgba(255,255,255,0.1)}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  background-color: #eee;
+  font-family: "Open Sans", Helvetica, sans-serif;
+  font-size: 10px;
+  color: #222;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.no-touch a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+p {
+  font-size: 12px;
+  margin-bottom: 5px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+button {
+  text-align: left;
+  padding: 0 5px;
+  margin-bottom: 10px;
+  width: 100%;
+  height: 40px;
+  font-size: 11px;
+  font-weight: 600;
+  background-color: #fff;
+  color: #00b6ad;
+  border: 0;
+  opacity: 0.5;
+}
+
+button:hover {
+  opacity: 1;
+}
+
+/**
+ * The CSS in this file is for styling the demo page, 
+ * Meny's critical styles (such as transforms) are applied
+ * via JavaScript.
+ *
+ * See the documentation here: https://github.com/hakimel/meny#meny
+ *
+ * @author Hakim El Hattab | http://hakim.se
+ */
+/**
+ * Typography
+ */
+.meny {
+  display: none;
+  padding: 20px;
+  overflow: auto;
+  background: #00b6ad;
+  color: #fff;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.meny ul {
+  padding-bottom: 10px;
+}
+
+.meny ul li {
+  display: inline-block;
+  width: 160px;
+  list-style: none;
+  font-size: 14px;
+  padding: 3px 35px;
+}
+
+.meny li.space {
+  line-height: 1px;
+}
+
+section .social {
+  margin: 10px 0 0 35px;
+  font-family: 'icomoon';
+  font-size: 28px;
+}
+
+.social a:hover {
+  text-decoration: none;
+}
+
+/**
+ * Hint graphic that appears while menu is inactive
+ */
+.meny-arrow {
+  position: absolute;
+  z-index: 100;
+  color: #fff;
+  border: 10px solid transparent;
+  -webkit-transition: opacity 0.4s ease 0.4s;
+  -moz-transition: opacity 0.4s ease 0.4s;
+  -ms-transition: opacity 0.4s ease 0.4s;
+  -o-transition: opacity 0.4s ease 0.4s;
+  transition: opacity 0.4s ease 0.4s;
+}
+
+.meny-left .meny-arrow {
+  left: 14px;
+  top: 50%;
+  margin-top: -16px;
+  border-left: 16px solid white;
+}
+
+.meny-active .meny-arrow {
+  opacity: 0;
+  -webkit-transition: opacity 0.2s ease;
+  -moz-transition: opacity 0.2s ease;
+  -ms-transition: opacity 0.2s ease;
+  -o-transition: opacity 0.2s ease;
+  transition: opacity 0.2s ease;
+}
+
+/**
+ * Main contents area
+ */
+.contents {
+  width: 100%;
+  height: 100%;
+  background: url("../img/jongcreatiefenzo.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  -webkit-overflow-scrolling: touch;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.contents > article {
+  max-width: 400px;
+}
+
+.contents .sharing {
+  position: absolute;
+  bottom: 20px;
+}
+
+.contents {
+  overflow: hidden;
+}
+
+.contents .hidden {
+  visibility: hidden;
+  position: absolute;
+}
+
+/**
+ * icons
+ */
+@font-face {
+  font-family: 'icomoon';
+  src: url("../fonts/icomoon.eot");
+  src: url("../fonts/icomoon.eot?#iefix") format("embedded-opentype"), url("../fonts/icomoon.svg#icomoon") format("svg"), url("../fonts/icomoon.woff") format("woff"), url("../fonts/icomoon.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-icon]:before {
+  font-family: 'icomoon';
+  content: attr(data-icon);
+  speak: none;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Use the following CSS code if you want to have a class per icon */
+/*
+Instead of a list of all class selectors,
+you can use the generic selector below, but it's slower:
+[class*="icon-"]:before {
+*/
+.icon-cube:before, .icon-logo:before, .icon-chat:before, .icon-atom:before, .icon-facebook:before, .icon-twitter:before, .icon-github:before, .icon-dribbble:before {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 1;
+  vertical-align: middle;
+  margin-right: 8px;
+  -webkit-font-smoothing: antialiased;
+}
+
+.icon-cube:before {
+  content: "\e000";
+}
+
+.icon-logo:before {
+  content: "\e003";
+}
+
+.icon-chat:before {
+  content: "\e001";
+}
+
+.icon-atom:before {
+  content: "\e002";
+}
+
+.icon-facebook:before {
+  content: "\e005";
+}
+
+.icon-twitter:before {
+  content: "\e006";
+}
+
+.icon-github:before {
+  content: "\e007";
+}
+
+.icon-dribbble:before {
+  content: "\e004";
+}
+
+.icon-tags:before {
+  content: "\e009";
+}
+
+.icon-globe:before {
+  content: "\e008";
+}
+
+aside {
+  color: #fff;
+  position: absolute;
+  z-index: 10;
+  background: #00b6ad;
+  width: 260px;
+  height: 100%;
+  float: left;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  border-left: 5px solid #00b6ad;
+  opacity: 0.3;
+  -webkit-transition: opacity 0.3s ease-in-out;
+  -moz-transition: opactiy 0.3s ease-in-out;
+  -ms-transition: opacity 0.3s ease-in-out;
+  -o-transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.contents aside p span {
+  font-family: 'icomoon';
+  font-size: 18px;
+  vertical-align: middle;
+  margin-left: 5px;
+}
+
+aside h2, aside h1 {
+  margin-bottom: 10px;
+}
+
+aside section {
+  width: 220px;
+  margin: 20px;
+}
+
+aside section div {
+  margin-bottom: 20px;
+}
+
+aside .tumb img {
+  margin: 3px;
+  height: 100px;
+  width: 100px;
+}
+
+aside .bijschrift {
+  font-size: 11px;
+  line-height: 16px;
+}
+
+aside ul {
+  list-style-type: none;
+}
+
+aside:hover {
+  opacity: 1;
+  -webkit-transition: opacity 0.3s ease-in-out;
+  -moz-transition: opactiy 0.3s ease-in-out;
+  -ms-transition: opacity 0.3s ease-in-out;
+  -o-transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out;
+}
+
+/* Webkit custom scrollbar */
+::-webkit-scrollbar {
+  width: 1px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0);
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.1);
+}
