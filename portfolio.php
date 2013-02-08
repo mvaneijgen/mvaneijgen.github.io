@@ -4,7 +4,7 @@
     <head>
         <meta charset="utf-8">
         
-        <title>Jong creatief enzo</title>
+        <title>Portfolio | Jong creatief enzo</title>
 
         <meta name="description" content="Wij laten zien dat je geen doorgewinterde ondernemer hoeft te zijn om een bedrijf op te richten. Je moet weten waar je voor staat en je hart in je werk stoppen.">
         <meta name="author" content="M van Eijgen">
@@ -31,15 +31,9 @@
         <!-- Begin experiment -->
             <aside>
                 <section>
-                    <div class="inholland">
-                        <h1>INHOLLAND<br />Go International</h1>
-                        <p class="bijschrift">Dit bericht mag max. maar 140 tekens zijn</p>
-                        <a class="tumb" href="#"><img src="/assets/img/tumb/volvo_tumb.jpg" data-url="assets/img/volvoprints.jpg"></a>
-                        <a class="tumb" href="#"><img src="/assets/img/tumb/mag_tumb.jpg" data-url="assets/img/bosbode.jpg"></a>
-                        <a class="tumb" href="#"><img src="/assets/img/tumb/inholland_tumb.jpg" data-url="assets/img/inholland.jpg"></a>
-                        <a class="tumb" href="#"><img src="/assets/img/tumb/peek_tumb.jpg" data-url="assets/img/fabstagram.jpg"></a>
-                        <a class="tumb" href="#"><img src="/assets/img/tumb/fab_tumb.jpg" data-url="assets/img/fabstagram.jpg"></a>
-                    </div>
+                    <? include("tag-web.php"); ?>
+                    <? include("tag-grafisch.php"); ?>
+                    <? include("tag-app.php"); ?>
                 </section>
             </aside> 
         <!-- end experiment -->

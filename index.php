@@ -38,12 +38,16 @@
                     </div>
                     
                     <div class="projecten">
-                        <h1>Projecten</h1>
-                        <a class="tumb" href="#"><img src="/assets/img/tumb/volvo_tumb.jpg" data-url="assets/img/volvoprints.jpg"></a>
-                        <a class="tumb" href="#"><img src="/assets/img/tumb/mag_tumb.jpg" data-url="assets/img/bosbode.jpg"></a>
-                        <a class="tumb" href="#"><img src="/assets/img/tumb/inholland_tumb.jpg" data-url="assets/img/inholland.jpg"></a>
-                        <a class="tumb" href="#"><img src="/assets/img/tumb/peek_tumb.jpg" data-url="assets/img/fabstagram.jpg"></a>
-                        <a class="tumb" href="#"><img src="/assets/img/tumb/fab_tumb.jpg" data-url="assets/img/fabstagram.jpg"></a>
+                        <a href="portfolio"><h1>Projecten</h1></a>
+                        <a class="tumb" href="portfolio"><img src="assets/img/tumb/volvo_tumb.jpg" data-url="assets/img/volvoEditor.jpg"></a>
+                        <a class="tumb" href="portfolio"><img src="assets/img/tumb/viIcons.jpg" data-url="assets/img/viIcons.jpg"></a>
+                        <a class="tumb" href="portfolio"><img src="assets/img/tumb/inholland_tumb.jpg" data-url="assets/img/interMap.jpg"></a>
+                        <a class="tumb" href="portfolio"><img src="assets/img/tumb/peek_tumb.jpg" data-url="assets/img/peekMeet.jpg"></a>
+                        <a class="tumb" href="portfolio"><img src="assets/img/tumb/fab_tumb.jpg" data-url="assets/img/fabEditor.jpg"></a>
+                    </div>
+                    <div class="contact">
+                        <a href="#"><button class="btn icon-cube no-touch">Meld een project aan</button></a>
+                        <a href="#"><button class="btn icon-twitter no-touch">Hulp nodig, send us a tweet</button></a>
                     </div>
                 </section>
             </aside>         

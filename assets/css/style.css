@@ -11,6 +11,11 @@ body {
 
 body {
   background-color: #eee;
+  background: url("../img/xp.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   font-family: "Open Sans", Helvetica, sans-serif;
   font-size: 10px;
   color: #222;
@@ -38,10 +43,10 @@ h2 {
 }
 
 p {
-  font-size: 12px;
+  font-size: 14px;
   margin-bottom: 5px;
   font-weight: 400;
-  line-height: 18px;
+  line-height: 22px;
 }
 
 button {
@@ -118,7 +123,7 @@ section .social {
   position: absolute;
   z-index: 100;
   color: #fff;
-  border: 10px solid transparent;
+  border: 9px solid transparent;
   -webkit-transition: opacity 0.4s ease 0.4s;
   -moz-transition: opacity 0.4s ease 0.4s;
   -ms-transition: opacity 0.4s ease 0.4s;
@@ -127,10 +132,10 @@ section .social {
 }
 
 .meny-left .meny-arrow {
-  left: 14px;
+  left: 0px;
   top: 50%;
   margin-top: -16px;
-  border-left: 16px solid white;
+  border-left: 14px solid white;
 }
 
 .meny-active .meny-arrow {
@@ -142,13 +147,97 @@ section .social {
   transition: opacity 0.2s ease;
 }
 
+/* arrow animation */
+@-webkit-keyframes left {
+  90% {
+    -webkit-transform: translate(0px, 0);
+  }
+
+  95% {
+    -webkit-transform: translate(5px, 0);
+  }
+
+  100% {
+    -webkit-transform: translate(0px, 0);
+  }
+}
+
+@-moz-keyframes left {
+  90% {
+    -moz-transform: translate(0px, 0);
+  }
+
+  95% {
+    -moz-transform: translate(5px, 0);
+  }
+
+  100% {
+    -moz-transform: translate(0px, 0);
+  }
+}
+
+@-o-keyframes left {
+  90% {
+    -o-transform: translate(0px, 0);
+  }
+
+  95% {
+    -o-transform: translate(5px, 0);
+  }
+
+  100% {
+    -o-transform: translate(0px, 0);
+  }
+}
+
+@keyframes left {
+  90% {
+    transform: translate(0px, 0);
+  }
+
+  95% {
+    transform: translate(5px, 0);
+  }
+
+  100% {
+    transform: translate(0px, 0);
+  }
+}
+
+.meny-arrow {
+  -webkit-animation-name: left;
+  -moz-animation-name: left;
+  -ms-animation-name: left;
+  -o-animation-name: left;
+  animation-name: left;
+  -webkit-animation-duration: 5s;
+  -moz-animation-duration: 5s;
+  -o-animation-duration: 5s;
+  animation-duration: 5s;
+  -webkit-transform-origin: 50% 50%;
+  -moz-transform-origin: 50% 50%;
+  -o-transform-origin: 50% 50%;
+  -ms-transform-origin: 50% 50%;
+  transform-origin: 50% 50%;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  -ms-animation-iteration-count: infinite;
+  -o-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-timing-function: linear;
+  -ms-animation-timing-function: linear;
+  -o-animation-timing-function: linear;
+  animation-timing-function: linear;
+}
+
 /**
  * Main contents area
  */
 .contents {
   width: 100%;
   height: 100%;
-  background: url("../img/jongcreatiefenzo.jpg") no-repeat center center fixed;
+  background: url("../img/viIcons.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -283,7 +372,7 @@ aside {
 }
 
 aside h2, aside h1 {
-  margin-bottom: 10px;
+  margin-bottom: 3px;
 }
 
 aside section {
@@ -296,9 +385,10 @@ aside section div {
 }
 
 aside .tumb img {
-  margin: 3px;
+  margin: 2px;
   height: 100px;
   width: 100px;
+  border: 2px solid white;
   filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><filter id='grayscale'><feColorMatrix type='matrix' values='0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0'/></filter></svg>#grayscale");
   /* Firefox 10+, Firefox on Android */
   filter: gray;
@@ -338,12 +428,12 @@ aside:hover {
 
 /* Webkit custom scrollbar */
 ::-webkit-scrollbar {
-  width: 1px;
+  width: 7px;
 }
 
 /* Track */
 ::-webkit-scrollbar-track {
-  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0);
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.4);
   -webkit-border-radius: 10px;
   border-radius: 10px;
 }
@@ -352,5 +442,5 @@ aside:hover {
 ::-webkit-scrollbar-thumb {
   -webkit-border-radius: 10px;
   border-radius: 10px;
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.8);
 }

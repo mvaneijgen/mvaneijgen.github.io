@@ -21,6 +21,7 @@
        -moz-box-sizing: border-box;
             box-sizing: border-box;
 }
+
 .meny ul { padding-bottom: 10px; }
 .meny ul li {
     display: inline-block;
@@ -40,7 +41,7 @@ section .social { margin: 10px 0 0 35px; font-family: 'icomoon'; font-size: 28px
     position: absolute;
     z-index: 100;
     color: #fff;
-    border: 10px solid transparent;
+    border: 9px solid transparent;
 
     -webkit-transition: opacity 0.4s ease 0.4s; 
        -moz-transition: opacity 0.4s ease 0.4s; 
@@ -49,10 +50,10 @@ section .social { margin: 10px 0 0 35px; font-family: 'icomoon'; font-size: 28px
             transition: opacity 0.4s ease 0.4s;
 }
     .meny-left .meny-arrow {
-        left: 14px;
+        left: 0px;
         top: 50%;
         margin-top: -16px;
-        border-left: 16px solid #fff;
+        border-left: 14px solid #fff;
     }
     .meny-active .meny-arrow {
         opacity: 0;
@@ -64,4 +65,53 @@ section .social { margin: 10px 0 0 35px; font-family: 'icomoon'; font-size: 28px
                 transition: opacity 0.2s ease;
     }
 
+/* arrow animation */
+@-webkit-keyframes left {
+    90% { -webkit-transform: translate(0px, 0) }
+    95% { -webkit-transform: translate(5px, 0) }
+    100% { -webkit-transform: translate(0px, 0)}
+}
+@-moz-keyframes left {
+    90% { -moz-transform: translate(0px, 0) }
+    95% { -moz-transform: translate(5px, 0) }
+    100% { -moz-transform: translate(0px, 0)}
+}
+@-o-keyframes left {
+    90% { -o-transform: translate(0px, 0) }
+    95% { -o-transform: translate(5px, 0) }
+    100% { -o-transform: translate(0px, 0)}
+}
+@keyframes left {
+    90% { transform: translate(0px, 0) }
+    95% { transform: translate(5px, 0) }
+    100% { transform: translate(0px, 0)}
+}
+.meny-arrow {
+    -webkit-animation-name: left;
+    -moz-animation-name: left;
+    -ms-animation-name: left;
+    -o-animation-name: left;
+    animation-name: left;
+    -webkit-animation-duration: 5s;
+    -moz-animation-duration: 5s;
+    -o-animation-duration: 5s;
+    animation-duration: 5s;
 
+    -webkit-transform-origin: 50% 50%;
+    -moz-transform-origin: 50% 50%;
+    -o-transform-origin: 50% 50%;
+    -ms-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-iteration-count: infinite;
+    -ms-animation-iteration-count: infinite;
+    -o-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+
+    -webkit-animation-timing-function: linear;
+    -moz-animation-timing-function: linear;
+    -ms-animation-timing-function: linear;
+    -o-animation-timing-function: linear;
+    animation-timing-function: linear;
+}

@@ -9,7 +9,7 @@ RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 
 # Rewrite all other URLs to index.php/URL
-RewriteRule ^([^.]+)$ $1.html [NC,L]
+RewriteRule ^([^.]+)$ $1.php [NC,L]
 
 Options All -Indexes
 
