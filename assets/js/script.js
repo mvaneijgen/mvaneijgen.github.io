@@ -1,6 +1,6 @@
 $(function(){
     
-    $('aside section a img').mouseenter(function(){
+    $('aside section a').mouseenter(function(){
         $('.contents').css('background-image', 'url('+$(this).attr('data-url')+')');
     });
                 // Create an instance of Meny

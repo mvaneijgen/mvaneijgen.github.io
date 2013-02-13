@@ -40,25 +40,25 @@
                     <div class="projecten">
                         <h1>Schets boeken.</h1>
                         <p>2012</p>
-                        <a class="boek" href="#"><img src="assets/img/schetsen/jan_2012.png" data-url="assets/img/interMap.jpg"></a>
-                        <a class="boek" href="#"><img src="assets/img/schetsen/jul_2012.png" data-url="assets/img/peekMeet.jpg"></a>
+                        <a class="boek" href="#" data-url="assets/img/interMap.jpg"><img src="assets/img/schetsen/jan_2012.png" ></a>
+                        <a class="boek" href="#"  data-url="assets/img/peekMeet.jpg"><img src="assets/img/schetsen/jul_2012.png"></a>
                         
                         <p>2011</p>
-                        <a class="boek" href="#"><img src="assets/img/schetsen/jun_2011.png" data-url="assets/img/interMap.jpg"></a>
-                        <a class="boek" href="#"><img src="assets/img/schetsen/mrt_2011.png" data-url="assets/img/peekMeet.jpg"></a>
-                        <a class="boek" href="#"><img src="assets/img/schetsen/sep_2011.png" data-url="assets/img/fabEditor.jpg"></a>
+                        <a class="boek" href="#" data-url="assets/img/interMap.jpg"><img src="assets/img/schetsen/jun_2011.png"></a>
+                        <a class="boek" href="#" data-url="assets/img/peekMeet.jpg"><img src="assets/img/schetsen/mrt_2011.png"></a>
+                        <a class="boek" href="#" data-url="assets/img/fabEditor.jpg"><img src="assets/img/schetsen/sep_2011.png"></a>
 
                         <p>2010</p>
-                        <a class="boek" href="#"><img src="assets/img/schetsen/jul_2010.png" data-url="assets/img/volvoEditor.jpg"></a>
-                        <a class="boek" href="#"><img src="assets/img/schetsen/aug_2010.png" data-url="assets/img/volvoEditor.jpg"></a>
-                        <a class="boek" href="#"><img src="assets/img/schetsen/sep_2010.png" data-url="assets/img/volvoEditor.jpg"></a>
-                        <a class="boek" href="#"><img src="assets/img/schetsen/dec_2010.png" data-url="assets/img/viIcons.jpg"></a>
+                        <a class="boek" href="#" data-url="assets/img/volvoEditor.jpg"><img src="assets/img/schetsen/jul_2010.png"></a>
+                        <a class="boek" href="#" data-url="assets/img/volvoEditor.jpg"><img src="assets/img/schetsen/aug_2010.png"></a>
+                        <a class="boek" href="#" data-url="assets/img/volvoEditor.jpg"><img src="assets/img/schetsen/sep_2010.png"></a>
+                        <a class="boek" href="#" data-url="assets/img/viIcons.jpg"><img src="assets/img/schetsen/dec_2010.png"></a>
 
 
                     </div>
                     <div class="contact">
-                        <a href="#"><button class="btn icon-cube no-touch">Meld een project aan</button></a>
-                        <a href="#"><button class="btn icon-twitter no-touch">Hulp nodig, send us a tweet</button></a>
+                       <a href="#" data-url="assets/img/bosbodeProject.jpg"><div class="btn icon-cube no-touch">Meld een project aan</div></a>
+                        <a href="#" data-url="assets/img/twitter.jpg"><div class="btn icon-twitter no-touch">Hulp nodig, send us a tweet</div></a>
                     </div>
                 </section>
             </aside>         

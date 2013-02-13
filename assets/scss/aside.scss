@@ -58,6 +58,40 @@ aside .bijschrift {
 aside ul {  
     list-style-type: none;
 }
+.btn { 
+    text-align: left;
+    padding: 5px 0 5px 10px;
+    margin-bottom: 10px;
+    width: 100%; 
+    font-size: 11px;
+    font-weight: 600;
+    background-color: #fff;
+    color:$brand-color;
+    border: 0; 
+    opacity: 0.5;
+}
+    .btn:hover { opacity: 1;}
+
+/* jq pop-up */
+
+.jq-project {
+  background: red;
+  width: 50%;
+  height: 50%;
+  position: absolute;
+}
+
+.contactForm {
+   position:absolute;
+   left:600px;
+   float:right;
+   height:277px;
+   width:351px;
+   display:none;
+}
+
+
+
 
 
 aside:hover {
@@ -85,3 +119,6 @@ aside:hover {
   -webkit-border-radius: 10px;
   border-radius: 10px;
   background: rgba(255, 255, 255, 0.8); }
+
+
+

@@ -22,6 +22,19 @@
         <script src="assets/js/meny.js" type="text/javascript"></script>
         <script src="assets/js/script.js" type="text/javascript"></script>
         <!-- End meny -->
+        <script type="text/javascript">
+
+          var _gaq = _gaq || [];
+          _gaq.push(['_setAccount', 'UA-37039342-1']);
+          _gaq.push(['_trackPageview']);
+
+          (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+          })();
+
+        </script>
                     
     </head>
     
@@ -38,19 +51,18 @@
                     </div>
                     
                     <div class="projecten">
-                        <a href="portfolio"><h1>Projecten</h1></a>
-                        <a class="tumb" href="portfolio"><img src="assets/img/tumb/volvo_tumb.jpg" data-url="assets/img/volvoEditor.jpg"></a>
-                        <a class="tumb" href="portfolio"><img src="assets/img/tumb/viIcons.jpg" data-url="assets/img/viIcons.jpg"></a>
-                        <a class="tumb" href="portfolio"><img src="assets/img/tumb/inholland_tumb.jpg" data-url="assets/img/interMap.jpg"></a>
-                        <a class="tumb" href="portfolio"><img src="assets/img/tumb/peek_tumb.jpg" data-url="assets/img/peekMeet.jpg"></a>
-                        <a class="tumb" href="portfolio"><img src="assets/img/tumb/fab_tumb.jpg" data-url="assets/img/fabEditor.jpg"></a>
+                        <h1>Projecten</h1>
+                        <a class="tumb" href="portfolio" data-url="assets/img/volvoEditor.jpg"><img src="assets/img/tumb/volvo_tumb.jpg" data-url="assets/img/volvoEditor.jpg"></a>
+                        <a class="tumb" href="portfolio" data-url="assets/img/viIcons.jpg"><img src="assets/img/tumb/viIcons.jpg" ></a>
+                        <a class="tumb" href="portfolio" data-url="assets/img/interMap.jpg"><img src="assets/img/tumb/inholland_tumb.jpg" ></a>
+                        <a class="tumb" href="portfolio" data-url="assets/img/peekMeet.jpg"><img src="assets/img/tumb/peek_tumb.jpg" ></a>
+                        <a class="tumb" href="portfolio" data-url="assets/img/fabEditor.jpg"><img src="assets/img/tumb/fab_tumb.jpg"></a>
                     </div>
-                    <div class="contact">
-                        <a href="#"><button class="btn icon-cube no-touch">Meld een project aan</button></a>
-                        <a href="#"><button class="btn icon-twitter no-touch">Hulp nodig, send us a tweet</button></a>
-                    </div>
+
+                    <!-- <? include("contact.php"); ?> -->
                 </section>
             </aside>         
+
         <!-- end experiment -->
         </div>
    </body>
