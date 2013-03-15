@@ -22,14 +22,20 @@
             box-sizing: border-box;
 }
 
+.meny a { color: #fff; }
+
 .meny ul { padding-bottom: 10px; }
 .meny ul li {
     display: inline-block;
     width: 160px;
+    font-size: 18px;
+    line-height: 24px;
     list-style: none;
-    font-size: 14px;
-    padding: 3px 35px;
+    padding: 3px 39px;
 }
+.meny h2 { 
+    font-size: 18px;
+    margin-top: 15px; }
 .meny li.space { line-height: 1px; }
 
 section .social { margin: 10px 0 0 35px; font-family: 'icomoon'; font-size: 28px; }

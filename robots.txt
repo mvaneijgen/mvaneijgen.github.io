@@ -1,0 +1,9 @@
+User-agent: *
+Disallow: /CB/
+Disallow: /jongprofessioneel/
+Disallow: /or/
+Disallow: /raspberry/
+Disallow: /sk/
+Disallow: /yammer/
+Disallow: /.git/
+

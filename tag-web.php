@@ -17,7 +17,7 @@
 
 <div class="volvo">
     <h1>Volvo Prints</h1>
-    <p class="bijschrift">Website voor het internationale beeld arcief Volvo</p>
+    <p class="bijschrift">Website voor het internationale beeldarcief Volvo</p>
     <a class="tumb" href="#"  data-url="assets/img/volvoSite.jpg"><img src="assets/img/tumb/volvoSite.jpg"></a>
     <a class="tumb" href="#" data-url="assets/img/volvoSchets.jpg"><img src="assets/img/tumb/volvoSchets.jpg" ></a>
     <a class="tumb" href="#" data-url="assets/img/volvoEditor.jpg"><img src="assets/img/tumb/volvoEditor.jpg" ></a>

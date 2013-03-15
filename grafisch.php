@@ -17,6 +17,8 @@
         </script>
         <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
         <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/resources/img/apple-touch-icon-precomposed.png">
+    <link rel="shortcut icon" href="favicon.png">
         <!-- Begin meny -->
         <meta name="viewport" content="width=800, user-scalable=no">
         <script src="assets/js/meny.js" type="text/javascript"></script>

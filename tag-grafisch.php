@@ -1,6 +1,6 @@
 <div class="vi">
 	<h1>Visual Instructions</h1>
-	<p class="bijschrift">Jaarlijks evenement complete web en ontwerp realistatie.</p>
+	<p class="bijschrift">Icon set</p>
 	<a class="tumb" href="#" data-url="assets/img/viKaartjes.jpg"><img src="assets/img/tumb/viKaartjes.jpg" ></a>
 	<a class="tumb" href="#" data-url="assets/img/viIcons.jpg"><img src="assets/img/tumb/viIcons.jpg" ></a>
 	<a class="tumb" href="#" data-url="assets/img/viPresentatie.jpg"><img src="assets/img/tumb/viPresentatie.jpg" ></a>
@@ -23,7 +23,7 @@
 
 <div class="escher">
 	<h1>Escher museum</h1>
-	<p class="bijschrift">Poster voor het escher museum op bases van de visuele truk, hol en bol.</p>
+	<p class="bijschrift">Poster voor het Escher museum op bases van de visuele truk, hol en bol.</p>
 	<a class="tumb" href="#"  data-url="assets/img/escherPoster.jpg"><img src="assets/img/tumb/escherPoster.jpg"></a>
 	<a class="tumb" href="#" data-url="assets/img/escherSchetsen.jpg"><img src="assets/img/tumb/escherSchetsen.jpg" ></a>
 </div>
