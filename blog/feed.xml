@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+ <title>Blog</title>
+ <link href="http://jcenzo.nl/blog/feed.xml" rel="self"/>
+ <link href="http://jcenzo.nl/blog"/>
+ <updated>2013-03-19T00:41:32+01:00</updated>
+ <id>blog/</id>
+ <author>
+   <name>Mitchel van Eijgen</name>
+   <email>Mitchel@jcenzo.nl</email>
+ </author>
+
+ 
+ 	<entry>
+ 		<title>Een computer zo groot als een creditcard</title>
+ 		<link href="blog/artikelen/raspberry-pi"/>
+ 		<updated>2013-01-02T00:00:00+01:00</updated>
+ 		<id>blog/artikelen/raspberry-pi</id>
+ 		<content type="html">&lt;p&gt;Ik heb nu een aantal maanden een Raspberry Pi in mijn bezit. Ik heb er voor nu een Media center van gemaakt voor mijn TV. Het draait nu Raspbmc een Raspberry Pi build van het populaire XBMC.&lt;/p&gt;
+
+&lt;p&gt;Zojuist heb ik mijn tweede Raspberry Pi computer besteld om er een ander project mee te starten. De Raspberry Pi is een computer iets groter dan een bankpas en biedt eindeloze mogelijkheden. Het heeft een SD card aansluiting waar je de software op zet, een HDMI kabel, Ethernet aansluiting en twee USB porten. Dus voor € 40,&amp;ndash; heb je een PC die in je achter zak past.&lt;/p&gt;
+</content>
+ 	</entry>
+ 
+ 	<entry>
+ 		<title>IF THIS THEN THAT</title>
+ 		<link href="blog/artikelen/ifttt"/>
+ 		<updated>2013-01-02T00:00:00+01:00</updated>
+ 		<id>blog/artikelen/ifttt</id>
+ 		<content type="html">&lt;p&gt;IF This Than That oftewel als dit gebeurd doe dan dit. IFTTT is een website waar je acties aan kan maken die dan automatisch dingen voor je doen. Bijvoorbeeld dit blog artikel als je hier bent gekomen via Facebook of Twitter dan werkt het.&lt;/p&gt;
+
+&lt;p&gt;Hier boven zie je een actie die ik heb aangemaakt op IFTTT.com Het leest als volg als er een nieuw artikel is op mijn WordPress blog stuur dan een tweet met de artikel titel en een url naar het artikel. Ik heb dit zelfde ook gedaan met Facebook.&lt;/p&gt;
+
+&lt;p&gt;Naast WordPress, Twitter en Facebook zijn er nog veel meer apps en tools die je aan het werk voor je kan zetten.&lt;/p&gt;
+</content>
+ 	</entry>
+ 
+ 	<entry>
+ 		<title>Open source typografie via Google web fonts</title>
+ 		<link href="blog/artikelen/open-source-type"/>
+ 		<updated>2013-01-01T00:00:00+01:00</updated>
+ 		<id>blog/artikelen/open-source-type</id>
+ 		<content type="html">&lt;p&gt;Ik wilde een visueel overzicht creëren van in mijn ogen de beste open source Google web fonts.Ik wilde niet alleen laten zien hoe mooi de font kunnen worden gebruikt op het web, maar ook voorzien van extra informatie over de lettertypes. Deze lijst blijft aangevuld worden met nieuwe informatie en meer fonts.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://jcenzo.nl/open-source-type/&quot;&gt;jongcreatiefenzo.nl/open-source-type/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Fonts gebruikt op pagina:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;PT Serif&lt;/li&gt;
+&lt;li&gt;PT Sans&lt;/li&gt;
+&lt;li&gt;Source Sans Pro&lt;/li&gt;
+&lt;li&gt;Source Code Pro&lt;/li&gt;
+&lt;li&gt;Dosis&lt;/li&gt;
+&lt;li&gt;Lato&lt;/li&gt;
+&lt;li&gt;Volkhov&lt;/li&gt;
+&lt;/ul&gt;
+
+</content>
+ 	</entry>
+ 
+ 	<entry>
+ 		<title>Boeken, een overzicht van alle boeken die ik bezit en heb ingescanned.</title>
+ 		<link href="blog/artikelen/Al-mijn-boeken"/>
+ 		<updated>2012-12-27T00:00:00+01:00</updated>
+ 		<id>blog/artikelen/Al-mijn-boeken</id>
+ 		<content type="html">&lt;p&gt;Eens per week ga ik naar De Schalm om daar door de boeken te snuffelen. Meestal kom ik voor een paar euro met een tas vol boeken terug. Van de helft weet ik niet eens wat het is en heb ik even vluchtig doorgebladerd. Ik vond de cover mooi, of het lettertype, of zoiets dergelijks. Vervolgens verdwijnen ze in de kast, om er na het afronden van een project achter te komen dat er blijkbaar een heel interessant boek, over precies dat onderwerp, gewoon in mijn kast staat.&lt;/p&gt;
+
+&lt;p&gt;Toen dacht ik, dat kan slimmer! Het eerste wat ik doe als ik op zoek ben naar informatie, is een Google search. Wat nou als mijn Google search ook zoekt in mijn boeken kast? Dan kan ik na het online zoeken offline verder lezen. Dit heeft me er toe gezet mijn boekcollectie in te scannen. Met elke Google search leer ik nu mijn boekenkast steeds een beetje beter kennen.&lt;/p&gt;
+
+&lt;p&gt;Dit is mogelijk door een app genaamd Evernote. Je eigen digitale fotografisch geheugen, is een goede omschrijving voor Evernote. Het was al heel makkelijk woorden terug te vinden die je hebt opgeslagen in Evernote, maar ik had niet verwacht dat de OCR (Optical Character Recognition) functie zo goed was. Evernote haalt met gemak tekst uit je aantekeningen die je gemaakt hebt op bijvoorbeeld een servetje. Zie hieronder mijn hand schrift.&lt;/p&gt;
+
+&lt;p&gt;Evernote is ook heel makkelijk in het delen van informatie. Je kunt jouw info delen met andere Evernote-gebruikers of je kunt jouw verzamelde informatie openbaar zetten, zodat iedereen er gebruik van kan maken.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.evernote.com/pub/mvaneijgen/boeken-mvaneijgen&quot;&gt;Zie hier&lt;/a&gt;. mijn 156 boeken.&lt;/p&gt;
+</content>
+ 	</entry>
+ 
+
+</feed>

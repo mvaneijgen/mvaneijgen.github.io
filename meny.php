@@ -23,7 +23,7 @@
             </nav> -->
                 
             <section>
-                <h2 class="icon-bubbles">Contact</h2>
+                <h2 class="icon-bubbles"><a href="contact">Contact</a></h2>
                 <ul>
                     <li>Mitchel van Eijgen</li>
                     <li>Mitchel@jcenzo.nl</li>
