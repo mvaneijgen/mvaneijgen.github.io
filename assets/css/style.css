@@ -467,10 +467,15 @@ aside ul {
 
 /* Blog */
 .aside section {
-  margin: 50px;
+  margin: 50px 0 0 50px;
 }
 
 .aside h2 {
   font-size: 40px;
   transform: uppercase;
+}
+
+.span8 {
+  width: 620px;
+  margin-top: 50px;
 }
