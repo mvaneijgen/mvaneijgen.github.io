@@ -2,15 +2,15 @@
             <h1 class="icon-Logo-zwart-enzo" ><a href="/">Jong creatief enzo</a></h1>
             <nav>
                 <ul>
-                    <li><a href="blog">Blog</a></li>
-                    <li><a href="contact">Contact</a></li>
+                    <li><a href="/blog">Blog</a></li>
+                    <li><a href="/contact">Contact</a></li>
                 </ul> 
                 
                 <h2 class="icon-cube"><a href="/portfolio">Portfolio</a></h2>
                 <ul>
-                    <li><a href="grafisch">Grafisch ontwerp</a></li>
-                    <li><a href="web">Webdesign</a></li>
-                    <li><a href="app">Applicaties</a></li>
+                    <li><a href="/grafisch">Grafisch ontwerp</a></li>
+                    <li><a href="/web">Webdesign</a></li>
+                    <li><a href="/app">Applicaties</a></li>
                 </ul>
     
                 <!-- <h2 class="icon-rocket"><a href="/experimenten">Experimenten</a></h2>
