@@ -9,7 +9,7 @@
         <meta name="description" content="Wij laten zien dat je geen doorgewinterde ondernemer hoeft te zijn om een bedrijf op te richten. Je moet weten waar je voor staat en je hart in je werk stoppen.">
         <meta name="author" content="M van Eijgen">
         
-        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600' rel='stylesheet' type='text/css'>
         <script>
         if (!("ontouchstart" in document.documentElement)) {
             document.documentElement.className += " no-touch";
@@ -36,7 +36,7 @@
             var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
           })();
 
-        </script>          
+        </script>  
     </head>
     
     <body>
