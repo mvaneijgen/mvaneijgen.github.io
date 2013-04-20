@@ -12,6 +12,6 @@
  	<h1>Go International Inholland</h1>
  	<p class="bijschrift"></p>
  	<ul class="projecten">
- 		<a class="tumb" href="#" data-url="assets/img/interMap.jpg"><li><img src="assets/img/tumb/interMap.jpg" ><p>Interactive map <small><br><a href="http://www.gointernational-inholland.nl/">Zie hier</a> de live versie.</small></p></li></a>
+ 		<a class="tumb" href="#" data-url="assets/img/interMap.jpg"><li><img src="assets/img/tumb/interMap.jpg" ><p>Interactive map <small><br><a href="http://www.gointernational-inholland.nl/" target="_blank">Zie hier de live versie.</a></small></p></li></a>
 	</ul> 
  </div>
