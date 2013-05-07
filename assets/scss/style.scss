@@ -1,3 +1,4 @@
+@import "compass/css3";
 @import "var";
 @import "icomoon";
 
@@ -20,6 +21,8 @@ background-color: #eee;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    
+    @include transition: background 5s ease;
 
     font-family: 'Source Sans Pro', Helvetica, sans-serif;
     font-size: 16px;

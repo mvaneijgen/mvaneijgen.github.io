@@ -47,6 +47,15 @@
 	</ul>
 </div>
 
+<div class="foto">
+	<h1>Nacht foto's</h1>
+	<p class="bijschrift"> Een web van electrischiteit door de stad. Een serie foto's gemaakt in één belichting.</p>
+	<ul class="projecten">
+		<a class="tumb" href="#" data-url="assets/img/nachtFoto.jpg"><li><img src="assets/img/tumb/nachtFoto.jpg" ><p>Foto 1 <small></small></p></li></a>
+		<a class="tumb" href="#" data-url="assets/img/nachtFoto2.jpg"><li><img src="assets/img/tumb/nachtFoto2.jpg" ><p>Foto 2 <small></small></p></li></a>
+	</ul>
+</div>
+
 <div class="bosbode">
 	<h1>De Bosbode</h1>
 	<p class="bijschrift">Re-design buurt krant De Bosbode.</p>
@@ -54,6 +63,15 @@
 		<a class="tumb" href="#" data-url="assets/img/bosbodeKrant.jpg"><li><img src="assets/img/tumb/bosbodeKrant.jpg" ><p>Bosbode re-design krant <small></small></p></li></a>
 		<a class="tumb" href="#" data-url="assets/img/bosbodeSchets.jpg"><li><img src="assets/img/tumb/bosbodeSchets.jpg" ><p>Schetsen <small></small></p></li></a>
 		<a class="tumb" href="#" data-url="assets/img/bosbodeSchets2.jpg"><li><img src="assets/img/tumb/bosbodeSchets2.jpg" ><p>Schetsen <small></small></p></li></a>
+	</ul>
+</div>
+
+<div class="foto">
+	<h1>Herinnering</h1>
+	<p class="bijschrift">Een blok als platfrom van de plek waar dit bedrijf is begonnen. Het oude postkantoor op de ged. oude gracht Haarlem werd gesloopt en dit is wat we nog hebben aan aandenken. In het blok zitten o.a. een stuk deur en vloerbedekking verwerkt.</p>
+	<ul class="projecten">
+		<a class="tumb" href="#" data-url="assets/img/oudPostkantoorShoot.jpg"><li><img src="assets/img/tumb/oudPostkantoorShoot.jpg" ><p>Foto 1 <small></small></p></li></a>
+		<a class="tumb" href="#" data-url="assets/img/oudPostkantoor.jpg"><li><img src="assets/img/tumb/oudPostkantoor.jpg" ><p>Foto 2 <small></small></p></li></a>
 	</ul>
 </div>
 
