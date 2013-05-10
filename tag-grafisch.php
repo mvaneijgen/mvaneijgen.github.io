@@ -1,7 +1,7 @@
 <div class="escher">
 	<h1>Escher museum</h1>
 
-	<p class="bijschrift">Poster voor het Escher museum op bases van de visuele truk, hol en bol.</p>
+	<p class="bijschrift">Poster voor het Escher museum op basis van de visuele truc: hol en bol.</p>
 	<ul class="projecten">
 		<a class="tumb" href="#"  data-url="assets/img/escherPoster.jpg"><li><img src="assets/img/tumb/escherPoster.jpg"><p>Escher museum poster <small></small></p></li></a>
 		<a class="tumb" href="#" data-url="assets/img/escherSchetsen.jpg"><li><img src="assets/img/tumb/escherSchetsen.jpg" ><p>Schetsen <small></small></p></li></a>
