@@ -33,14 +33,15 @@
             <section>
                 <div class="intro">
                     <h1>Open &amp; Eerlijk</h1>
-                    <p>Het beste wat je kunt doen met ideeën is ze delen. Hier worden ze altijd beter van.</p>
-                    <p>Daarom maken wij al onze schetsen/ideeën altijd openbaar, voor andere om verder op te bouwen.</p>
+                    <p>Dit is een overzicht van alle schetsen waar de ideeën van onze projecten beginnen.</p>
+                    <p>Wij vinden dat je ideeën het best kunt ze delen, hier worden ze altijd beter van. Dit is onze eerste stap naar open en eerlijk werken.</p>
+                    
                 </div>
 
                 <div class="projecten">
                     <h1>Schets boeken.</h1>
                     <ul class="projecten">
-                        <a class="tumb" href="#"  data-url="/assets/img/schetsen/2013mei/2013mei1.jpg"><li><img src="assets/img/schetsen/tumb/jan_2012.png"><p>mei 2013<small></small></p></li></a>
+                        <a class="tumb" href="#"  data-url="/assets/img/schetsen/2013mei/2013meiCOVER.jpg"><li><img src="assets/img/schetsen/tumb/mei_2013.png"><p>mei 2013<small></small></p></li></a>
                             <ol class="pages">
                                 <a href="#" data-url="/assets/img/schetsen/2013mei/2013mei1.jpg"><li></li></a>
                                 <a href="#" data-url="/assets/img/schetsen/2013mei/2013mei2.jpg"><li></li></a>
@@ -117,7 +118,7 @@
                             </ol>
                             <br>
 
-                            <a class="tumb" href="#"  data-url="/assets/img/schetsen/2012jul/2012jul1.jpg"><li><img src="assets/img/schetsen/tumb/jul_2012.png"><p>juli 2012<small></small></p></li></a>
+                            <a class="tumb" href="#"  data-url="/assets/img/schetsen/2012jul/2012julCOVER.jpg"><li><img src="assets/img/schetsen/tumb/jul_2012.png"><p>juli 2012<small></small></p></li></a>
                             <ol class="pages">
                                 <a href="#" data-url="/assets/img/schetsen/2012jul/2012jul1.jpg"><li></li></a>
                                 <a href="#" data-url="/assets/img/schetsen/2012jul/2012jul2.jpg"><li></li></a>
@@ -195,7 +196,7 @@
                             </ol>
                             <br>
 
-                            <a class="tumb" href="#"  data-url="/assets/img/schetsen/2012jan/2012jan1.jpg"><li><img src="assets/img/schetsen/tumb/jan_2012.png"><p>januari 2012<small></small></p></li></a>
+                            <a class="tumb" href="#"  data-url="/assets/img/schetsen/2012jan/2012janCOVER.jpg"><li><img src="assets/img/schetsen/tumb/jan_2012.png"><p>januari 2012<small></small></p></li></a>
                             <ol class="pages">
                                 <a href="#" data-url="/assets/img/schetsen/2012jan/2012jan1.jpg"><li></li></a>
                                 <a href="#" data-url="/assets/img/schetsen/2012jan/2012jan2.jpg"><li></li></a>
@@ -223,7 +224,7 @@
                                 <a href="#" data-url="/assets/img/schetsen/2012jan/2012jan24.jpg"><li></li></a>                               
                             </ol>
                             <br>
-                                                        <a class="tumb" href="#"  data-url="/assets/img/schetsen/2011sep/2011sep1.jpg"><li><img src="assets/img/schetsen/tumb/sep_2011.png"><p>september 2011<small></small></p></li></a>
+                            <a class="tumb" href="#"  data-url="/assets/img/schetsen/2011sep/2011sepCOVER.jpg"><li><img src="assets/img/schetsen/tumb/sep_2011.png"><p>september 2011<small></small></p></li></a>
                             <ol class="pages">
                                 <a href="#" data-url="/assets/img/schetsen/2011sep/2011sep1.jpg"><li></li></a>
                                 <a href="#" data-url="/assets/img/schetsen/2011sep/2011sep2.jpg"><li></li></a>
@@ -295,7 +296,7 @@
                                 <a href="#" data-url="/assets/img/schetsen/2011sep/2011sep68.jpg"><li></li></a>                               
                             </ol>
                             <br>
-                                                        <a class="tumb" href="#"  data-url="/assets/img/schetsen/2011jun/2011jun1.jpg"><li><img src="assets/img/schetsen/tumb/jun_2011.png"><p>juni 2011<small></small></p></li></a>
+                          <a class="tumb" href="#"  data-url="/assets/img/schetsen/2011jun/2011junCOVER.jpg"><li><img src="assets/img/schetsen/tumb/jun_2011.png"><p>juni 2011<small></small></p></li></a>
                             <ol class="pages">
                                 <a href="#" data-url="/assets/img/schetsen/2011jun/2011jun1.jpg"><li></li></a>
                                 <a href="#" data-url="/assets/img/schetsen/2011jun/2011jun2.jpg"><li></li></a>
@@ -331,7 +332,7 @@
                                 <a href="#" data-url="/assets/img/schetsen/2011jun/2011jun32.jpg"><li></li></a>                             
                             </ol>
                             <br>
-                                                        <a class="tumb" href="#"  data-url="/assets/img/schetsen/2011mrt/2011mrt1.jpg"><li><img src="assets/img/schetsen/tumb/mrt_2011.png"><p>maart 2011<small></small></p></li></a>
+                           <a class="tumb" href="#"  data-url="/assets/img/schetsen/2011mrt/2011mrtCOVER.jpg"><li><img src="assets/img/schetsen/tumb/mrt_2011.png"><p>maart 2011<small></small></p></li></a>
                             <ol class="pages">
                                 <a href="#" data-url="/assets/img/schetsen/2011mrt/2011mrt1.jpg"><li></li></a>
                                 <a href="#" data-url="/assets/img/schetsen/2011mrt/2011mrt2.jpg"><li></li></a>
@@ -370,7 +371,7 @@
                             </ol>
                             <br>
                             
-                            <a class="tumb" href="#"  data-url="/assets/img/schetsen/2010dec/2010dec1.jpg"><li><img src="assets/img/schetsen/tumb/dec_2010.png"><p>december 2010<small></small></p></li></a>
+                            <a class="tumb" href="#"  data-url="/assets/img/schetsen/2010dec/2010decCOVER.jpg"><li><img src="assets/img/schetsen/tumb/dec_2010.png"><p>december 2010<small></small></p></li></a>
                             <ol class="pages">
                                 <a href="#" data-url="/assets/img/schetsen/2010dec/2010dec1.jpg"><li></li></a>
                                 <a href="#" data-url="/assets/img/schetsen/2010dec/2010dec2.jpg"><li></li></a>
@@ -400,7 +401,7 @@
                             </ol>
                             <br>
                             
-                            <a class="tumb" href="#"  data-url="/assets/img/schetsen/2010sep/2010sep1.jpg"><li><img src="assets/img/schetsen/tumb/sep_2010.png"><p>september 2010<small></small></p></li></a>
+                            <a class="tumb" href="#"  data-url="/assets/img/schetsen/2010sep/2010sepCOVER.jpg"><li><img src="assets/img/schetsen/tumb/sep_2010.png"><p>september 2010<small></small></p></li></a>
                             <ol class="pages">
                                 <a href="#" data-url="/assets/img/schetsen/2010sep/2010sep1.jpg"><li></li></a>
                                 <a href="#" data-url="/assets/img/schetsen/2010sep/2010sep2.jpg"><li></li></a>
@@ -438,7 +439,7 @@
                             <br>
 
 
-                            <a class="tumb" href="#"  data-url="/assets/img/schetsen/2010aug/2010aug1.jpg"><li><img src="assets/img/schetsen/tumb/aug_2010.png"><p>augustus 2010<small></small></p></li></a>
+                            <a class="tumb" href="#"  data-url="/assets/img/schetsen/2010aug/2010augCOVER.jpg"><li><img src="assets/img/schetsen/tumb/aug_2010.png"><p>augustus 2010<small></small></p></li></a>
                             <ol class="pages">
                                 <a href="#" data-url="/assets/img/schetsen/2010aug/2010aug1.jpg"><li></li></a>
                                 <a href="#" data-url="/assets/img/schetsen/2010aug/2010aug2.jpg"><li></li></a>
@@ -465,7 +466,7 @@
                             </ol>
                             <br>
 
-                            <a class="tumb" href="#"  data-url="/assets/img/schetsen/2010jul/2010jul1.jpg"><li><img src="assets/img/schetsen/tumb/jul_2010.png"><p>juli 2010<small></small></p></li></a>
+                            <a class="tumb" href="#"  data-url="/assets/img/schetsen/2010jul/2010julCOVER.jpg"><li><img src="assets/img/schetsen/tumb/jul_2010.png"><p>juli 2010<small></small></p></li></a>
                             <ol class="pages">
                                 <a href="#" data-url="/assets/img/schetsen/2010jul/2010jul1.jpg"><li></li></a>
                                 <a href="#" data-url="/assets/img/schetsen/2010jul/2010jul2.jpg"><li></li></a>
