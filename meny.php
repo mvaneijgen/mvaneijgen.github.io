@@ -15,7 +15,8 @@
     
                 <h2 class="icon-rocket"><a href="/Schetsen">Experimenten</a></h2>
                 <ul>
-                    <li><a href="schetsen">Schetsen</a></li>
+                    <li><a href="/schetsen">Schetsen</a></li>
+                    <li><a href="/color">Color</a></li>
                 </ul>
             </nav>
                 

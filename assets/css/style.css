@@ -93,12 +93,12 @@ body {
 
 /* line 27, ../scss/style.scss */
 a {
-  color: #00b6ad;
+  color: #00bbaa;
   text-decoration: none; }
 
 /* line 31, ../scss/style.scss */
 .no-touch a:hover {
-  color: #00b6ad;
+  color: #00bbaa;
   text-decoration: underline; }
 
 /* line 35, ../scss/style.scss */
@@ -135,7 +135,7 @@ p {
   display: none;
   padding: 20px;
   overflow: auto;
-  background: #00b6ad;
+  background: #00bbaa;
   color: #fff;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -321,7 +321,7 @@ section .social {
 
 /* line 73, ../scss/style.scss */
 .contents {
-  overflow: hidden; }
+  overflow: auto; }
 
 /* line 74, ../scss/style.scss */
 .contents .hidden {
@@ -347,7 +347,7 @@ aside {
   float: left;
   overflow-y: scroll;
   overflow-x: hidden;
-  border-left: 5px solid #00b6ad; }
+  border-left: 5px solid #00bbaa; }
 
 /* line 13, ../scss/aside.scss */
 .contents aside p span {
@@ -358,7 +358,7 @@ aside {
 /* line 18, ../scss/aside.scss */
 aside h2, aside h1 {
   margin-bottom: 3px;
-  color: #00b6ad; }
+  color: #00bbaa; }
 
 /* line 22, ../scss/aside.scss */
 aside section {
@@ -464,13 +464,13 @@ aside ul {
 
 /* line 104, ../scss/aside.scss */
 .contact .btn {
-  background-color: #00b6ad;
+  background-color: #00bbaa;
   color: #fff;
   padding: 10px; }
 
 /* line 109, ../scss/aside.scss */
 .contact .btn:hover {
-  background-color: #00837d; }
+  background-color: #00887c; }
 
 /* line 112, ../scss/aside.scss */
 .contact a:hover {
