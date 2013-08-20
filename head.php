@@ -1,14 +1,14 @@
 <!doctype html>  
-<html lang="en">
+<html lang="nl">
     
     <head>
         <meta charset="utf-8">
         
-        <title>Portfolio | Jong creatief enzo</title>
+        <title>Jong creatief enzo</title>
 
         <meta name="description" content="Wij laten zien dat je geen doorgewinterde ondernemer hoeft te zijn om een bedrijf op te richten. Je moet weten waar je voor staat en je hart in je werk stoppen.">
         <meta name="author" content="M van Eijgen">
-         <meta name = "viewport" content = "user-scalable=no, width=device-width">
+        <meta name = "viewport" content = "user-scalable=no, width=device-width">
         
         <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600' rel='stylesheet' type='text/css'>
 

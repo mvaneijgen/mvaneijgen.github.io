@@ -1,0 +1,28 @@
+.contents aside {
+	overflow-y: hidden;
+	width: 67px;
+	transition: all 0.3s ease-in-out;
+}
+.contents aside:hover { background-color: #0ba; }
+.contents aside:hover i { color: #fff; }
+.contents { 
+	margin: 0 auto; 
+	background: #fff;
+}
+.contents section { margin: 50px auto; }
+
+/*-------------------------
+	Open sans
+  -------------------------*/
+.open-sans { width: 280px; }
+.open-sans .side p { 
+	font-size: 11px; 
+	line-height: 14px; 
+}
+.open-sans .info { font-size: 17px; }
+.open-sans .side {
+	width: 100px;
+	position: absolute;
+	top: 50px;
+	right: 50px;
+}

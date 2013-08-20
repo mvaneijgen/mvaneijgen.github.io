@@ -25,7 +25,7 @@ you can use the generic selector below, but it's slower:
 [class*="icon-"]:before {
 */
 /* line 31, ../scss/icomoon.scss */
-.icon-cube:before, .icon-Logo-zwart-enzo:before, .icon-bubbles:before, .icon-rocket:before, .icon-facebook:before, .icon-twitter:before, .icon-github:before, .icon-dribbble:before, .icon-eye:before {
+.icon-cube:before, .icon-Logo-zwart-enzo:before, .icon-bubbles:before, .icon-rocket:before, .icon-facebook:before, .icon-twitter:before, .icon-github:before, .icon-dribbble:before, .icon-eye:before, .icon-menu:before {
   font-family: 'icomoon';
   speak: none;
   font-style: normal;
@@ -67,6 +67,10 @@ you can use the generic selector below, but it's slower:
 /* line 63, ../scss/icomoon.scss */
 .icon-bubbles:before {
   content: "\e007"; }
+
+/* line 66, ../scss/icomoon.scss */
+.icon-menu:before {
+  content: "\e008"; }
 
 /* line 5, ../scss/style.scss */
 * {
@@ -361,7 +365,7 @@ aside h2, aside h1 {
   color: #00bbaa; }
 
 /* line 22, ../scss/aside.scss */
-aside section {
+.contents aside section {
   width: 220px;
   margin: 20px; }
 
