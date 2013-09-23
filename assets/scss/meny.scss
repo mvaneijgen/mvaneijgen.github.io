@@ -70,6 +70,14 @@ section .social { margin: 10px 0 0 35px; font-family: 'icomoon'; font-size: 28px
              -o-transition: opacity 0.2s ease; 
                 transition: opacity 0.2s ease;
     }
+.meny-arrow:after {
+	content: "MENU";
+	color: #FF4952;
+	font-weight: 800;
+	position: absolute;
+	margin-top: -10px;
+	margin-left: 3px;
+}
 
 /* arrow animation */
 @-webkit-keyframes left {
@@ -108,6 +116,54 @@ section .social { margin: 10px 0 0 35px; font-family: 'icomoon'; font-size: 28px
     -o-transform-origin: 50% 50%;
     -ms-transform-origin: 50% 50%;
     transform-origin: 50% 50%;
+
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-iteration-count: infinite;
+    -ms-animation-iteration-count: infinite;
+    -o-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+
+    -webkit-animation-timing-function: linear;
+    -moz-animation-timing-function: linear;
+    -ms-animation-timing-function: linear;
+    -o-animation-timing-function: linear;
+    animation-timing-function: linear;
+}
+@-webkit-keyframes color {
+    0% { opacity: 1; }
+    20% { opacity: 0; }
+    95% { opacity: 0; }
+    100% { opacity: 1;}
+}
+@-moz-keyframes color {
+    0% { opacity: 1; }
+    20% { opacity: 0; }
+    95% { opacity: 0; }
+    100% { opacity: 1;}
+}
+@-o-keyframes color {
+    0% { opacity: 1; }
+    20% { opacity: 0; }
+    95% { opacity: 0; }
+    100% { opacity: 1;}
+}
+@keyframes color {
+    0% { opacity: 1; }
+    20% { opacity: 0; }
+    95% { opacity: 0; }
+    100% { opacity: 1;}
+}
+.meny-arrow:after {
+    -webkit-animation-name: color;
+    -moz-animation-name: color;
+    -ms-animation-name: color;
+    -o-animation-name: color;
+    animation-name: color;
+    
+    -webkit-animation-duration: 5s;
+    -moz-animation-duration: 5s;
+    -o-animation-duration: 5s;
+    animation-duration: 5s;
 
     -webkit-animation-iteration-count: infinite;
     -moz-animation-iteration-count: infinite;

@@ -2,7 +2,7 @@
             <h1 class="icon-Logo-zwart-enzo" ><a href="/">Jong creatief enzo</a></h1>
             <nav>
                 <ul>
-                    <li><a href="/blog">Blog</a></li>
+                    <li><a href="/updates">Updates</a></li>
                     <li><a href="/contact">Contact</a></li>
                 </ul> 
                 

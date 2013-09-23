@@ -217,60 +217,69 @@ section .social {
   -o-transition: opacity 0.2s ease;
   transition: opacity 0.2s ease; }
 
+/* line 73, ../scss/meny.scss */
+.meny-arrow:after {
+  content: "MENU";
+  color: #FF4952;
+  font-weight: 800;
+  position: absolute;
+  margin-top: -10px;
+  margin-left: 3px; }
+
 /* arrow animation */
 @-webkit-keyframes left {
-  /* line 76, ../scss/meny.scss */
+  /* line 84, ../scss/meny.scss */
   90% {
     -webkit-transform: translate(0px, 0); }
 
-  /* line 77, ../scss/meny.scss */
+  /* line 85, ../scss/meny.scss */
   95% {
     -webkit-transform: translate(5px, 0); }
 
-  /* line 78, ../scss/meny.scss */
+  /* line 86, ../scss/meny.scss */
   100% {
     -webkit-transform: translate(0px, 0); } }
 
 @-moz-keyframes left {
-  /* line 81, ../scss/meny.scss */
+  /* line 89, ../scss/meny.scss */
   90% {
     -moz-transform: translate(0px, 0); }
 
-  /* line 82, ../scss/meny.scss */
+  /* line 90, ../scss/meny.scss */
   95% {
     -moz-transform: translate(5px, 0); }
 
-  /* line 83, ../scss/meny.scss */
+  /* line 91, ../scss/meny.scss */
   100% {
     -moz-transform: translate(0px, 0); } }
 
 @-o-keyframes left {
-  /* line 86, ../scss/meny.scss */
+  /* line 94, ../scss/meny.scss */
   90% {
     -o-transform: translate(0px, 0); }
 
-  /* line 87, ../scss/meny.scss */
+  /* line 95, ../scss/meny.scss */
   95% {
     -o-transform: translate(5px, 0); }
 
-  /* line 88, ../scss/meny.scss */
+  /* line 96, ../scss/meny.scss */
   100% {
     -o-transform: translate(0px, 0); } }
 
 @keyframes left {
-  /* line 91, ../scss/meny.scss */
+  /* line 99, ../scss/meny.scss */
   90% {
     transform: translate(0px, 0); }
 
-  /* line 92, ../scss/meny.scss */
+  /* line 100, ../scss/meny.scss */
   95% {
     transform: translate(5px, 0); }
 
-  /* line 93, ../scss/meny.scss */
+  /* line 101, ../scss/meny.scss */
   100% {
     transform: translate(0px, 0); } }
 
-/* line 95, ../scss/meny.scss */
+/* line 103, ../scss/meny.scss */
 .meny-arrow {
   -webkit-animation-name: left;
   -moz-animation-name: left;
@@ -286,6 +295,96 @@ section .social {
   -o-transform-origin: 50% 50%;
   -ms-transform-origin: 50% 50%;
   transform-origin: 50% 50%;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  -ms-animation-iteration-count: infinite;
+  -o-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-timing-function: linear;
+  -ms-animation-timing-function: linear;
+  -o-animation-timing-function: linear;
+  animation-timing-function: linear; }
+
+@-webkit-keyframes color {
+  /* line 133, ../scss/meny.scss */
+  0% {
+    opacity: 1; }
+
+  /* line 134, ../scss/meny.scss */
+  20% {
+    opacity: 0; }
+
+  /* line 135, ../scss/meny.scss */
+  95% {
+    opacity: 0; }
+
+  /* line 136, ../scss/meny.scss */
+  100% {
+    opacity: 1; } }
+
+@-moz-keyframes color {
+  /* line 139, ../scss/meny.scss */
+  0% {
+    opacity: 1; }
+
+  /* line 140, ../scss/meny.scss */
+  20% {
+    opacity: 0; }
+
+  /* line 141, ../scss/meny.scss */
+  95% {
+    opacity: 0; }
+
+  /* line 142, ../scss/meny.scss */
+  100% {
+    opacity: 1; } }
+
+@-o-keyframes color {
+  /* line 145, ../scss/meny.scss */
+  0% {
+    opacity: 1; }
+
+  /* line 146, ../scss/meny.scss */
+  20% {
+    opacity: 0; }
+
+  /* line 147, ../scss/meny.scss */
+  95% {
+    opacity: 0; }
+
+  /* line 148, ../scss/meny.scss */
+  100% {
+    opacity: 1; } }
+
+@keyframes color {
+  /* line 151, ../scss/meny.scss */
+  0% {
+    opacity: 1; }
+
+  /* line 152, ../scss/meny.scss */
+  20% {
+    opacity: 0; }
+
+  /* line 153, ../scss/meny.scss */
+  95% {
+    opacity: 0; }
+
+  /* line 154, ../scss/meny.scss */
+  100% {
+    opacity: 1; } }
+
+/* line 156, ../scss/meny.scss */
+.meny-arrow:after {
+  -webkit-animation-name: color;
+  -moz-animation-name: color;
+  -ms-animation-name: color;
+  -o-animation-name: color;
+  animation-name: color;
+  -webkit-animation-duration: 5s;
+  -moz-animation-duration: 5s;
+  -o-animation-duration: 5s;
+  animation-duration: 5s;
   -webkit-animation-iteration-count: infinite;
   -moz-animation-iteration-count: infinite;
   -ms-animation-iteration-count: infinite;
