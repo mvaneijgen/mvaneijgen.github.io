@@ -1,0 +1,12 @@
+$breakpoints: (
+  "baby-bear"  : "(max-width: 535px)",
+  "mama-bear"  : "(max-width: 730px)"
+) !default;
+
+@mixin breakpoint($point) {
+  $query: map-get($breakpoints, $point);
+
+  @media #{$query} {
+    @content;
+  }
+}

@@ -1,0 +1,26 @@
+.grid {
+  display: flex;
+  .grid-1-3 {
+    width: 33.33%;
+    margin-right: 20px;
+  }
+  .grid-2-3 {
+    width: 66.66%;
+    margin-right: 20px;
+  }
+  [class*='grid-']:last-child {
+    margin-right: 0;
+  }
+  @include breakpoint(baby-bear) {
+    display: block;
+    [class*='grid-'] {
+      width: 100%;
+    }
+  }
+}
+
+.site-width {
+  max-width: 1000px;
+  margin: 0 auto;
+  position: relative;
+}

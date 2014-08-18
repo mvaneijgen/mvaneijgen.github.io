@@ -36,3 +36,8 @@
 Icon?
 ehthumbs.db
 Thumbs.db
+
+# Mvaneijgen custom #
+#####################
+.sass-cache
+node_modules

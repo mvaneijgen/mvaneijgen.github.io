@@ -1,0 +1,60 @@
+.site-footer {
+  background: #222;
+  padding: 40px 40px 120px 40px;
+  color: white;
+  h4 {
+    color: $yellow;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    margin: 0 0 1rem 0;
+  }
+  a {
+    color: white;
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    background: $midgray;
+    border-radius: 50%;
+    text-align: center;
+    padding: 13px 0 0 0;
+    margin: 0 10px 0 0;
+    &.contact-twitter {
+      &:hover, &:focus {
+        svg {
+          fill: #55acee;
+        }
+      }
+    }
+    &.contact-dribbble {
+      &:hover, &:focus {
+        svg {
+          fill: #ea4c89;
+        }
+      }
+    }
+    &.contact-email {
+      &:hover, &:focus {
+        svg {
+          fill: $yellow;
+        }
+      }
+    }
+    &:hover, &:focus {
+      background: lighten($midgray, 10%);
+    }
+  }
+  svg {
+    width: 34px;
+    height: 34px;
+    fill: white;
+    // grunt-svgstore should keep preserveAspectRatio
+  }
+}
+
+.footer-contact {
+  margin: 0 0 30px 0;
+}
+
+.footer-about {
+  color: #838383;
+}

@@ -1,0 +1,104 @@
+.site-navigation {
+  background: $darkgray;
+  ul {
+    padding: 0;
+    list-style: none;
+  }
+  li {
+    display: inline-block;
+    font-size: 1.1rem;
+    a {
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      padding: 15px 0 5px;
+      margin: 0 15px;
+      color: white;
+      svg {
+        width: 13px;
+        height: 13px;
+        fill: white;
+      }
+      &:hover, &:focus {
+        border-bottom: 3px solid white;
+      }
+    }
+    &.nav-design {
+      svg {
+        fill: $pink;
+      }
+    }
+    &.nav-writing {
+      svg {
+        fill: $green;
+      }
+    }
+    &.nav-about {
+      svg {
+        fill: $yellow;
+      }
+    }
+    @include breakpoint(mama-bear) {
+      font-size: 0.9rem;
+      a {
+        margin-right: 10px;
+        svg {
+          width: 11px;
+          height: 11px;
+        }
+      }
+    }
+    @include breakpoint(baby-bear) {
+      display: block;
+      font-size: 0.8rem;
+      a {
+        padding: 0;
+        &:hover, &:focus {
+          color: #ccc;
+          border-bottom: 0;
+        }
+      }
+    }
+  }
+  .site-width {
+    display: flex;
+    align-items: center;
+  }
+}
+
+$logoWidth: 171px;
+$logoHeight: 43px;
+.logo {
+  background: $midgray;
+  padding: 20px 30px;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  margin-right: 35px;
+  color: white;
+  font-weight: bold;
+  line-height: 1.2;
+  font-size: 1.2rem;
+  svg {
+    width: $logoWidth;
+    height: $logoHeight;
+    fill: white;
+  }
+  @include breakpoint(mama-bear) {
+    padding: 15px;
+    svg {
+      width: $logoWidth/1.5;
+      height: $logoHeight/1.5;
+    }
+  }
+  @include breakpoint(baby-bear) {
+    padding: 20px 15px;
+  }
+}
+.logo-katie-a {
+  fill: $pink;
+}
+.logo-kovalcin-v {
+  fill: $green;
+}
+.logo-kovalcin-a {
+  fill: $yellow;
+}
