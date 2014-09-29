@@ -1,16 +1,11 @@
-<<<<<<< HEAD
-# Katie Kovalcin’s Spectacular New Website
+mvaneijgen.github.io or mvaneijgen.nl
+====================
 
-Katie Kovalcin is pretty cool. Cooler than most people. But her website sucks. This is a better one.
+My portfolio website build with Jekyll and some help of [this demo](http://tympanus.net/codrops/2013/12/18/perspective-page-view-navigation/), Also thanks to [@chriscoyier](https://twitter.com/chriscoyier) and [@katiekovalcin](https://twitter.com/katiekovalcin) for uploading [this jykell project](https://github.com/katiekovalcin/kovalcin) to Github to learn from. 
 
-We only actully use the `gh-pages` branch here, so this `master` branch is empty.
-=======
-The repo for Katie Kovalcin's personal site.
+I used the following tools for this project.
 
-You'll need two command line thingies open.
+* [Atom](atom.oi) - Main code editor.
+* [Grunt](gruntjs.com) - For compiling Jekyll and merging SVG files.
 
-1. Type `grunt serve` into one and it'll run the server.
-1. Type `grunt` into the second one which will do everything and kick off the watching
-1. Go to [localhost:4000](http://localhost:4000/)
-1. Might as well kick on the [LiveReload browser extension](http://feedback.livereload.com/knowledgebase/articles/86242-how-do-i-install-and-use-the-browser-extensions-)
->>>>>>> 5a5acbf5286355eec244de961c7ce076eb57e699
+All of the above programes I never or hardly used before, but the goal is to learn something new and trying to make the switch from the conventional programs.
