@@ -1,12 +1,16 @@
-mvaneijgen.github.io or mvaneijgen.nl
-====================
+<<<<<<< HEAD
+# Katie Kovalcin’s Spectacular New Website
 
-My portfolio website build with Jekyll and some help of Meny a project of [@Hakimel](github.com/hakimel/Meny)
+Katie Kovalcin is pretty cool. Cooler than most people. But her website sucks. This is a better one.
 
-I used the following tools for this project.
+We only actully use the `gh-pages` branch here, so this `master` branch is empty.
+=======
+The repo for Katie Kovalcin's personal site.
 
-* [Atom](atom.oi) - Main code editor.
-* [Sketch 3](bohemiancoding.com/sketch/) - To create visuals and SVG.
-* [Grunt](gruntjs.com) - For compiling Jekyll and merging SVG files.
+You'll need two command line thingies open.
 
-All of the above programes i never or hardly used before, but the goal is to learn something new and trying to make the switch from the conventional programs. 
+1. Type `grunt serve` into one and it'll run the server.
+1. Type `grunt` into the second one which will do everything and kick off the watching
+1. Go to [localhost:4000](http://localhost:4000/)
+1. Might as well kick on the [LiveReload browser extension](http://feedback.livereload.com/knowledgebase/articles/86242-how-do-i-install-and-use-the-browser-extensions-)
+>>>>>>> 5a5acbf5286355eec244de961c7ce076eb57e699

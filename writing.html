@@ -1,0 +1,136 @@
+---
+layout: default
+title: Katie Kovalcin - Writing
+---
+
+<main>
+
+  <div class="site-width">
+
+    {% for post in site.posts limit:5 %}
+
+      <article class="article">
+
+        <div class="meta">
+          <time>
+            {{ post.date | date_to_string }}
+          </time>
+        </div>
+
+        <h2>
+          <a href="{{ post.url }}">
+            {{ post.title }}
+          </a>
+        </h2>
+
+        <div class="article-text">
+          {{ post.excerpt }}
+        </div>
+
+        <a href="{{ post.url }}" class="read-more">
+          Read More
+          <svg>
+            <use xlink:href="#shape-triangle-right" />
+          </svg>
+        </a>
+
+      </article>
+
+    {% endfor %}
+
+  </div>
+
+</main>
+
+<div class="pre-footer published-elsewhere">
+
+  <div class="site-width">
+      
+    <h3>
+      Published Elsewhere
+    </h3>
+
+    <ul class="grid" data-grid-type="wrapping">
+      <li class="grid-1-2">
+        <h4>
+          <a href="#0">
+            Designing with a Performance Budget
+          </a>
+        </h4>
+        <div class="publication-name">
+          Cognition
+        </div>
+        <time>
+          May 29, 2014
+        </time>
+      </li>
+      <li class="grid-1-2">
+        <h4>
+          <a href="#0">
+            Designing with a Performance Budget
+          </a>
+        </h4>
+        <div class="publication-name">
+          Cognition
+        </div>
+        <time>
+          May 29, 2014
+        </time>
+      </li>
+      <li class="grid-1-2">
+        <h4>
+          <a href="#0">
+            Designing with a Performance Budget
+          </a>
+        </h4>
+        <div class="publication-name">
+          Cognition
+        </div>
+        <time>
+          May 29, 2014
+        </time>
+      </li>
+      <li class="grid-1-2">
+        <h4>
+          <a href="#0">
+            Designing with a Performance Budget
+          </a>
+        </h4>
+        <div class="publication-name">
+          Cognition
+        </div>
+        <time>
+          May 29, 2014
+        </time>
+      </li>
+      <li class="grid-1-2">
+        <h4>
+          <a href="#0">
+            Designing with a Performance Budget
+          </a>
+        </h4>
+        <div class="publication-name">
+          Cognition
+        </div>
+        <time>
+          May 29, 2014
+        </time>
+      </li>
+      <li class="grid-1-2">
+        <h4>
+          <a href="#0">
+            Designing with a Performance Budget
+          </a>
+        </h4>
+        <div class="publication-name">
+          Cognition
+        </div>
+        <time>
+          May 29, 2014
+        </time>
+      </li>
+    </ul>
+
+  </div>
+
+</div>

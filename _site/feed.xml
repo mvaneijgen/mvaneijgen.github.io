@@ -1,37 +1,95 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>mvaneijgen</title>
-    <description>Grafisch ontwerper, maar houd van technologie.</description>
-    <link>http://mvaneijgen.nl/</link>
-    <atom:link href="http://mvaneijgen.nl/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 18 Aug 2014 12:11:29 +0200</pubDate>
-    <lastBuildDate>Mon, 18 Aug 2014 12:11:29 +0200</lastBuildDate>
+    <title></title>
+    <description></description>
+    <link>/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Sun, 28 Sep 2014 20:03:23 +0200</pubDate>
+    <lastBuildDate>Sun, 28 Sep 2014 20:03:23 +0200</lastBuildDate>
     <generator>Jekyll v2.2.0</generator>
     
       <item>
-        <title>Welcome to Jekyll!</title>
-        <description>&lt;p&gt;You&amp;#39;ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory - edit this post and re-build (or run with the &lt;code&gt;-w&lt;/code&gt; switch) to see your changes!
-To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention: YYYY-MM-DD-name-of-post.ext.&lt;/p&gt;
+        <title>A (Not-Super-Technical) Designer&#39;s CLI&amp;nbsp;Toolbox</title>
+        <description>&lt;p&gt;Earlier this week, I attended &lt;a href=&quot;http://artifactconf.com&quot;&gt;Artifact Conference&lt;/a&gt; here in Austin. It was an intimate 2-day conference with a roster of some amazingly talented speakers. I highly recommend attending their Providence conference in September (and look at that, they have a code SENDAFRIEND for $100 off!) if you get the chance.&lt;/p&gt;
 
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+&lt;p&gt;One of the talks I most enjoyed was by Austin&amp;#39;s own comedic developer extraordinaire, &lt;a href=&quot;http://daverupert.com/&quot;&gt;Dave Rupert&lt;/a&gt;. He gave a thorough, but not intimidating, overview of tools to make the command-line do some pretty incredible stuff. I was happy that I was mildly familiar with a lot of the tools he mentioned and excited by the things I didn&amp;#39;t know I could be doing. While I&amp;#39;m probably not going to be configuring my own Grunt tasks anytime soon, I do think it&amp;#39;s valuable to encourage other designers to start utilizing these tools.&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;Tom&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &amp;#39;Hi, Tom&amp;#39; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;!--more--&gt;
 
-&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll&amp;#39;s GitHub repo&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Here are some of things that I (someone who doesn&amp;#39;t write production code) use on a regular basis:&lt;/p&gt;
+
+&lt;h3 id=&quot;grunt&quot;&gt;Grunt&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;The&lt;/em&gt; hot buzzword of 2014, but for good reason! &lt;a href=&quot;http://gruntjs.com/&quot;&gt;Grunt&lt;/a&gt; is a powerful tool. I couldn&amp;#39;t go into specifics about what makes Grunt different from other taskrunners, but I do know it does all the things that I normally would forget to do when I&amp;#39;m frantically designing a prototype.&lt;/p&gt;
+
+&lt;h5 id=&quot;whatthismeansforadesigner&quot;&gt;What this means for a designer:&lt;/h5&gt;
+
+&lt;p&gt;When you hit save, everything updates. Similar to what we&amp;#39;re used to when we save a PSD and it&amp;#39;s just... done. This is especially important when your prototype tools become more complex and need several steps to actually update in the browser. Which brings me to my next tool...&lt;/p&gt;
+
+&lt;h3 id=&quot;jekyll&quot;&gt;Jekyll&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt; is something we&amp;#39;ve started using at Happy Cog to generate our project hub/pattern library. It&amp;#39;s a static site generator. It&amp;#39;s great to build a client project in, because once the project is over, our pattern library is a collection of static HTML pages we can give to the client, that anyone can open up.&lt;/p&gt;
+
+&lt;h5 id=&quot;whatthismeansforadesigner&quot;&gt;What this means for a designer:&lt;/h5&gt;
+
+&lt;p&gt;Our prototypes live within our Jekyll built hub, as do all of our deliverables, so as a designer I have to update Jekyll pages quite frequently. There are a few steps to having Jekyll generate these pages, so as I mentioned above... Grunt is great for handling all of that. Before we had Grunt setup, I would &lt;em&gt;always&lt;/em&gt; forget a step to generate my pages. However, these are tools I would definitely recommend a developer helps you initially set up, there is a bit of a learning curve and by no means did I write our Jekyll pages myself. Knowing how to use and update it has been extremely helpful, though.&lt;/p&gt;
+
+&lt;h3 id=&quot;bowerwithfoundation&quot;&gt;Bower (with Foundation)&lt;/h3&gt;
+
+&lt;p&gt;I&amp;#39;m gonna be honest, I don&amp;#39;t entirely know what &lt;a href=&quot;http://bower.io/&quot;&gt;Bower&lt;/a&gt; does. I do, however, know that since I&amp;#39;ve installed it, I&amp;#39;ve found my relationship with Foundation 5 to be much easier.&lt;/p&gt;
+
+&lt;h5 id=&quot;whatthismeansforadesigner&quot;&gt;What this means for a designer:&lt;/h5&gt;
+
+&lt;p&gt;I use Foundation to rapidly prototype, so being able to install and get Foundation running in the command-line is faster and easier. Two very important things. I&amp;#39;m not a developer. I just want to open a file and start prototyping immediately after sketching, but it always seems like there are 1,000 steps between paper and browser. You can read more about installing Foundation this way &lt;a href=&quot;http://foundation.zurb.com/docs/sass.html&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;honorablementions&quot;&gt;Honorable Mentions:&lt;/h2&gt;
+
+&lt;h3 id=&quot;yeoman&quot;&gt;Yeoman&lt;/h3&gt;
+
+&lt;p&gt;I don&amp;#39;t use &lt;a href=&quot;http://yeoman.io/&quot;&gt;Yeoman&lt;/a&gt; very often. I&amp;#39;ve only mildly dabbled in it. As you can see on their site, Yeoman works with Bower and Grunt. What I found exciting and interesting about Yeoman was using it as a jumping off point for my code. I used Yeoman, in conjunction with a Ghost generator, to create this blog.&lt;/p&gt;
+
+&lt;h5 id=&quot;whatthismeansforadesigner&quot;&gt;What this means for a designer:&lt;/h5&gt;
+
+&lt;p&gt;I&amp;#39;m someone who just stares and blinks in bewilderment when I even think of creating a site. This gave me a really easy place to start that was already an up and running site. It&amp;#39;s nice to use for something like a blog.&lt;/p&gt;
+
+&lt;h3 id=&quot;bourbon&quot;&gt;Bourbon&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://bourbon.io/&quot;&gt;Bourbon&lt;/a&gt; is something I&amp;#39;ve played around with in attempts to expand my prototyping tools. It&amp;#39;s a Sass mixin library, generated using the command-line.&lt;/p&gt;
+
+&lt;h5 id=&quot;whatthismeansforadesigner&quot;&gt;What this means for a designer:&lt;/h5&gt;
+
+&lt;p&gt;If you want more control than something like Foundation can offer you for your prototypes, I would suggest looking into Bourbon. Beware that this is a tool that you have to write more code than you may anticipate, if it&amp;#39;s not something you&amp;#39;re super privy to.&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h3 id=&quot;ifyourestillnotconvincedthesethingsasuperawesomeassetsfordesigners&quot;&gt;If you&#39;re still not convinced these things a super awesome assets for designers:&lt;/h3&gt;
+
+&lt;p&gt;I suggest you read Chris Coyier&amp;#39;s article, &lt;a href=&quot;http://24ways.org/2013/grunt-is-not-weird-and-hard/&quot;&gt;Grunt for People Who Think Things Like Grunt are Weird and Hard&lt;/a&gt; because he explains it &lt;em&gt;way&lt;/em&gt; better.&lt;/p&gt;
 </description>
-        <pubDate>Fri, 15 Aug 2014 13:24:21 +0200</pubDate>
-        <link>http://mvaneijgen.nl/jekyll/update/2014/08/15/welcome-to-jekyll/</link>
-        <guid isPermaLink="true">http://mvaneijgen.nl/jekyll/update/2014/08/15/welcome-to-jekyll/</guid>
+        <pubDate>Thu, 08 May 2014 18:22:48 +0200</pubDate>
+        <link>/2014/05/08/Designers-CLI.html</link>
+        <guid isPermaLink="true">/2014/05/08/Designers-CLI.html</guid>
         
         
-        <category>jekyll</category>
+      </item>
+    
+      <item>
+        <title>No Excuses</title>
+        <description>&lt;p&gt;After continually letting different writing ideas fall to the wayside week after week, I have buckled down and decided to do something about it.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;My main excuse was... well, I just plain didn&amp;#39;t have anywhere that I can continually write on.&lt;/p&gt;
+
+&lt;p&gt;Second excuse, I haven&amp;#39;t invested the time into sitting down and completely creating my own blog from scratch. In the spirit of just wanting to write, I have spun up and slightly customized a Ghost blog with a theme that someone else created.&lt;/p&gt;
+
+&lt;p&gt;It feels slightly wrong to have not made my site myself, but it feels pretty right to have a home for my articles. So, no more excuses.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 25 Apr 2014 18:22:48 +0200</pubDate>
+        <link>/2014/04/25/No-Excuses.html</link>
+        <guid isPermaLink="true">/2014/04/25/No-Excuses.html</guid>
         
-        <category>update</category>
         
       </item>
     

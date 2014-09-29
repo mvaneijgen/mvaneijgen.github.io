@@ -1,16 +1,6 @@
-# Site settings
-title: mvaneijgen
-email: mvaneijgen@gmail.com
-description: "Grafisch ontwerper, maar houd van technologie."
-baseurl: "http://mvaneijgen.nl"
-url: "http://mvaneijgen.nl"
-twitter_username: mvaneijgen
-github_username:  mvaneijgen
-
-# Build settings
+name: Katie Kovalcin
 markdown: redcarpet
-permalink: pretty
-
+baseurl: "http://katie.lolcss.com"
 exclude: [
   .git,
   .gitignore,
@@ -20,9 +10,9 @@ exclude: [
   svg-decorations,
   scss,
   .sass-cache,
-  package.json,
-  Gruntfile.js,
-  node_modules,
+  package.json, 
+  Gruntfile.js, 
+  node_modules, 
   readme.md
 ]
 
