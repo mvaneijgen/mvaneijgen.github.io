@@ -9,3 +9,5 @@ I used the following tools for this project.
 * [Grunt](gruntjs.com) - For compiling Jekyll and merging SVG files.
 
 All of the above programes I never or hardly used before, but the goal is to learn something new and trying to make the switch from the conventional programs.
+
+test
