@@ -7,6 +7,6 @@ I used the following tools for this project.
 
 * [Sublime text 3](sublimetext.com/3) - Main code editor.
 * [Grunt](gruntjs.com) - For compiling Jekyll and merging SVG files.
-* [jekyll] - Static site generator 
+* [jekyll](http://jekyllrb.com/) - Static site generator 
 
 All of the above programes I never or hardly used before, but the goal is to learn something new and trying to make the switch from the conventional programs.
