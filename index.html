@@ -3,16 +3,16 @@ layout: default
 title: M van Eijgen
 ---
 
-{% include hero.html %}
-
 <main>
-
+  <aside>
+    <button id="showMenu">Show Menu</button>
+  </aside>
+  
   <div class="site-width">
 
-    {% for post in site.posts limit:1 %}
+    {% for post in site.posts limit:3 %}
 
       <article class="article">
-<button id="showMenu">Show Menu</button>
         <div class="meta">
           <div class="banner">
             Latest Post
@@ -43,147 +43,5 @@ title: M van Eijgen
       </article>
 
     {% endfor %}
-
-    <div class="selected-work" id="selected-work">
-
-      <div class="article">
-
-        <div class="meta">
-          <div class="banner">
-            Selected Work
-          </div>
-          <br>
-          As of 2014
-          <br>
-          <a href="#0">
-            Request PDF
-          </a>
-        </div>
-
-        <div class="grid group">
-
-          <div class="grid-1-3">
-            <article class="job">
-              <div class="img img-tall">
-                <img src="/images/work/infographics-thumb.jpg" alt="">
-              </div>
-              <h3>Infographics</h3>
-              <p>A little teaser about what this project was like and what it entailed.</p>
-            </article>
-          </div>
-
-          <div class="grid-1-3">
-            <article class="job">
-              <div class="img">
-                <img src="/images/work/oldspice-thumb.jpg" alt="">
-              </div>
-              <h3>Old Spice</h3>
-              <p>A little teaser about what this project was like and what it entailed.</p>
-            </article>
-          </div>
-
-          <div class="grid-1-3">
-            <article class="job">
-              <div class="img">
-                <img src="/images/work/orbit-thumb.jpg" alt="">
-              </div>
-              <h3>Orbit</h3>
-              <p>A little teaser about what this project was like and what it entailed.</p>
-            </article>
-            <article class="job">
-              <div class="img">
-                <img src="/images/work/letterpress-thumb.jpg" alt="">
-              </div>
-              <h3>Letterpress</h3>
-              <p>A little teaser about what this project was like and what it entailed.</p>
-            </article>
-
-          </div>
-
-        </div>
-
-        <div class="grid group">
-
-          <div class="grid-1-3">
-
-          </div>
-
-          <div class="grid-2-3">
-            <article class="job">
-              <div class="img">
-                <img src="/images/work/state-thumb.jpg" alt="">
-              </div>
-              <h3>State</h3>
-              <p>A little teaser about what this project was like and what it entailed.</p>
-            </article>
-          </div>
-
-        </div>
-
-        <div class="grid group">
-
-          <div class="grid-1-3">
-            <article class="job">
-              <div class="img">
-                <img src="/images/work/stats-thumb.jpg" alt="">
-              </div>
-              <h3>Stats</h3>
-              <p>A little teaser about what this project was like and what it entailed.</p>
-            </article>
-          </div>
-
-          <div class="grid-1-3">
-            <article class="job">
-              <div class="img">
-                <img src="/images/work/digitalsummit-thumb.jpg" alt="">
-              </div>
-              <h3>Digital Summit</h3>
-              <p>A little teaser about what this project was like and what it entailed.</p>
-            </article>
-          </div>
-
-          <div class="grid-1-3">
-            <article class="job">
-              <div class="img">
-                <img src="/images/work/magazine-thumb.jpg" alt="">
-              </div>
-              <h3>Magazine</h3>
-              <p>A little teaser about what this project was like and what it entailed.</p>
-            </article>
-          </div>
-
-        </div>
-
-      </div>
-
-    </div>
-
-  </div>
-
-  <svg class="decoration decoration-square-2">
-    <use xlink:href="#shape-decoration-square" />
-  </svg>
-  <svg class="decoration decoration-square-3">
-    <use xlink:href="#shape-decoration-square" />
-  </svg>
-  <svg class="decoration decoration-square-4">
-    <use xlink:href="#shape-decoration-square" />
-  </svg>
-
-  <svg class="decoration decoration-plus-2">
-    <use xlink:href="#shape-decoration-plus" />
-  </svg>
-  <svg class="decoration decoration-plus-3">
-    <use xlink:href="#shape-decoration-plus" />
-  </svg>
-  <svg class="decoration decoration-plus-4">
-    <use xlink:href="#shape-decoration-plus" />
-  </svg>
-  <svg class="decoration decoration-plus-5">
-    <use xlink:href="#shape-decoration-plus" />
-  </svg>
-  <svg class="decoration decoration-plus-6">
-    <use xlink:href="#shape-decoration-plus" />
-  </svg>
 
 </main>

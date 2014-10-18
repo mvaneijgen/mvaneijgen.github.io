@@ -5,7 +5,7 @@ My portfolio website build with Jekyll and some help of [this demo](http://tympa
 
 I used the following tools for this project.
 
-* [Atom](atom.oi) - Main code editor.
+* [Sublime text 3](sublimetext.com/3) - Main code editor.
 * [Grunt](gruntjs.com) - For compiling Jekyll and merging SVG files.
 
 All of the above programes I never or hardly used before, but the goal is to learn something new and trying to make the switch from the conventional programs.
