@@ -62,19 +62,25 @@ module.exports = function(grunt) {
         files: ["svg/*.svg"],
         tasks: ["svgstore", "shell:jekyllBuild"]
       }
-    },
 
+    },
     svgstore: {
       options: {
+        formatting : {
+          indent_size : 2
+        },
         prefix : "shape-",
         cleanup: false,
         svg: {
-          style: "display: none;"
+           viewBox: '0 0 32 32',
+        version: '1.1',
+        xmlns: 'http://www.w3.org/2000/svg',
+        'xmlns:xlink': 'http://www.w3.org/1999/xlink'
         }
       },
       default: {
         files: {
-          "_includes/svg-defs.svg": ["svg/*.svg"]
+          "images/svg-defs.svg": ["svg/*.svg"]
         }
       }
     }

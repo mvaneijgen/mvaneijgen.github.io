@@ -1,18 +1,14 @@
-$pink: #FC39C5;
-$green: #21CAA3;
-$yellow: #E9CB30;
+$base-color: #0ba;
+$sub-color: #344;
+$alt-color: #fff;
 
-$midgray: #383838;
-$darkgray: #242424;
+$midgray: #777;
+$darkgray: #444;
 
 @import "bits";
-@import "reset";
-@import "typography";
+@import "component";
+@import "footer";
 @import "header";
-@import "hero";
 @import "layout";
 @import "post";
-@import "work";
-@import "footer";
-@import "decoration_shapes";
-@import "component";
+@import "typography";

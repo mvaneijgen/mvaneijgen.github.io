@@ -5,9 +5,9 @@
     <description></description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 29 Sep 2014 14:22:08 +0200</pubDate>
-    <lastBuildDate>Mon, 29 Sep 2014 14:22:08 +0200</lastBuildDate>
-    <generator>Jekyll v2.2.0</generator>
+    <pubDate>Sun, 09 Nov 2014 13:16:31 +0100</pubDate>
+    <lastBuildDate>Sun, 09 Nov 2014 13:16:31 +0100</lastBuildDate>
+    <generator>Jekyll v2.4.0</generator>
     
       <item>
         <title>A (Not-Super-Technical) Designer&#39;s CLI&amp;nbsp;Toolbox</title>
@@ -61,7 +61,7 @@
 
 &lt;p&gt;If you want more control than something like Foundation can offer you for your prototypes, I would suggest looking into Bourbon. Beware that this is a tool that you have to write more code than you may anticipate, if it&amp;#39;s not something you&amp;#39;re super privy to.&lt;/p&gt;
 
-&lt;hr&gt;
+&lt;p&gt;&lt;hr&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;ifyourestillnotconvincedthesethingsasuperawesomeassetsfordesigners&quot;&gt;If you&#39;re still not convinced these things a super awesome assets for designers:&lt;/h3&gt;
 

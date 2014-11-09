@@ -1,0 +1,12 @@
+<svg viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <symbol viewBox="0 0 200 123.717" id="shape-logo">
+    <title>logo</title>
+    <g>
+      <polygon fill="#FFFFFF" points="0,16.252 50.1,0 100.145,16.254 149.987,0.002 200,16.254 200,91.199 100.145,123.717 0,91.202 	
+
+		" /> </g>
+  </symbol>
+  <symbol viewBox="0 0 100 100" id="shape-test">
+    <title>test</title>
+    <circle cx="35.006" cy="56.076" r="21.656" /> </symbol>
+</svg>

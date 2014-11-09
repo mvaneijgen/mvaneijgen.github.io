@@ -1,0 +1,14 @@
+body {
+margin: 0;
+}
+aside {
+color: $alt-color;
+position: absolute;
+z-index: 10;
+background: $base-color;
+width: 60px;
+height: 100%;
+float: left;
+overflow-y: auto;
+overflow-x: hidden;
+}
