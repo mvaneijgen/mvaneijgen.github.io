@@ -70,7 +70,7 @@ module.exports = function(grunt) {
           indent_size : 2
         },
         prefix : "shape-",
-        cleanup: false,
+        cleanup: true,
         svg: {
            viewBox: '0 0 32 32',
         version: '1.1',
