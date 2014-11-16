@@ -3,50 +3,19 @@ layout: default
 title: M van Eijgen
 ---
 
-<main>
-  <aside>
-    
-     <svg viewBox="0 0 100 100">
-        <use xlink:href="images/svg-defs.svg#shape-logo"></use>
-      </svg>
-
-    <button id="showMenu">Show Menu</button>
-  </aside>
-  
-  <div class="site-width">
-
-    {% for post in site.posts limit:3 %}
-
-      <article class="article">
-        <div class="meta">
-          <div class="banner">
-            Latest Post
-          </div>
-          <br>
-          <time>
-            {{ post.date | date_to_string }}
-          </time>
-        </div>
-
-        <h2>
-          <a href="{{ post.url }}">
-            {{ post.title }}
-          </a>
-        </h2>
-
-        <div class="article-text">
-          {{ post.excerpt }}
-        </div>
-
-        <a href="{{ post.url }}" class="read-more">
-          Read More
-          <svg>
-            <use xlink:href="#shape-triangle-right" />
-          </svg>
-        </a>
-
-      </article>
-
-    {% endfor %}
-
-</main>
+    <div class="slides">
+      <ul> <!-- slides -->
+        <li><img src="images/pic1.jpg" alt="image01" />
+          <div>Promo text #1</div>
+        </li>
+        <li><img src="images/pic2.jpg" alt="image02" />
+          <div>Promo text #2</div>
+        </li>
+        <li><img src="images/pic3.jpg" alt="image03" />
+          <div>Promo text #3</div>
+        </li>
+        <li><img src="images/pic4.jpg" alt="image04" />
+          <div>Promo text #4</div>
+        </li>
+      </ul>
+    </div>

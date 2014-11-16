@@ -11,7 +11,7 @@
   <meta name="keywords" content="Graphic design, 3d page, menu, navigation, mobile, perspective, css transform, web development, web design" />
   <meta name="author" content="M van Eijgen" />
 
-  <link rel="stylesheet" href="css/global.css">
+  <link rel="stylesheet" href="/css/global.css">
   <!-- Begin PERSPECTIVE PAGE VIEW NAVIGATION -->
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -24,6 +24,33 @@
 
 <body>
   <div id="perspective" class="perspective effect-moveleft">
+          <aside>
+
+  	<button id="showMenu">
+  		<svg viewBox="0 0 100 100" class="menu">
+  			<use xlink:href="/images/svg-defs.svg#shape-menu"></use>
+  		</svg>
+  	</button>
+
+
+  	<footer>
+  		<a href="http://twitter.com/mvaneijgen">
+  			<svg viewBox="0 0 100 100" class="github">
+  				<use xlink:href="/images/svg-defs.svg#shape-github"></use>
+  			</svg>
+  		</a>
+  		<a href="http://github.com/mvaneijgen">
+  			<svg viewBox="0 0 100 100" class="twitter">
+  				<use xlink:href="/images/svg-defs.svg#shape-twitter"></use>
+  			</svg>
+  		</a>
+  		<a href="/">
+  			<svg viewBox="0 0 100 100" class="logo">
+  				<use xlink:href="/images/svg-defs.svg#shape-logo"></use>
+  			</svg>
+  		</a>
+  	</footer>
+  </aside>
     <div class="container">
       <div class="wrapper"><!-- wrapper needed for scroll -->
         <!-- Top Navigation -->
@@ -42,7 +69,7 @@
         </div>
 
         <h2>
-          <a href="/2014/05/08/Designers-CLI.html">
+          <a href="/blog/Designers-CLI/">
             A (Not-Super-Technical) Designer's CLI&nbsp;Toolbox
           </a>
         </h2>
@@ -54,7 +81,7 @@
 
         </div>
 
-        <a href="/2014/05/08/Designers-CLI.html" class="read-more">
+        <a href="/blog/Designers-CLI/" class="read-more">
           Read More
           <svg>
             <use xlink:href="#shape-triangle-right" />
@@ -74,7 +101,7 @@
         </div>
 
         <h2>
-          <a href="/2014/04/25/No-Excuses.html">
+          <a href="/blog/No-Excuses/">
             No Excuses
           </a>
         </h2>
@@ -84,7 +111,7 @@
 
         </div>
 
-        <a href="/2014/04/25/No-Excuses.html" class="read-more">
+        <a href="/blog/No-Excuses/" class="read-more">
           Read More
           <svg>
             <use xlink:href="#shape-triangle-right" />
@@ -193,61 +220,14 @@
 </div>
 
 
-          <footer class="site-footer">
-  <div class="site-width">
-
-    <div class="grid group">
-
-      <div class="footer-contact grid-1-3">
-        <h4>Contact Katie</h4>
-
-        <a href="https://twitter.com/katiekovalcin" class="contact-twitter">
-          <svg>
-            <use xlink:href="#shape-twitter" />
-          </svg>
-        </a>
-        <a href="https://dribbble.com/katiekovalcin" class="contact-dribbble">
-          <svg>
-            <use xlink:href="#shape-dribbble" />
-          </svg>
-        </a>
-        <a href="https://instagram.com/#" class="contact-instagram">
-          <svg>
-            <use xlink:href="#shape-instagram" />
-          </svg>
-        </a>
-        <a href="mailto:create@katekovalcin.com" class="contact-email">
-          <svg>
-            <use xlink:href="#shape-email" />
-          </svg>
-        </a>
-      </div>
-
-      <div class="footer-about grid-2-3">
-        Designed by Katie Kovalcin using Whitney from H&Co. Built using Jekyll and some sort of crazy voodoo.
-      </div>
-
-    </div>
-
-  </div>
-</footer>
-
-
-  <script src="/js/libs/jquery.js"></script>
-  <script src="/js/libs/jquery-ui.js"></script>
-  <script src="/js/dev.js"></script>
-
-
       </div><!-- wrapper -->
     </div><!-- /container -->
     <nav class="outer-nav right vertical">
-      <a href="#" class="icon-home">Home</a>
-      <a href="#" class="icon-news">News</a>
-      <a href="#" class="icon-image">Images</a>
-      <a href="#" class="icon-upload">Uploads</a>
-      <a href="#" class="icon-star">Favorites</a>
-      <a href="#" class="icon-mail">Messages</a>
-      <a href="#" class="icon-lock">Security</a>
+      <a href="/" class="">Home</a>
+      <a href="#" class="">Portfolio</a>
+      <a href="#" class="">Experiments</a>
+      <a href="#" class="">Schetsen</a>
+      <a href="contact" class="">Contact</a>
     </nav>
   </div><!-- /perspective -->
   <script src="/js/classie.js"></script>

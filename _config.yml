@@ -1,6 +1,11 @@
-name: Katie Kovalcin
+name: M van Eijgen
 markdown: redcarpet
-baseurl: "http://katie.lolcss.com"
+baseurl: "http://mvaneijgen.nl"
+permalink: /blog/:title/
+collections:
+  projects:
+    output: true
+    permalink: /projects/:path/
 exclude: [
   .git,
   .gitignore,
@@ -10,9 +15,9 @@ exclude: [
   svg-decorations,
   scss,
   .sass-cache,
-  package.json, 
-  Gruntfile.js, 
-  node_modules, 
+  package.json,
+  Gruntfile.js,
+  node_modules,
   readme.md
 ]
 

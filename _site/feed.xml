@@ -5,8 +5,8 @@
     <description></description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 09 Nov 2014 13:16:31 +0100</pubDate>
-    <lastBuildDate>Sun, 09 Nov 2014 13:16:31 +0100</lastBuildDate>
+    <pubDate>Fri, 14 Nov 2014 09:58:03 +0100</pubDate>
+    <lastBuildDate>Fri, 14 Nov 2014 09:58:03 +0100</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
@@ -68,8 +68,8 @@
 &lt;p&gt;I suggest you read Chris Coyier&amp;#39;s article, &lt;a href=&quot;http://24ways.org/2013/grunt-is-not-weird-and-hard/&quot;&gt;Grunt for People Who Think Things Like Grunt are Weird and Hard&lt;/a&gt; because he explains it &lt;em&gt;way&lt;/em&gt; better.&lt;/p&gt;
 </description>
         <pubDate>Thu, 08 May 2014 18:22:48 +0200</pubDate>
-        <link>/2014/05/08/Designers-CLI.html</link>
-        <guid isPermaLink="true">/2014/05/08/Designers-CLI.html</guid>
+        <link>/blog/Designers-CLI/</link>
+        <guid isPermaLink="true">/blog/Designers-CLI/</guid>
         
         
       </item>
@@ -87,8 +87,8 @@
 &lt;p&gt;It feels slightly wrong to have not made my site myself, but it feels pretty right to have a home for my articles. So, no more excuses.&lt;/p&gt;
 </description>
         <pubDate>Fri, 25 Apr 2014 18:22:48 +0200</pubDate>
-        <link>/2014/04/25/No-Excuses.html</link>
-        <guid isPermaLink="true">/2014/04/25/No-Excuses.html</guid>
+        <link>/blog/No-Excuses/</link>
+        <guid isPermaLink="true">/blog/No-Excuses/</guid>
         
         
       </item>

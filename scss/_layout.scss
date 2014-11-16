@@ -1,14 +1,19 @@
 body {
-margin: 0;
+	margin: 0;
 }
 aside {
-color: $alt-color;
-position: absolute;
-z-index: 10;
-background: $base-color;
-width: 60px;
-height: 100%;
-float: left;
-overflow-y: auto;
-overflow-x: hidden;
+	color: #fff;
+	position: fixed;
+	z-index: 100;
+	background: #0ba;
+	padding: 15px;
+	top: 0;
+	left: 0;
+	bottom: 0;
+}
+.row {
+	margin-left: auto;
+	margin-right: auto;
+	width: 500px;
+	background-color: #b0e0e6;
 }
