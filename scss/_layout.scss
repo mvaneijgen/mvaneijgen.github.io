@@ -2,7 +2,6 @@ body {
 	margin: 0;
 }
 aside {
-
 	color: #fff;
 	position: fixed;
 	z-index: 100;
@@ -11,18 +10,6 @@ aside {
 	top: 0;
 	left: 0;
 	bottom: 0;
-
-color: $alt-color;
-position: absolute;
-z-index: 10;
-background: $base-color;
-width: 60px;
-height: 100%;
-float: left;
-overflow-y: auto;
-overflow-x: hidden;
-padding: 10px;
-
 }
 .row {
 	margin-left: auto;
