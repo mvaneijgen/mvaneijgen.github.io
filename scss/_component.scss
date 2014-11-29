@@ -191,7 +191,7 @@ height: 100%;
 }
 
 .effect-moveleft .outer-nav a:hover {
-  color: #333;
+  text-decoration: underline;
 }
 
 .effect-moveleft.animate .outer-nav a {
@@ -434,12 +434,8 @@ height: 100%;
 }
 
 .slides ul li div {
-    background-color:#000000;
-    border-radius:10px 10px 10px 10px;
-    box-shadow:0 0 5px #FFFFFF inset;
     color:#FFFFFF;
     font-size:26px;
-    left:10%;
     margin:0 auto;
     padding:20px;
     position:absolute;
@@ -447,7 +443,6 @@ height: 100%;
     width:200px;
 
     /* css3 animation */
-    -webkit-animation-name: anim_titles;
     -webkit-animation-duration: 24.0s;
     -webkit-animation-timing-function: linear;
     -webkit-animation-iteration-count: infinite;
@@ -456,7 +451,6 @@ height: 100%;
     -webkit-animation-play-state: running;
     -webkit-animation-fill-mode: forwards;
 
-    -moz-animation-name: anim_titles;
     -moz-animation-duration: 24.0s;
     -moz-animation-timing-function: linear;
     -moz-animation-iteration-count: infinite;
