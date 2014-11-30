@@ -11,6 +11,9 @@ aside {
 	left: 0;
 	bottom: 0;
 }
+body.url_index aside {
+	background: rgba(0,0,0,0);
+}
 .row {
 	margin-left: auto;
 	margin-right: auto;
