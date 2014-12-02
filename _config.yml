@@ -3,6 +3,9 @@ markdown: redcarpet
 baseurl: "http://mvaneijgen.nl"
 permalink: /blog/:title/
 collections:
+  experiments:
+    output: true
+    permalink: /experiments/:path/
   projects:
     output: true
     permalink: /projects/:path/

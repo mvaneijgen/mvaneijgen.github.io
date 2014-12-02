@@ -1,11 +1,19 @@
+body.index aside {
+  background: rgba(0,0,0,0.3)
+}
 .cb-slideshow a {
   padding: 10px;
-  border: 2px solid $alt-color;
-  background: none;
-  color: $alt-color;
+  background: $alt-color;
+  color: $sub-color;
   font-size: 16px;
-  text-decoration: underline;
+  text-decoration: none;
 }
+.cb-slideshow li {
+  list-style-type: none;
+}
+.cb-slideshow  p {
+    margin-bottom: 40px;
+  }
 .cb-slideshow a:hover {
   background: $alt-color;
   color: $base-color;
