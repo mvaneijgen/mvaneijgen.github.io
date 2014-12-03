@@ -8,3 +8,13 @@ h3 {
 h2, h3, p {
 	margin: 0;
 }
+
+.outer-nav p {
+	font-size: 16px;
+	color: #fff;
+	margin-bottom: 10px;
+}
+.outer-nav p a {
+	margin: 0;
+	text-decoration: underline !important;
+}
