@@ -7,4 +7,4 @@ excerpt: Interactive presentation for iPad
 
 ---
 
-<h1>Old Spice</h1>
+

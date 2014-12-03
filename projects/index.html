@@ -10,13 +10,13 @@ tags: portfolio
   {% for post in site.projects %}
 
   <article>
-    <a href="{{ post.url }}">
+    <!--<a href="{{ post.url }}">-->
       <img src="/images/work/{{ post.categories }}.jpg">
       <div class="meta">
         <h2>{{ post.title }}</h2>
         <p>{{ post.excerpt }}</p>
       </div>
-    </a>
+    <!--</a>-->
   </article>
 
   {% endfor %}
