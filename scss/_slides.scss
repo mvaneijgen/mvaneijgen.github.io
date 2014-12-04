@@ -56,12 +56,15 @@ body.index aside {
   text-align: center;
   opacity: 0;
   color: #fff;
-  text-shadow: 1px 1px rgba(0,0,0,0.4);
+  text-shadow: 2px 2px rgba(0,0,0,0.4);
   -webkit-animation: titleAnimation 30s linear infinite 0s;
   -moz-animation: titleAnimation 30s linear infinite 0s;
   -o-animation: titleAnimation 30s linear infinite 0s;
   -ms-animation: titleAnimation 30s linear infinite 0s;
   animation: titleAnimation 30s linear infinite 0s;
+}
+.cb-slideshow li div a {
+  text-shadow: none;
 }
 .cb-slideshow li:nth-child(1) span {
   background-image: url(../images/1.jpg)
