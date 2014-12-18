@@ -22,25 +22,4 @@
   <script src="/js/modernizr.custom.25376.js"></script>
   <!-- END PERSPECTIVE PAGE VIEW NAVIGATION -->
   <link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
-  <script type="text/javascript">
-  $(document).ready(function() {
-    if(navigator.platform == "iPad") {
-      $("a").each(function() { // have to use an `each` here - either a jQuery `each` or a `for(...)` loop
-        var onClick; // this will be a function
-        var firstClick = function() {
-          onClick = secondClick;
-          return false;
-        };
-        var secondClick = function() {
-          onClick = firstClick;
-          return true;
-        };
-        onClick = firstClick;
-        $(this).click(function() {
-          return onClick();
-        });
-      });
-    }
-  });
-  </script>
 </head>

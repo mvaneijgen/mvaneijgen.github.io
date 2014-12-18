@@ -185,7 +185,10 @@ height: 100%;
   color: $alt-color;
   opacity: 0;
   text-decoration: none;
-
+  -webkit-transform: translateX(100px) translateZ(-1000px);
+  transform: translateX(100px) translateZ(-1000px);
+  -webkit-transition: -webkit-transform 0.4s, opacity 0.4s;
+  transition: transform 0.4s, opacity 0.4s;
 }
 
 .effect-moveleft .outer-nav a:hover {
