@@ -1,0 +1,24 @@
+---
+layout: default
+title: Blog
+categories: blog
+tags: posts
+---
+
+<div class="site-width">
+
+  {% for post in site.posts date %}
+
+  <article>
+    <!--<a href="{{ post.url }}">-->
+      <img src="/images/work/{{ post.categories }}.jpg">
+      <div class="meta">
+        <h2>{{ post.title }}</h2>
+        <p>{{ post.excerpt }}</p>
+      </div>
+    <!--</a>-->
+  </article>
+
+  {% endfor %}
+
+</div>
