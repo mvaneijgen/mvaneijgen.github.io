@@ -5,91 +5,42 @@
     <description></description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 25 Feb 2015 14:33:56 +0100</pubDate>
-    <lastBuildDate>Wed, 25 Feb 2015 14:33:56 +0100</lastBuildDate>
+    <pubDate>Wed, 25 Feb 2015 14:54:01 +0100</pubDate>
+    <lastBuildDate>Wed, 25 Feb 2015 14:54:01 +0100</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
-        <title>A (Not-Super-Technical) Designer&#39;s CLI&amp;nbsp;Toolbox</title>
-        <description>&lt;p&gt;Earlier this week, I attended &lt;a href=&quot;http://artifactconf.com&quot;&gt;Artifact Conference&lt;/a&gt; here in Austin. It was an intimate 2-day conference with a roster of some amazingly talented speakers. I highly recommend attending their Providence conference in September (and look at that, they have a code SENDAFRIEND for $100 off!) if you get the chance.&lt;/p&gt;
-
-&lt;p&gt;One of the talks I most enjoyed was by Austin&amp;#39;s own comedic developer extraordinaire, &lt;a href=&quot;http://daverupert.com/&quot;&gt;Dave Rupert&lt;/a&gt;. He gave a thorough, but not intimidating, overview of tools to make the command-line do some pretty incredible stuff. I was happy that I was mildly familiar with a lot of the tools he mentioned and excited by the things I didn&amp;#39;t know I could be doing. While I&amp;#39;m probably not going to be configuring my own Grunt tasks anytime soon, I do think it&amp;#39;s valuable to encourage other designers to start utilizing these tools.&lt;/p&gt;
+        <title>SVG for web</title>
+        <description>&lt;p&gt;Twee jaar geleden dachten wij een goed idee te hebben, een HTML app maken voor alle mobiele platformen en omdat we houden van schaalbare (responsive) oplossingen, zou SVG de perfecte oplossingen zijn geweest. Alleen werd SVG niet ondersteund op android 2.X wat op dat moment de grootste versie was. Nu zijn wij een aantal jaar later en ben ik zelf nog artikelen tegen gekomen over SVG, maar heb deze altijd afgehouden omdat ik wist dat er zo weinig support voor was. Nu was ik aan het luisteren naar een podcast (&lt;a href=&quot;http://5by5.tv/webahead/67&quot;&gt;The Web Ahead aflevering 67)&lt;/a&gt; deze aflevering staat helemaal in het teken van SVG, door deze aflevering zijn wij er weer helemaal in gedoken. Persoonlijk dacht ik zelf nooit dat het zin zou hebben icon fonts te vervangen voor SVG icons, maar daar ben ik nu van terug gekomen.&lt;/p&gt;
 
 &lt;!--more--&gt;
 
-&lt;p&gt;Here are some of things that I (someone who doesn&amp;#39;t write production code) use on a regular basis:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://www.s210.nl/wp-content/uploads/2014/08/peekeye.png&quot; &lt;span style=&quot;font-size: 40px;&quot;&gt;vs&lt;/span&gt;&lt;img src=&quot;http://www.s210.nl/wp-content/uploads/2014/08/peekeye.svg&quot;&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;grunt&quot;&gt;Grunt&lt;/h3&gt;
+&lt;p&gt;Ik wil hieronder een kleine sprong in de wereld van SVG maken (Scalable Vector Graphics) en laten zien wat er mogelijk is. Het eerste wat ik wil aan aankaarten is het voorbeeld hierboven. Niet alleen is de file veel kleiner, het hele element is stijlbaar met CSS.&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;The&lt;/em&gt; hot buzzword of 2014, but for good reason! &lt;a href=&quot;http://gruntjs.com/&quot;&gt;Grunt&lt;/a&gt; is a powerful tool. I couldn&amp;#39;t go into specifics about what makes Grunt different from other taskrunners, but I do know it does all the things that I normally would forget to do when I&amp;#39;m frantically designing a prototype.&lt;/p&gt;
+&lt;p data-height=&quot;268&quot; data-theme-id=&quot;0&quot; data-slug-hash=&quot;pfoil&quot; data-default-tab=&quot;result&quot; data-user=&quot;mvaneijgen&quot; class=&#39;codepen&#39;&gt;See the Pen &lt;a href=&#39;http://codepen.io/mvaneijgen/pen/pfoil/&#39;&gt;Test icon for blogpost on S210.nl&lt;/a&gt; by Mitchel van Eijgen (&lt;a href=&#39;http://codepen.io/mvaneijgen&#39;&gt;@mvaneijgen&lt;/a&gt;) on &lt;a href=&#39;http://codepen.io&#39;&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
 
-&lt;h5 id=&quot;whatthismeansforadesigner&quot;&gt;What this means for a designer:&lt;/h5&gt;
+&lt;p&gt;&lt;script async src=&quot;//assets.codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;&lt;/p&gt;
 
-&lt;p&gt;When you hit save, everything updates. Similar to what we&amp;#39;re used to when we save a PSD and it&amp;#39;s just... done. This is especially important when your prototype tools become more complex and need several steps to actually update in the browser. Which brings me to my next tool...&lt;/p&gt;
+&lt;p&gt;Zie hier precies dezelfde SVG element als net, alleen wat kleuren veranderd. Ook blijft het altijd haarscherp in tegenstelling tot het PNG formaat schaalt het SVG element mee. Met de kennis dat SVG elementen te stijlen zijn met CSS kun je het ook één stap verder gaan met de CSS animaties.&lt;/p&gt;
 
-&lt;h3 id=&quot;jekyll&quot;&gt;Jekyll&lt;/h3&gt;
+&lt;p data-height=&quot;268&quot; data-theme-id=&quot;0&quot; data-slug-hash=&quot;GaIyC&quot; data-default-tab=&quot;result&quot; data-user=&quot;mvaneijgen&quot; class=&#39;codepen&#39;&gt;See the Pen &lt;a href=&#39;http://codepen.io/mvaneijgen/pen/GaIyC/&#39;&gt;SVG animation pure CSS &lt;/a&gt; by Mitchel van Eijgen (&lt;a href=&#39;http://codepen.io/mvaneijgen&#39;&gt;@mvaneijgen&lt;/a&gt;) on &lt;a href=&#39;http://codepen.io&#39;&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;http://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt; is something we&amp;#39;ve started using at Happy Cog to generate our project hub/pattern library. It&amp;#39;s a static site generator. It&amp;#39;s great to build a client project in, because once the project is over, our pattern library is a collection of static HTML pages we can give to the client, that anyone can open up.&lt;/p&gt;
+&lt;p&gt;&lt;script async src=&quot;//assets.codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;&lt;/p&gt;
 
-&lt;h5 id=&quot;whatthismeansforadesigner&quot;&gt;What this means for a designer:&lt;/h5&gt;
+&lt;p&gt;Omdat dit geen technische blog is zal ik niet te diep op alle aspecten van SVG, maar als je geïnteresseerd bent zou ik voorstellen wat rond te spelen met de hierboven gegeven voorbeelden of als je vragen hebt mail mij op mvaneijgen@gmail.com.&lt;/p&gt;
 
-&lt;p&gt;Our prototypes live within our Jekyll built hub, as do all of our deliverables, so as a designer I have to update Jekyll pages quite frequently. There are a few steps to having Jekyll generate these pages, so as I mentioned above... Grunt is great for handling all of that. Before we had Grunt setup, I would &lt;em&gt;always&lt;/em&gt; forget a step to generate my pages. However, these are tools I would definitely recommend a developer helps you initially set up, there is a bit of a learning curve and by no means did I write our Jekyll pages myself. Knowing how to use and update it has been extremely helpful, though.&lt;/p&gt;
-
-&lt;h3 id=&quot;bowerwithfoundation&quot;&gt;Bower (with Foundation)&lt;/h3&gt;
-
-&lt;p&gt;I&amp;#39;m gonna be honest, I don&amp;#39;t entirely know what &lt;a href=&quot;http://bower.io/&quot;&gt;Bower&lt;/a&gt; does. I do, however, know that since I&amp;#39;ve installed it, I&amp;#39;ve found my relationship with Foundation 5 to be much easier.&lt;/p&gt;
-
-&lt;h5 id=&quot;whatthismeansforadesigner&quot;&gt;What this means for a designer:&lt;/h5&gt;
-
-&lt;p&gt;I use Foundation to rapidly prototype, so being able to install and get Foundation running in the command-line is faster and easier. Two very important things. I&amp;#39;m not a developer. I just want to open a file and start prototyping immediately after sketching, but it always seems like there are 1,000 steps between paper and browser. You can read more about installing Foundation this way &lt;a href=&quot;http://foundation.zurb.com/docs/sass.html&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h2 id=&quot;honorablementions&quot;&gt;Honorable Mentions:&lt;/h2&gt;
-
-&lt;h3 id=&quot;yeoman&quot;&gt;Yeoman&lt;/h3&gt;
-
-&lt;p&gt;I don&amp;#39;t use &lt;a href=&quot;http://yeoman.io/&quot;&gt;Yeoman&lt;/a&gt; very often. I&amp;#39;ve only mildly dabbled in it. As you can see on their site, Yeoman works with Bower and Grunt. What I found exciting and interesting about Yeoman was using it as a jumping off point for my code. I used Yeoman, in conjunction with a Ghost generator, to create this blog.&lt;/p&gt;
-
-&lt;h5 id=&quot;whatthismeansforadesigner&quot;&gt;What this means for a designer:&lt;/h5&gt;
-
-&lt;p&gt;I&amp;#39;m someone who just stares and blinks in bewilderment when I even think of creating a site. This gave me a really easy place to start that was already an up and running site. It&amp;#39;s nice to use for something like a blog.&lt;/p&gt;
-
-&lt;h3 id=&quot;bourbon&quot;&gt;Bourbon&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://bourbon.io/&quot;&gt;Bourbon&lt;/a&gt; is something I&amp;#39;ve played around with in attempts to expand my prototyping tools. It&amp;#39;s a Sass mixin library, generated using the command-line.&lt;/p&gt;
-
-&lt;h5 id=&quot;whatthismeansforadesigner&quot;&gt;What this means for a designer:&lt;/h5&gt;
-
-&lt;p&gt;If you want more control than something like Foundation can offer you for your prototypes, I would suggest looking into Bourbon. Beware that this is a tool that you have to write more code than you may anticipate, if it&amp;#39;s not something you&amp;#39;re super privy to.&lt;/p&gt;
-
-&lt;p&gt;&lt;hr&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;ifyourestillnotconvincedthesethingsasuperawesomeassetsfordesigners&quot;&gt;If you&#39;re still not convinced these things a super awesome assets for designers:&lt;/h3&gt;
-
-&lt;p&gt;I suggest you read Chris Coyier&amp;#39;s article, &lt;a href=&quot;http://24ways.org/2013/grunt-is-not-weird-and-hard/&quot;&gt;Grunt for People Who Think Things Like Grunt are Weird and Hard&lt;/a&gt; because he explains it &lt;em&gt;way&lt;/em&gt; better.&lt;/p&gt;
+&lt;p&gt;Nog een kleine recap SVG files zijn meestal kleiner, blijven schaalbaar en bewerkbaar met CSS en zijn heel makkelijk te animeren en responsive te maken.&lt;/p&gt;
 </description>
-        <pubDate>Thu, 08 May 2014 18:22:48 +0200</pubDate>
-        <link>/blog/Designers-CLI/</link>
-        <guid isPermaLink="true">/blog/Designers-CLI/</guid>
+        <pubDate>Wed, 25 Feb 2015 17:41:48 +0100</pubDate>
+        <link>/blog/SVG-for-web/</link>
+        <guid isPermaLink="true">/blog/SVG-for-web/</guid>
+        
+        <category>experiment</category>
         
         
-      </item>
-    
-      <item>
-        <title>No Excuses</title>
-        <description>&lt;p&gt;After continually letting different writing ideas fall to the wayside week after week, I have buckled down and decided to do something about it.&lt;/p&gt;
-
-&lt;!--more--&gt;
-
-&lt;p&gt;My main excuse was... well, I just plain didn&amp;#39;t have anywhere that I can continually write on.&lt;/p&gt;
-
-&lt;p&gt;Second excuse, I haven&amp;#39;t invested the time into sitting down and completely creating my own blog from scratch. In the spirit of just wanting to write, I have spun up and slightly customized a Ghost blog with a theme that someone else created.&lt;/p&gt;
-
-&lt;p&gt;It feels slightly wrong to have not made my site myself, but it feels pretty right to have a home for my articles. So, no more excuses.&lt;/p&gt;
-</description>
-        <pubDate>Fri, 25 Apr 2014 18:22:48 +0200</pubDate>
-        <link>/blog/No-Excuses/</link>
-        <guid isPermaLink="true">/blog/No-Excuses/</guid>
-        
+        <category>gaiyc</category>
         
       </item>
     

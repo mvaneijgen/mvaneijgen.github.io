@@ -10,13 +10,10 @@ tags: posts
   {% for post in site.posts date %}
 
   <article>
-    <!--<a href="{{ post.url }}">-->
-      <img src="/images/work/{{ post.categories }}.jpg">
       <div class="meta">
-        <h2>{{ post.title }}</h2>
+        <a href="{{ post.url }}"><h2>{{ post.title }}</h2></a>
         <p>{{ post.excerpt }}</p>
       </div>
-    <!--</a>-->
   </article>
 
   {% endfor %}
