@@ -1,0 +1,14 @@
+header:after {
+  background: white;
+  content: "";
+  display: block;
+  width: 100%;
+  height: 5em;
+  position: absolute;
+  -webkit-transform: skewY(-2deg);
+  -ms-transform: skewY(-2deg);
+  transform: skewY(-2deg);
+  -webkit-transform-origin: bottom left;
+  -ms-transform-origin: bottom left;
+  transform-origin: bottom left;
+}

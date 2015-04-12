@@ -21,7 +21,7 @@ module.exports = function(grunt) {
           style: "compressed"
         },
         files: {
-          "css/global-unprefixed.css": "scss/global.scss"
+          "css/global-unprefixed.css": "_scss/global.scss"
         }
       }
     },
@@ -55,7 +55,7 @@ module.exports = function(grunt) {
         tasks: ["uglify", "shell:jekyllBuild"]
       },
       css: {
-        files: ["scss/*.scss"],
+        files: ["_scss/*.scss"],
         tasks: ["sass", "autoprefixer", "shell:jekyllBuild"]
       },
       svgIcons: {

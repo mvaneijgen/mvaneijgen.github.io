@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: blog
 title: Blog
 categories: blog
 tags: posts
@@ -8,12 +8,21 @@ tags: posts
 <div class="site-width">
 
   {% for post in site.posts date %}
-
-  <article>
+  {% if post.filter == "code" %}
+  <p data-height="268" data-theme-id="3335" data-slug-hash="{{ post.embed }}" data-default-tab="result" data-user="mvaneijgen" class='codepen'>See the Pen <a href='http://codepen.io/mvaneijgen/pen/{{ post.embed }}/'></a> by Mitchel van Eijgen (<a href='http://codepen.io/mvaneijgen'>@mvaneijgen</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+  <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
+  {% elsif post.filter == "video" %}
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/{{ post.embed }}" frameborder="0" allowfullscreen></iframe>
+  {% else %}
+  <img src="{{ site.baseurl }}/images/blog/{{ post.title }}.jpg">
+  {% endif %}
+  <article class="{{ post.filter }}">
+    <a href="{{ post.url }}">
       <div class="meta">
-        <a href="{{ post.url }}"><h2>{{ post.title }}</h2></a>
+        <h2>{{ post.title }}</h2>
         <p>{{ post.excerpt }}</p>
       </div>
+    </a>
   </article>
 
   {% endfor %}

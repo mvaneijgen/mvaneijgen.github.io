@@ -1,9 +1,12 @@
 ---
 layout: post
-title:  "SVG for web"
+title:  SVG animation on the web
+author: Mitchel van Eijgen
 date:   2015-02-25 16:41:48
-categories: GaIyC
-tags: experiment
+categories: Experiment
+filter: code
+embed: GaIyC
+colour: 037cb9
 ---
 
 Twee jaar geleden dachten wij een goed idee te hebben, een HTML app maken voor alle mobiele platformen en omdat we houden van schaalbare (responsive) oplossingen, zou SVG de perfecte oplossingen zijn geweest. Alleen werd SVG niet ondersteund op android 2.X wat op dat moment de grootste versie was. Nu zijn wij een aantal jaar later en ben ik zelf nog artikelen tegen gekomen over SVG, maar heb deze altijd afgehouden omdat ik wist dat er zo weinig support voor was. Nu was ik aan het luisteren naar een podcast (<a href="http://5by5.tv/webahead/67">The Web Ahead aflevering 67)</a> deze aflevering staat helemaal in het teken van SVG, door deze aflevering zijn wij er weer helemaal in gedoken. Persoonlijk dacht ik zelf nooit dat het zin zou hebben icon fonts te vervangen voor SVG icons, maar daar ben ik nu van terug gekomen.

@@ -1,0 +1,80 @@
+* {
+	transition: opacity 0.5s;
+}
+body.blog article {
+	background: #f2f2f2;
+	padding: 45px 90px;
+	margin-bottom: 20px;
+	margin-top: -5px;
+
+}
+body.blog article a {
+	color: #344;
+	text-decoration: none;
+}
+body.blog .side-author-info {
+	margin: 20px 40px 0 80px;
+}
+body.blog .side-author-info {
+	opacity: 0.5;
+}
+body.blog .side-author-info:hover {
+	opacity: 1;
+}
+body.blog .side-author-info svg {
+	width: 20px;
+	fill: $base-color;
+	background: $alt-color;
+	padding: 5px;
+}
+body.blog .side-author-info .social {
+	margin: 30px 0;
+}
+body.blog .side-author-info .social a {
+	margin-right: 15px;
+}
+body.blog .side-author-info .social a {
+	text-decoration: none;
+}
+body.blog .side-author-info author img {
+	margin-right: 10px;
+	float: left;
+}
+body.blog .side-author-info h3 {
+	font-size: 14px;
+	line-height: 20px;
+}
+body.blog .side-author-info h4 {
+	font-size: 14px;
+	line-height: 20px;
+}
+body.blog .side-author-info p {
+	font-size: 14px;
+	line-height: 22px;
+}
+body.blog .side-author-info a {
+	color: $alt-color;
+}
+/* Single post
+———————————————————————————————————— */
+body.blog aside {
+	max-width: 413px;
+	width: 30%;
+}
+body.blog .site-width {
+	width: 45%;
+	margin-left: 35%;
+}
+body.blog p {
+	margin-bottom: 20px;
+}
+body.blog header img {
+	margin-bottom: -5px;
+}
+body.blog header {
+	text-align: center;
+	margin-bottom: 60px;
+}
+
+/* END 
+———————————————————————————————————— */

@@ -1,0 +1,38 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+h1, h2, h3, h4, p {
+	margin: 0;
+}
+h2, h3, p {
+	font-weight: 300;
+}
+h1 {
+	font-size: 28px;
+}
+h2 {
+	font-size: 24px;
+}
+h3 {
+	font-size: 20px;
+}
+h4 {
+	font-size: 18px;
+}
+h2 {
+	margin-bottom: 20px;
+	font-weight: 700;
+}
+p {
+  font-size: 18px;
+  line-height: 28px;
+}
+.outer-nav p {
+	font-size: 16px;
+	color: #fff;
+	margin-bottom: 10px;
+}
+.outer-nav p a {
+	margin: 0;
+	text-decoration: underline !important;
+}

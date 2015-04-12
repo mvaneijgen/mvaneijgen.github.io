@@ -5,6 +5,7 @@ $alt-color: #fff;
 $midgray: #777;
 $darkgray: #444;
 
+@import "header";
 @import "bits";
 @import "component";
 @import "footer";
@@ -14,3 +15,4 @@ $darkgray: #444;
 @import "typography";
 @import "slides";
 @import "mediaq";
+@import "blog";

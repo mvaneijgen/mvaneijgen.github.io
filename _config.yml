@@ -1,6 +1,28 @@
+# Site settings
+
+title: Portfolio website 
 name: M van Eijgen
+tagline: Graphic designer who loves technology.
+email: mvaneijgen@gmail.com
+copyright: Mitchel van Eijgen
+keywords: 
+twitter_username: mvaneijgen
+github_username:  mvaneijgen
+avatar: "http://0.gravatar.com/avatar/8a68ce0259bbb16411035e487ecb27c5"
+
+description: I am a graphic desigher from The Netherlands, working for my self since 2009 and recently under the name <a href="http://s210.nl">Studio 210</a> as a collective of creative designer and developers.
+
+# the base hostname & protocol for your site
+url: "http://mvaneijgen.nl/"
+baseurl: "http://mvaneijgen.nl/"
+default_image: /tile-wide.png
+
+# Pre-processing
+
 markdown: redcarpet
-baseurl: "http://mvaneijgen.nl"
+highlighter: pygments
+safe: true
+# permalink: pretty # YYYY/MM/DD/page-title/index.html
 permalink: /blog/:title/
 collections:
   experiments:
@@ -9,6 +31,58 @@ collections:
   projects:
     output: true
     permalink: /projects/:path/
+lsi: true # Lexical analysis (true) takes longer for higher quality
+
+excerpt_separator: <!--more-->
+
+# sass:
+#  style: :compressed
+
+# Exclude from Jekyll processing
+
+exclude: ["vendor", "README.md", "node_modules", "gulpfile.js", "package.json"]
+
+# Lists
+
+tag_items: 20     # Applies to categories and tags lists
+recent_items: 10  # Applies to recent posts, apps lists
+related_items: 5  # Applies to related posts and apps lists
+
+# Features
+
+reading_time: true    # Show est. reading time for posts
+facebook: false       # Use facebook features
+comments: disqus      # Switch disqus | facebook | none - comments. facebook = true required for facebook comments
+
+# Embeds
+
+disqus_name:             # Your site name at Disqus
+
+youtube_controls: 0               # Turn on=1/off=0 Youtube player features when embedding videos
+
+google_map_zoom: 16               # 1=Global zoom 18=Street Level
+google_map_view: satellite        # hybrid | satellite | roadmap
+google_map_height: 450            # Default map height. Width adjusts to container.
+
+# API Keys. PLEASE DO NOT USE THESE KEYS. Get your own at links in comments.
+
+google_api_key: "" # https://code.google.com/apis/console/
+google_analytics_ua: "UA-48882774-1" # Google Analytics site specific id
+google_cse_id: "" # Google Custom Search Engine unique id
+
+mapbox: ""
+
+facebook_app: "" # https://developers.facebook.com/
+
+mailchimp_u: "" # Mailchimp u=unique identification
+mailchimp_id: "" # Mailchip id
+
+addthis_pubid: "" # Get your pubid at https://www.addthis.com/dashboard
+
+pingdom_rum: "" # https://my.pingdom.com/dashboard. Real User experience (speed) monitoring.
+
+uservoice: ""
+
 exclude: [
   .git,
   .gitignore,
@@ -23,5 +97,3 @@ exclude: [
   node_modules,
   readme.md
 ]
-
-excerpt_separator: <!--more-->

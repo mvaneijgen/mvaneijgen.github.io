@@ -1,0 +1,16 @@
+{% include doctype-and-head.html %}
+
+<body class="{{ page.layout }} {{ page.categories }} {{ page.tags }}">
+  <div id="perspective" class="perspective effect-moveleft">
+        {% include aside-info.html %}
+    <div class="container">
+      <div class="wrapper"><!-- wrapper needed for scroll -->
+        <!-- Top Navigation -->
+          {{ content }}
+      </div><!-- wrapper -->
+    </div><!-- /container -->
+  {% include nav.html %}
+  {% include google-analytics.html %}
+</body>
+
+</html>

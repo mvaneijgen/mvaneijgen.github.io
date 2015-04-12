@@ -6,7 +6,7 @@
 <head>
   <meta name="viewport" content="width=device-width">
 
-  <title>SVG for web</title>
+  <title>SVG animation on the web</title>
   <meta name="description" content="Portfolio website of M van Eijgen" />
   <meta name="keywords" content="Graphic design, 3d page, menu, navigation, mobile, perspective, css transform, web development, web design" />
   <meta name="author" content="M van Eijgen" />
@@ -19,7 +19,7 @@
   <!-- csstransforms3d-shiv-cssclasses-prefixed-teststyles-testprop-testallprops-prefixes-domprefixes-load -->
   <script src="/js/modernizr.custom.25376.js"></script>
   <!-- END PERSPECTIVE PAGE VIEW NAVIGATION -->
-  <link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,700' rel='stylesheet' type='text/css'>
   <script type="text/javascript">
   $(document).ready(function() {
     if(navigator.platform == "iPad") {
@@ -44,45 +44,49 @@
 </head>
 
 
-<body class="gaiyc experiment">
+<body class="blog experiment ">
   <div id="perspective" class="perspective effect-moveleft">
-          <aside>
+        <aside>
+	<div class="side-author-info">
+		<h1>M van Eijgen</h1>
+		<h3>Graphic designer who loves technology.</h3>
 
-  	<button id="showMenu">
-  		<svg viewBox="0 0 100 100" class="menu">
-  			<use xlink:href="/images/svg-defs.svg#shape-menu"></use>
-  		</svg>
-  	</button>
-
-
-  	<footer>
-      <a href="http://linkedin.com/in/mvaneijgen/">
-        <svg viewBox="0 0 100 100" class="linkedin">
-          <use xlink:href="/images/svg-defs.svg#shape-linkedin"></use>
-        </svg>
-      </a>
-  		<a href="http://twitter.com/mvaneijgen">
-  			<svg viewBox="0 0 100 100" class="twitter">
-  				<use xlink:href="/images/svg-defs.svg#shape-twitter"></use>
-  			</svg>
-  		</a>
-  		<a href="http://github.com/mvaneijgen">
-  			<svg viewBox="0 0 100 100" class="github">
-  				<use xlink:href="/images/svg-defs.svg#shape-github"></use>
-  			</svg>
-  		</a>
-  		<a href="/">
-  			<svg viewBox="0 0 100 100" class="logo">
-  				<use xlink:href="/images/svg-defs.svg#shape-logo"></use>
-  			</svg>
-  		</a>
-  	</footer>
-  </aside>
-
+		<section class="social">
+			<a href="http://linkedin.com/in/mvaneijgen/">
+				<svg viewBox="0 0 100 100" class="linkedin">
+					<use xlink:href="/images/svg-defs.svg#shape-linkedin"></use>
+				</svg>
+			</a>
+			<a href="http://twitter.com/mvaneijgen">
+				<svg viewBox="0 0 100 100" class="twitter">
+					<use xlink:href="/images/svg-defs.svg#shape-twitter"></use>
+				</svg>
+			</a>
+			<a href="http://github.com/mvaneijgen">
+				<svg viewBox="0 0 100 100" class="github">
+					<use xlink:href="/images/svg-defs.svg#shape-github"></use>
+				</svg>
+			</a>
+			<a href="/">
+				<svg viewBox="0 0 100 100" class="logo">
+					<use xlink:href="/images/svg-defs.svg#shape-logo"></use>
+				</svg>
+			</a>
+		</section>
+		<author>
+		<img src="http://0.gravatar.com/avatar/8a68ce0259bbb16411035e487ecb27c5">
+		<h4>Mitchel van Eijgen</h4>
+		<p>I am a graphic desigher from The Netherlands, working for my self since 2009 and recently under the name <a href="http://s210.nl">Studio 210</a> as a collective of creative designer and developers.</p>
+		</author>
+	</div>
+</aside>
     <div class="container">
       <div class="wrapper"><!-- wrapper needed for scroll -->
         <!-- Top Navigation -->
-          <p>Twee jaar geleden dachten wij een goed idee te hebben, een HTML app maken voor alle mobiele platformen en omdat we houden van schaalbare (responsive) oplossingen, zou SVG de perfecte oplossingen zijn geweest. Alleen werd SVG niet ondersteund op android 2.X wat op dat moment de grootste versie was. Nu zijn wij een aantal jaar later en ben ik zelf nog artikelen tegen gekomen over SVG, maar heb deze altijd afgehouden omdat ik wist dat er zo weinig support voor was. Nu was ik aan het luisteren naar een podcast (<a href="http://5by5.tv/webahead/67">The Web Ahead aflevering 67)</a> deze aflevering staat helemaal in het teken van SVG, door deze aflevering zijn wij er weer helemaal in gedoken. Persoonlijk dacht ik zelf nooit dat het zin zou hebben icon fonts te vervangen voor SVG icons, maar daar ben ik nu van terug gekomen.</p>
+          <header style="background: #037cb9;"><img src="/images/blog/SVG animation on the web.jpg"></header>
+<div class="site-width">
+	<h1>SVG animation on the web</h1>
+	<p>Twee jaar geleden dachten wij een goed idee te hebben, een HTML app maken voor alle mobiele platformen en omdat we houden van schaalbare (responsive) oplossingen, zou SVG de perfecte oplossingen zijn geweest. Alleen werd SVG niet ondersteund op android 2.X wat op dat moment de grootste versie was. Nu zijn wij een aantal jaar later en ben ik zelf nog artikelen tegen gekomen over SVG, maar heb deze altijd afgehouden omdat ik wist dat er zo weinig support voor was. Nu was ik aan het luisteren naar een podcast (<a href="http://5by5.tv/webahead/67">The Web Ahead aflevering 67)</a> deze aflevering staat helemaal in het teken van SVG, door deze aflevering zijn wij er weer helemaal in gedoken. Persoonlijk dacht ik zelf nooit dat het zin zou hebben icon fonts te vervangen voor SVG icons, maar daar ben ik nu van terug gekomen.</p>
 
 <!--more-->
 
@@ -92,23 +96,23 @@
 
 <p data-height="268" data-theme-id="0" data-slug-hash="pfoil" data-default-tab="result" data-user="mvaneijgen" class='codepen'>See the Pen <a href='http://codepen.io/mvaneijgen/pen/pfoil/'>Test icon for blogpost on S210.nl</a> by Mitchel van Eijgen (<a href='http://codepen.io/mvaneijgen'>@mvaneijgen</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
 
-<p><script async src="//assets.codepen.io/assets/embed/ei.js"></script></p>
+<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
 
 <p>Zie hier precies dezelfde SVG element als net, alleen wat kleuren veranderd. Ook blijft het altijd haarscherp in tegenstelling tot het PNG formaat schaalt het SVG element mee. Met de kennis dat SVG elementen te stijlen zijn met CSS kun je het ook één stap verder gaan met de CSS animaties.</p>
 
 <p data-height="268" data-theme-id="0" data-slug-hash="GaIyC" data-default-tab="result" data-user="mvaneijgen" class='codepen'>See the Pen <a href='http://codepen.io/mvaneijgen/pen/GaIyC/'>SVG animation pure CSS </a> by Mitchel van Eijgen (<a href='http://codepen.io/mvaneijgen'>@mvaneijgen</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
 
-<p><script async src="//assets.codepen.io/assets/embed/ei.js"></script></p>
+<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
 
 <p>Omdat dit geen technische blog is zal ik niet te diep op alle aspecten van SVG, maar als je geïnteresseerd bent zou ik voorstellen wat rond te spelen met de hierboven gegeven voorbeelden of als je vragen hebt mail mij op mvaneijgen@gmail.com.</p>
 
 <p>Nog een kleine recap SVG files zijn meestal kleiner, blijven schaalbaar en bewerkbaar met CSS en zijn heel makkelijk te animeren en responsive te maken.</p>
 
 
-
+</div>
       </div><!-- wrapper -->
     </div><!-- /container -->
-    <nav class="outer-nav right vertical">
+      <nav class="outer-nav right vertical">
       <a href="/" class="">Home</a>
       <a href="/projects" class="">Projects</a>
       <a href="/experiments" class="">Experiments</a>
@@ -123,13 +127,13 @@
   </div><!-- /perspective -->
   <script src="/js/classie.js"></script>
   <script src="/js/menu.js"></script>
-  <script>
+    <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
     m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
   })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-48882774-1', 'auto');
+  ga('create', '', 'auto');
   ga('send', 'pageview');
 
   </script>
