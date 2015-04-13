@@ -668,7 +668,10 @@
     background-size: cover !important;
     margin: 0;
   }
-
+figure.item {
+  -webkit-clip-path: polygon(0 10%, 100% 0, 100% 100%, 0% 100%);
+  clip-path: polygon(0 50%, 100% 0, 100% 100%, 0% 100%);
+}
   .gallery .controls {
     position: absolute;
     bottom: 0;

@@ -1,5 +1,5 @@
 body.blog button#showMenu {
-  position: absolute;
+	position: absolute;
 }
 body.blog article {
 	background: $lightgray;
@@ -7,6 +7,10 @@ body.blog article {
 	margin-bottom: 20px;
 	margin-top: -5px;
 
+}
+body.blog header {
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 50%, 0% 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 50%, 0% 100%);
 }
 body.blog article a {
 	color: $sub-color;
@@ -22,7 +26,7 @@ body.blog .side-author-info:hover {
 	opacity: 1;
 }
 body.blog .side-author-info svg {
-	width: 20px;
+	width: 30px;
 	fill: $base-color;
 	background: $alt-color;
 	padding: 5px;
@@ -56,23 +60,26 @@ body.blog .side-author-info a {
 	color: $alt-color;
 }
 body.blog article.code {
-  background: $sub-color;
-  color: $alt-color;
+	background: $sub-color;
+	color: $alt-color;
 }
 body.blog article.code a {
-  color: $alt-color;
+	color: $alt-color;
 }
 .read-on {
-  background: $midgray;
-  padding: 5px 10px;
-  color: $alt-color !important;
+	background: $midgray;
+	padding: 5px 10px;
+	color: $alt-color !important;
 }
 .read-on:hover {
 	background: $sub-color;
 }
 article.code .read-on {
-  background: $alt-color;
-  color: $sub-color !important;
+	background: $alt-color;
+	color: $sub-color !important;
+}
+body.blog .site-width img {
+	width: 100%;
 }
 /* Single post
 ———————————————————————————————————— */
@@ -92,14 +99,49 @@ body.blog header img {
 }
 body.blog header {
 	text-align: center;
-	margin-bottom: 40px;
 }
 
 /* END 
 ———————————————————————————————————— */
 .side-author-info button {
-  border: none;
-  background: none;
-  width: auto;
-  padding: 0;
+	border: none;
+	background: none;
+	width: auto;
+	padding: 0;
 }
+@media only screen and (max-width : 768px) {	
+	/* Styles */
+	body.blog aside {
+		position: relative;
+	}
+	body.blog author {
+		display: none;
+	}
+	body.blog .side-author-info {
+		margin: 0 40px 0 80px;
+	}
+	body.blog .side-author-info .social {
+		margin: 0;
+	}
+	body.blog aside {
+		max-width: 100%;
+		width: 100%;
+	}
+	body.blog .site-width {
+		width: 80%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	body.blog .side-author-info section {
+		display: inline-block;
+	}
+	section.social {
+		float: right;
+	}
+	body.blog h1 {
+		font-size: 18px;
+		margin-top: -5px;
+	}
+}
+
+

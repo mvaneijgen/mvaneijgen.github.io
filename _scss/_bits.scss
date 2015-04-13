@@ -1,5 +1,6 @@
 * {
 	transition: all 0.5s ease;
+	box-sizing: border-box;
 }
 button#showMenu {
   cursor: pointer;
@@ -38,8 +39,12 @@ aside button {
 	width: 100%;
 	height: 100%;
 }
-.outer-nav h1 {
-  font-size: 20px;
-  color: #fff;
-  margin-bottom: 20px;
+.container {
+  height: 100%;
+}
+.wrapper {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  height: 100%;
 }

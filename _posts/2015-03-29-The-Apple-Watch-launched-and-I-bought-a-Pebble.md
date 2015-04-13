@@ -17,9 +17,9 @@ I know the Pebble Time has a Kickstarter project at the moment, but I like it si
 
 Their are a few apps that already got me hooked on the Pebble.
 
-* *Wunderlist* acces to all my todo’s right from my wrist I can quickly glance over them check them of or open them to see the whole note.
-* *Run Keeper* I don’t run, but longboard and as soon as I start a trip the watch face changes to the Run Keeper stats and shows the distance, total time and the average speed. 
-* *NS Tijden* This is a transit time checker for the dutch railroads. Based on your location it will check the nearest station and when you selected one it will show all trains departing at what hour and which tack. 
+* **Wunderlist** acces to all my todo’s right from my wrist I can quickly glance over them check them of or open them to see the whole note.
+* **Run Keeper** I don’t run, but longboard and as soon as I start a trip the watch face changes to the Run Keeper stats and shows the distance, total time and the average speed. 
+* **Next Train** This is a transit time checker for the dutch railroads. Based on your location it will check the nearest station and when you selected one it will show all trains departing at what hour and which tack. 
 
 This last one really shows the power of the Pebble and where it is coming from. I was in a Hurry to the train station without knowing what time the train was leaving and thought it would be really cool if I could see that on my watch, so I got on the train did a quick google search and found there was an app for that. That is why the Pebble is awesome. The community is really helpful, just check [/r/Pebble](http://www.reddit.com/r/pebble/) and within minutes you have a response back, sometimes even from the Pebble team! 
 

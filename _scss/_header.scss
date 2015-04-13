@@ -1,4 +1,4 @@
-header:after {
+/* header:after {
   background: white;
   content: "";
   display: block;
@@ -13,10 +13,10 @@ header:after {
   -ms-transform-origin: bottom left;
   transform-origin: bottom left;
   z-index: 9;
-}
+} */
 header {
   background: $alt-color;
-  height: 200px;
+  height: 270px;
   position: relative;
 }
 header section.navigation {
