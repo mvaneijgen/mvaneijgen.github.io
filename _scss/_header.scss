@@ -4,6 +4,7 @@ header:after {
   display: block;
   width: 100%;
   height: 5em;
+  bottom: -4em;
   position: absolute;
   -webkit-transform: skewY(-2deg);
   -ms-transform: skewY(-2deg);
@@ -11,4 +12,30 @@ header:after {
   -webkit-transform-origin: bottom left;
   -ms-transform-origin: bottom left;
   transform-origin: bottom left;
+  z-index: 9;
+}
+header {
+  background: $alt-color;
+  height: 200px;
+  position: relative;
+}
+header section.navigation {
+  width: 600px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: 50%;
+  z-index: 99;
+}
+header:hover section.navigation a {
+  color: $sub-color;
+}
+header section.navigation h1 {
+  margin-bottom: 10px;
+}
+header section.navigation a {
+  color: $midgray;
+  text-decoration: none;
+  margin-right: 20px;
 }

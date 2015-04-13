@@ -1,4 +1,10 @@
 <aside>
+  	<button id="showMenu">
+  		<svg viewBox="0 0 100 100" class="menu">
+  			<use xlink:href="/images/svg-defs.svg#shape-menu"></use>
+  		</svg>
+  	</button>
+
 	<div class="side-author-info">
 		<h1>{{ site.name}}</h1>
 		<h3>{{ site.tagline}}</h3>
@@ -26,9 +32,9 @@
 			</a>
 		</section>
 		<author>
-		<img src="{{ site.avatar }}">
-		<h4>{{ site.copyright }}</h4>
-		<p>{{ site.description }}</p>
+			<img src="{{ site.avatar }}">
+			<h4>{{ site.copyright }}</h4>
+			<p>{{ site.description }}</p>
 		</author>
 	</div>
 </aside>

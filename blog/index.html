@@ -20,9 +20,10 @@ tags: posts
     <a href="{{ post.url }}">
       <div class="meta">
         <h2>{{ post.title }}</h2>
-        <p>{{ post.excerpt }}</p>
+        {{ post.excerpt }} 
+        <a href="{{ post.url }}" class="read-on">Read on</a>
       </div>
-    </a>
+    </a>    
   </article>
 
   {% endfor %}

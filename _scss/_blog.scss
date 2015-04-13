@@ -1,19 +1,19 @@
-* {
-	transition: opacity 0.5s;
+body.blog button#showMenu {
+  position: absolute;
 }
 body.blog article {
-	background: #f2f2f2;
+	background: $lightgray;
 	padding: 45px 90px;
 	margin-bottom: 20px;
 	margin-top: -5px;
 
 }
 body.blog article a {
-	color: #344;
+	color: $sub-color;
 	text-decoration: none;
 }
 body.blog .side-author-info {
-	margin: 20px 40px 0 80px;
+	margin: 25px 40px 0 80px;
 }
 body.blog .side-author-info {
 	opacity: 0.5;
@@ -55,6 +55,25 @@ body.blog .side-author-info p {
 body.blog .side-author-info a {
 	color: $alt-color;
 }
+body.blog article.code {
+  background: $sub-color;
+  color: $alt-color;
+}
+body.blog article.code a {
+  color: $alt-color;
+}
+.read-on {
+  background: $midgray;
+  padding: 5px 10px;
+  color: $alt-color !important;
+}
+.read-on:hover {
+	background: $sub-color;
+}
+article.code .read-on {
+  background: $alt-color;
+  color: $sub-color !important;
+}
 /* Single post
 ———————————————————————————————————— */
 body.blog aside {
@@ -73,8 +92,14 @@ body.blog header img {
 }
 body.blog header {
 	text-align: center;
-	margin-bottom: 60px;
+	margin-bottom: 40px;
 }
 
 /* END 
 ———————————————————————————————————— */
+.side-author-info button {
+  border: none;
+  background: none;
+  width: auto;
+  padding: 0;
+}

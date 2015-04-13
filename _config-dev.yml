@@ -6,6 +6,7 @@ tagline: Graphic designer who loves technology.
 email: mvaneijgen@gmail.com
 copyright: Mitchel van Eijgen
 keywords: 
+phone: 06 38 63 27 35
 twitter_username: mvaneijgen
 github_username:  mvaneijgen
 avatar: "http://0.gravatar.com/avatar/8a68ce0259bbb16411035e487ecb27c5"
@@ -16,7 +17,7 @@ description: I am a graphic desigher from The Netherlands, working for my self s
 url: "http://mvaneijgen.nl/"
 baseurl: ""
 
-default_image: /tile-wide.png
+default_image: /mvaneijgen-grafisch-ontwerper.jpg
 
 # Pre-processing
 

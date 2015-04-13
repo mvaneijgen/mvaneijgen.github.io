@@ -1,8 +1,11 @@
 $base-color: #0ba;
+$sub2-color: #E46;
 $sub-color: #344;
 $alt-color: #fff;
 
-$midgray: #777;
+$lightgray: #eee;
+$midgray: #ddd;
+$gray: #aaa;
 $darkgray: #444;
 
 @import "header";
@@ -13,6 +16,6 @@ $darkgray: #444;
 @import "layout";
 @import "post";
 @import "typography";
-@import "slides";
+@import "slider";
 @import "mediaq";
 @import "blog";
