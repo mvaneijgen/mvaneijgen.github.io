@@ -109,39 +109,5 @@ body.blog header {
 	width: auto;
 	padding: 0;
 }
-@media only screen and (max-width : 768px) {	
-	/* Styles */
-	body.blog aside {
-		position: relative;
-	}
-	body.blog author {
-		display: none;
-	}
-	body.blog .side-author-info {
-		margin: 0 40px 0 80px;
-	}
-	body.blog .side-author-info .social {
-		margin: 0;
-	}
-	body.blog aside {
-		max-width: 100%;
-		width: 100%;
-	}
-	body.blog .site-width {
-		width: 80%;
-		margin-left: auto;
-		margin-right: auto;
-	}
-	body.blog .side-author-info section {
-		display: inline-block;
-	}
-	section.social {
-		float: right;
-	}
-	body.blog h1 {
-		font-size: 18px;
-		margin-top: -5px;
-	}
-}
 
 
