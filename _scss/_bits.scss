@@ -2,6 +2,9 @@
 	transition: all 0.5s ease;
 	box-sizing: border-box;
 }
+#perspective {
+  overflow-x: hidden;
+}
 button#showMenu {
   cursor: pointer;
 }
@@ -24,6 +27,9 @@ aside svg:hover {
 }
 aside footer {
 	width: 30px;
+}
+aside footer a {
+  text-decoration: none;
 }
 aside footer svg {
 	margin-top: 10px;
