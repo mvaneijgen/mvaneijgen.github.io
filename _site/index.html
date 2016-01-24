@@ -1,4 +1,7 @@
 <!DOCTYPE html>
+<html>
+
+  <!DOCTYPE html>
 
 <html lang="en" class="dev">
 
@@ -6,12 +9,13 @@
 <head>
   <meta name="viewport" content="width=device-width">
 
-  <title>M van Eijgen</title>
+  <title></title>
   <meta name="description" content="Portfolio website of M van Eijgen" />
   <meta name="keywords" content="Graphic design, 3d page, menu, navigation, mobile, perspective, css transform, web development, web design" />
   <meta name="author" content="M van Eijgen" />
+  <base href="/">
 
-  <link rel="stylesheet" href="/css/global.css">
+  <link rel="stylesheet" href="/css/demo.css">
   <!-- Begin PERSPECTIVE PAGE VIEW NAVIGATION -->
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -20,6 +24,287 @@
   <script src="/js/modernizr.custom.25376.js"></script>
   <!-- END PERSPECTIVE PAGE VIEW NAVIGATION -->
   <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,700' rel='stylesheet' type='text/css'>
+</head>
+
+
+  <body>
+    <div id="perspective" class="perspective effect-moveleft">
+        <header class="site-header">
+<ul class="nav-main">
+  <li>
+    <button id="showMenu">Menu</button>
+  </li>
+  <li>
+    <a href="#">Work</a>
+  </li>
+  <li>
+    <a href="#">Blog</a>
+  </li>
+  <li>
+    <a href="#">Info</a>
+  </li>
+</ul>
+
+<a href="#"><svg viewBox="0 0 90 80" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414">
+  <g transform="matrix(.6 0 0 .53333 -198 0)">
+    <clipPath id="a">
+      <path d="M330 0h150v150H330z"/>
+    </clipPath>
+    <g clip-path="url(#a)">
+      <path d="M330 40.966l37.574-13.653 37.535 13.655 37.38-13.653L480 40.968v62.964l-74.89 27.318L330 103.934V40.966z" fill-rule="nonzero"/>
+    </g>
+  </g>
+</svg>
+</a>
+
+<ul class="nav-social">
+  <li>
+    <a href="#">
+      <svg viewBox="0 0 90 80" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414">
+  <path d="M7.14 46.358c0-7.19 2.063-13.2 6.19-18.025-.82-2.487-1.23-5.067-1.23-7.736 0-3.52.774-6.828 2.32-9.922 3.277 0 6.16.598 8.65 1.798 2.488 1.197 5.356 3.07 8.6 5.622 4.462-1.063 9.15-1.594 14.065-1.594 4.49 0 8.737.486 12.743 1.458 3.187-2.488 6.024-4.325 8.51-5.51 2.49-1.184 5.358-1.775 8.605-1.773 1.548 3.095 2.32 6.403 2.32 9.922 0 2.64-.41 5.188-1.23 7.647 4.128 4.853 6.19 10.892 6.19 18.115 0 6.28-.924 11.3-2.775 15.064-1.153 2.336-2.754 4.353-4.8 6.053-2.047 1.7-4.186 3.005-6.417 3.916-2.23.91-4.81 1.63-7.737 2.16-2.926.53-5.527.864-7.806 1.003-2.278.138-4.81.206-7.6.204-2.366 0-4.52-.045-6.463-.137-1.942-.09-4.18-.28-6.715-.568-2.535-.288-4.85-.742-6.944-1.366-2.092-.624-4.17-1.407-6.235-2.346-2.063-.94-3.9-2.17-5.508-3.687-1.61-1.52-2.913-3.264-3.916-5.235-1.878-3.733-2.82-8.755-2.82-15.068l.004.004zm10.195 8.01c0 2.67.484 5 1.456 6.986.97 1.987 2.2 3.55 3.688 4.687 1.49 1.14 3.34 2.05 5.553 2.734 2.215.685 4.34 1.13 6.375 1.343 2.035.212 4.295.318 6.78.318h7.648c2.487 0 4.747-.106 6.78-.318 2.034-.212 4.158-.66 6.375-1.343 2.215-.684 4.066-1.595 5.552-2.734 1.485-1.137 2.715-2.7 3.687-4.687.974-1.986 1.46-4.314 1.458-6.984 0-3.643-1.047-6.737-3.14-9.284-2.094-2.547-4.93-3.824-8.51-3.825-1.246 0-4.204.32-8.877.956-2.153.334-4.535.502-7.145.502-2.61 0-4.992-.167-7.145-.502-4.61-.636-7.572-.955-8.875-.955-3.582 0-6.42 1.276-8.51 3.825-2.095 2.55-3.142 5.645-3.142 9.284h-.006zm7.28 0c0-1.213.19-2.457.57-3.73.378-1.274 1.03-2.428 1.956-3.46.927-1.033 2.027-1.55 3.302-1.548 1.274.003 2.373.518 3.3 1.547.926 1.03 1.58 2.183 1.957 3.46.378 1.28.567 2.522.567 3.732 0 1.21-.19 2.452-.568 3.73-.38 1.278-1.032 2.43-1.958 3.46-.926 1.03-2.026 1.545-3.3 1.547-1.275.002-2.374-.515-3.3-1.548-.927-1.033-1.58-2.187-1.958-3.46-.38-1.274-.568-2.518-.568-3.732zm29.13 0c0-1.213.19-2.457.568-3.73.38-1.274 1.03-2.428 1.957-3.46.926-1.033 2.026-1.55 3.3-1.548 1.273.003 2.374.518 3.3 1.547.927 1.03 1.58 2.183 1.958 3.46.378 1.28.568 2.522.568 3.732 0 1.21-.19 2.452-.568 3.73-.38 1.278-1.03 2.43-1.957 3.46-.925 1.03-2.026 1.545-3.3 1.547-1.273.002-2.374-.515-3.3-1.548-.926-1.033-1.58-2.187-1.958-3.46-.378-1.274-.567-2.518-.567-3.732z" fill-rule="nonzero"/>
+</svg>
+
+    </a>
+  </li>
+  <li>
+    <a href="#">
+      <svg viewBox="0 0 90 80" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414">
+  <path d="M4.763 67.95c1.19.135 2.52.204 3.983.204 7.66 0 14.485-2.348 20.477-7.046-3.575-.067-6.776-1.165-9.6-3.293-2.825-2.13-4.766-4.843-5.82-8.144 1.124.17 2.162.257 3.114.257 1.464 0 2.91-.188 4.34-.562-3.813-.782-6.97-2.68-9.47-5.693-2.502-3.013-3.752-6.51-3.752-10.493v-.207c2.313 1.294 4.798 1.993 7.454 2.095-2.248-1.498-4.035-3.455-5.364-5.87-1.33-2.417-1.993-5.04-1.99-7.863 0-2.996.748-5.77 2.248-8.324 4.12 5.074 9.132 9.133 15.04 12.18 5.905 3.048 12.228 4.742 18.97 5.082-.273-1.296-.41-2.554-.41-3.778 0-4.563 1.608-8.45 4.826-11.666 3.218-3.217 7.107-4.826 11.666-4.828 4.766 0 8.783 1.737 12.048 5.21 3.71-.716 7.2-2.043 10.468-3.984-1.26 3.915-3.676 6.944-7.25 9.087 3.165-.34 6.33-1.19 9.495-2.55-2.28 3.334-5.038 6.176-8.27 8.524.034.476.052 1.19.052 2.143 0 4.424-.648 8.84-1.942 13.25s-3.26 8.64-5.9 12.69c-2.637 4.05-5.777 7.632-9.42 10.747-3.643 3.114-8.034 5.6-13.173 7.454-5.14 1.855-10.637 2.783-16.493 2.785-9.224 0-17.666-2.468-25.325-7.405h-.004z" fill-rule="nonzero"/>
+</svg>
+
+    </a>
+  </li>
+  <li>
+    <a href="#">
+      <svg viewBox="0 0 90 80" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414">
+  <path d="M25.156 28.07v46.928H9.53V28.07h15.626zm.995-14.493c.033 2.306-.763 4.23-2.39 5.777-1.626 1.545-3.765 2.32-6.415 2.32h-.095c-2.587 0-4.67-.772-6.25-2.32-1.58-1.548-2.37-3.473-2.367-5.777 0-2.335.813-4.27 2.44-5.8 1.626-1.532 3.75-2.298 6.37-2.298s4.72.765 6.3 2.296c1.577 1.532 2.38 3.466 2.414 5.8h-.006zM81.368 48.1v26.898h-15.58v-25.1c0-3.314-.64-5.91-1.918-7.787-1.28-1.876-3.278-2.815-5.993-2.818-1.988 0-3.652.544-4.995 1.634-1.34 1.09-2.342 2.438-3.006 4.05-.348.946-.52 2.225-.52 3.836V75H33.772c.062-12.596.094-22.808.094-30.638 0-7.83-.016-12.5-.05-14.017l-.048-2.272h15.58v6.82h-.095c.633-1.012 1.28-1.896 1.942-2.654.662-.76 1.556-1.58 2.678-2.46 1.12-.885 2.493-1.572 4.118-2.063 1.624-.49 3.432-.736 5.422-.734 5.398 0 9.74 1.792 13.023 5.373 3.284 3.582 4.924 8.83 4.924 15.745h.004z" fill-rule="nonzero"/>
+</svg>
+
+    </a>
+  </li>
+  <li>
+    <a href="#">
+      <svg viewBox="0 0 90 80" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414">
+  <path d="M25.156 28.07v46.928H9.53V28.07h15.626zm.995-14.493c.033 2.306-.763 4.23-2.39 5.777-1.626 1.545-3.765 2.32-6.415 2.32h-.095c-2.587 0-4.67-.772-6.25-2.32-1.58-1.548-2.37-3.473-2.367-5.777 0-2.335.813-4.27 2.44-5.8 1.626-1.532 3.75-2.298 6.37-2.298s4.72.765 6.3 2.296c1.577 1.532 2.38 3.466 2.414 5.8h-.006zM81.368 48.1v26.898h-15.58v-25.1c0-3.314-.64-5.91-1.918-7.787-1.28-1.876-3.278-2.815-5.993-2.818-1.988 0-3.652.544-4.995 1.634-1.34 1.09-2.342 2.438-3.006 4.05-.348.946-.52 2.225-.52 3.836V75H33.772c.062-12.596.094-22.808.094-30.638 0-7.83-.016-12.5-.05-14.017l-.048-2.272h15.58v6.82h-.095c.633-1.012 1.28-1.896 1.942-2.654.662-.76 1.556-1.58 2.678-2.46 1.12-.885 2.493-1.572 4.118-2.063 1.624-.49 3.432-.736 5.422-.734 5.398 0 9.74 1.792 13.023 5.373 3.284 3.582 4.924 8.83 4.924 15.745h.004z" fill-rule="nonzero"/>
+</svg>
+
+    </a>
+  </li>
+</ul>
+</header>
+
+        <div class="container">
+        <div class="wrapper"><!-- wrapper needed for scroll -->
+          <div class="row intro">
+	<svg class="line animate" viewBox="0 0 500 356" xmlns="http://www.w3.org/2000/svg" >
+  <path d="M179.3 358.51l162.188-52.994v-31.27l66.65 21.125-43.806 14.37-13-4.224v-31.27l43.806-14.368 23.966 7.787v31.27l24.006-7.788v-67.634l-23.965-7.787-43.806 14.37 43.805 14.37 43.806-14.37v-100.14l-34.066-11.158V49.34l-24.007 7.788v35.916l-43.806 14.37 23.967 7.787v35.917l24.007-7.788 23.965 7.787-141.038 51.675.252-70.874-40.343-13.12-40.78 13.155 14.86 4.83v145.305l-12.362 4.01V191.52l-47.784-15.474 28.345-9.298v35.915l-28.346 9.232v-19.111l-43.807 14.37c-.128-4.31-.337-3.847 0-35.916l-23.965-7.603v-19.33l24.007-7.786 23.965 7.788.007 18.046-118.748-38.69 118.666-38.61-23.89-7.79h-.043v-47.09l-75.63-24.85L23.3-2.255" />
+</svg>
+
+	<div class="inner">
+		<h1>M van Eijgen</h1>
+		<p>I am a graphic desigher from The Netherlands, working for my self since 2009 and recently under the name <a href="http://studioalloy.nl">Studio Alloy</a> as a collective of creative designer and developers.</p>
+	</div>
+</div>
+<div class="row">
+	
+	
+	<a href="/case/animazing/" class="thumb">
+		<img class="cover" src="/img/cases/animazing-thumb.jpg" alt="Animazing | Een door Alloy ontwikkeld label voor productie van 2D animaties">
+		<img class="logo" src="/img/cases/animazing-logo.png" alt="Animazing">
+		<!-- <div class="meta">
+			<h2>Animazing</h2>
+			<p>Een door Alloy ontwikkeld label voor productie van 2D animaties</p>
+		</div> -->
+	</a>
+	
+	<a href="/case/corpus-de-anatomische-les/" class="thumb">
+		<img class="cover" src="/img/cases/corpus-de-anatomische-les-thumb.jpg" alt="CORPUS 'De Anatomische Les' | Game & touch table CORPUS 'De Anatomische Les'">
+		<img class="logo" src="/img/cases/corpus-de-anatomische-les-logo.png" alt="Corpus Reis door de Mens">
+		<!-- <div class="meta">
+			<h2>CORPUS 'De Anatomische Les'</h2>
+			<p>Game & touch table CORPUS 'De Anatomische Les'</p>
+		</div> -->
+	</a>
+	
+	<a href="/case/selfie-van-je-toekomst/" class="thumb">
+		<img class="cover" src="/img/cases/selfie-van-je-toekomst-thumb.jpg" alt="Selfie van je toekomst | Het KWF fotohokje maak een 'Selfie van je toekomst'">
+		<img class="logo" src="/img/cases/selfie-van-je-toekomst-logo.png" alt="CORPUS Reis door de Mens">
+		<!-- <div class="meta">
+			<h2>Selfie van je toekomst</h2>
+			<p>Het KWF fotohokje maak een 'Selfie van je toekomst'</p>
+		</div> -->
+	</a>
+	
+	<a href="/case/de-grote-volksverhuizing/" class="thumb">
+		<img class="cover" src="/img/cases/de-grote-volksverhuizing-thumb.jpg" alt="De Grote Volksverhuizing | Interactieve lespakketen basisonderwijs over de Atlantikwall">
+		<img class="logo" src="/img/cases/de-grote-volksverhuizing-logo.png" alt="Explanation Design, PleinC">
+		<!-- <div class="meta">
+			<h2>De Grote Volksverhuizing</h2>
+			<p>Interactieve lespakketen basisonderwijs over de Atlantikwall</p>
+		</div> -->
+	</a>
+	
+	<a href="/case/diabetestrefpunt/" class="thumb">
+		<img class="cover" src="/img/cases/diabetestrefpunt-thumb.jpg" alt="Diabetestrefpunt | Online community voor diabetespatiënten en deskundigen">
+		<img class="logo" src="/img/cases/diabetestrefpunt-logo.png" alt="Diabetes Vereniging Nederland">
+		<!-- <div class="meta">
+			<h2>Diabetestrefpunt</h2>
+			<p>Online community voor diabetespatiënten en deskundigen</p>
+		</div> -->
+	</a>
+	
+	<a href="/case/expeditie-vriend-en-vijand/" class="thumb">
+		<img class="cover" src="/img/cases/expeditie-vriend-en-vijand-thumb.jpg" alt="Expeditie Vriend en Vijand | Campagne website over de confrontatiecontainers van Critical Mass">
+		<img class="logo" src="/img/cases/expeditie-vriend-en-vijand-logo.png" alt="Heldergroen, Critical Mass">
+		<!-- <div class="meta">
+			<h2>Expeditie Vriend en Vijand</h2>
+			<p>Campagne website over de confrontatiecontainers van Critical Mass</p>
+		</div> -->
+	</a>
+	
+	<a href="/case/fabstagram/" class="thumb">
+		<img class="cover" src="/img/cases/fabstagram-thumb.jpg" alt="Fabstagram | Web applicatie voor het maken je eigen smartphone hoesje met je mooiste Instragram foto’s">
+		<img class="logo" src="/img/cases/fabstagram-logo.png" alt="Fabstagram">
+		<!-- <div class="meta">
+			<h2>Fabstagram</h2>
+			<p>Web applicatie voor het maken je eigen smartphone hoesje met je mooiste Instragram foto’s</p>
+		</div> -->
+	</a>
+	
+	<a href="/case/flexibel-werken-en-wonen/" class="thumb">
+		<img class="cover" src="/img/cases/flexibel-werken-en-wonen-thumb.jpg" alt="Flexibel werken en wonen | Campagnewebsite over hypotheken voor ZZP’ers en flexwerkers">
+		<img class="logo" src="/img/cases/flexibel-werken-en-wonen-logo.png" alt="Heldergroen, Nederlandse Vereniging van Banken">
+		<!-- <div class="meta">
+			<h2>Flexibel werken en wonen</h2>
+			<p>Campagnewebsite over hypotheken voor ZZP’ers en flexwerkers</p>
+		</div> -->
+	</a>
+	
+	<a href="/case/website-heldergroen/" class="thumb">
+		<img class="cover" src="/img/cases/website-heldergroen-thumb.jpg" alt="Website Heldergroen | Dynamische website voor een Haarlems communicatiebureau">
+		<img class="logo" src="/img/cases/website-heldergroen-logo.png" alt="Heldergroen">
+		<!-- <div class="meta">
+			<h2>Website Heldergroen</h2>
+			<p>Dynamische website voor een Haarlems communicatiebureau</p>
+		</div> -->
+	</a>
+	
+	<a href="/case/hero-of-humanity/" class="thumb">
+		<img class="cover" src="/img/cases/hero-of-humanity-thumb.jpg" alt="Hero of Humanity | Online game voor het Rode Kruis over behulpzaamheid onder jongeren">
+		<img class="logo" src="/img/cases/hero-of-humanity-logo.png" alt="Critical Mass, Rode Kruis">
+		<!-- <div class="meta">
+			<h2>Hero of Humanity</h2>
+			<p>Online game voor het Rode Kruis over behulpzaamheid onder jongeren</p>
+		</div> -->
+	</a>
+	
+	<a href="/case/hokjestest/" class="thumb">
+		<img class="cover" src="/img/cases/hokjestest-thumb.jpg" alt="Hokjestest | Online interactief spel over vooroordelen op basis van een selfie">
+		<img class="logo" src="/img/cases/hokjestest-logo.png" alt="Critical Mass, Gemeente Amsterdam">
+		<!-- <div class="meta">
+			<h2>Hokjestest</h2>
+			<p>Online interactief spel over vooroordelen op basis van een selfie</p>
+		</div> -->
+	</a>
+	
+	<a href="/case/ipad-detailer-animal-health/" class="thumb">
+		<img class="cover" src="/img/cases/ipad-detailer-animal-health-thumb.jpg" alt="iPad Detailer Animal Health | iPad detailer serie voor interactieve productbrochures">
+		<img class="logo" src="/img/cases/ipad-detailer-animal-health-logo.png" alt="Boehringer Ingelheim">
+		<!-- <div class="meta">
+			<h2>iPad Detailer Animal Health</h2>
+			<p>iPad detailer serie voor interactieve productbrochures</p>
+		</div> -->
+	</a>
+	
+	<a href="/case/jakop-ahlbom/" class="thumb">
+		<img class="cover" src="/img/cases/jakop-ahlbom-thumb.jpg" alt="Jakop Ahlbom | Portfolio website van de populaire toneelregisseur Jakop Ahlbom">
+		<img class="logo" src="/img/cases/jakop-ahlbom-logo.png" alt="Jakop Ahlbom">
+		<!-- <div class="meta">
+			<h2>Jakop Ahlbom</h2>
+			<p>Portfolio website van de populaire toneelregisseur Jakop Ahlbom</p>
+		</div> -->
+	</a>
+	
+	<a href="/case/mediaspoor/" class="thumb">
+		<img class="cover" src="/img/cases/mediaspoor-thumb.jpg" alt="Mediaspoor | Digitale lespakketten voor het basisonderwijs over mediawijsheid">
+		<img class="logo" src="/img/cases/mediaspoor-logo.png" alt="Explanation Design, PleinC">
+		<!-- <div class="meta">
+			<h2>Mediaspoor</h2>
+			<p>Digitale lespakketten voor het basisonderwijs over mediawijsheid</p>
+		</div> -->
+	</a>
+	
+	<a href="/case/rond-inholland/" class="thumb">
+		<img class="cover" src="/img/cases/rond-inholland-thumb.jpg" alt="Rond InHolland | Online nieuwsbrief publicatieplatform voor Hogeschool InHolland">
+		<img class="logo" src="/img/cases/rond-inholland-logo.png" alt="Hogeschool InHolland">
+		<!-- <div class="meta">
+			<h2>Rond InHolland</h2>
+			<p>Online nieuwsbrief publicatieplatform voor Hogeschool InHolland</p>
+		</div> -->
+	</a>
+	
+	<a href="/case/science-can-change-the-world/" class="thumb">
+		<img class="cover" src="/img/cases/science-can-change-the-world-thumb.jpg" alt="Science can change the world | Campagne website ‘Science can change the world’">
+		<img class="logo" src="/img/cases/science-can-change-the-world-logo.png" alt="Heldergroen, DSM">
+		<!-- <div class="meta">
+			<h2>Science can change the world</h2>
+			<p>Campagne website ‘Science can change the world’</p>
+		</div> -->
+	</a>
+	
+	<a href="/case/verkenningen-ii/" class="thumb">
+		<img class="cover" src="/img/cases/verkenningen-ii-thumb.jpg" alt="Verkenningen II | Online storytelling met interactieve routes">
+		<img class="logo" src="/img/cases/verkenningen-ii-logo.png" alt="Explanation Design">
+		<!-- <div class="meta">
+			<h2>Verkenningen II</h2>
+			<p>Online storytelling met interactieve routes</p>
+		</div> -->
+	</a>
+	
+	<a href="/case/viteau/" class="thumb">
+		<img class="cover" src="/img/cases/viteau-thumb.jpg" alt="Viteau | Bedrijfswebsite met CMS voor Viteau waterkoelers">
+		<img class="logo" src="/img/cases/viteau-logo.png" alt="Heldergroen, Viteau">
+		<!-- <div class="meta">
+			<h2>Viteau</h2>
+			<p>Bedrijfswebsite met CMS voor Viteau waterkoelers</p>
+		</div> -->
+	</a>
+	
+	<a href="/case/yogafestival-haarlem/" class="thumb">
+		<img class="cover" src="/img/cases/yogafestival-haarlem-thumb.jpg" alt="Yogafestival Haarlem | Ontwikkeling website met online kaartverkoop">
+		<img class="logo" src="/img/cases/yogafestival-haarlem-logo.png" alt="Yogafestival Haarlem">
+		<!-- <div class="meta">
+			<h2>Yogafestival Haarlem</h2>
+			<p>Ontwikkeling website met online kaartverkoop</p>
+		</div> -->
+	</a>
+	
+</div>
+<div class="row">
+	<div class="inner">
+		<h1>M van Eijgen</h1>
+		<p>I am a graphic desigher from The Netherlands, working for my self since 2009 and recently under the name <a href="http://studioalloy.nl">Studio Alloy</a> as a collective of creative designer and developers.</p>
+	</div>
+</div>
+
+      </div><!-- wrapper -->
+    </div><!-- /container -->
+    <nav class="outer-nav right vertical">
+      <a href="#" class="icon-home">Home</a>
+      <a href="#" class="icon-news">News</a>
+      <a href="#" class="icon-image">Images</a>
+      <a href="#" class="icon-upload">Uploads</a>
+      <a href="#" class="icon-star">Favorites</a>
+      <a href="#" class="icon-mail">Messages</a>
+      <a href="#" class="icon-lock">Security</a>
+    </nav>
+  </div><!-- /perspective -->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+  <script src="js/classie.js"></script>
+  <script src="js/menu.js"></script>
+
+  <script src="/js/imgCoverEffect.min.js"></script>
   <script type="text/javascript">
   $(document).ready(function() {
     if(navigator.platform == "iPad") {
@@ -40,146 +325,23 @@
       });
     }
   });
+  document.addEventListener("DOMContentLoaded", function(event) {
+    var img = document.getElementsByClassName('cover');
+
+    console.debug(img);
+    for(var i = 0; i < img.length; i++){
+        var curr = img[i];
+        //hier de code
+        imgCoverEffect(curr, {
+          alignX: 'center',
+          alignY: 'middle',
+          watchResize: true
+        });
+
+    }
+  });
   </script>
-</head>
 
-
-<body class="default index ">
-  <div id="perspective" class="perspective effect-moveleft">
-          <aside>
-
-  	<button id="showMenu">
-  		<svg viewBox="0 0 100 100" class="menu">
-  			<use xlink:href="/images/svg-defs.svg#shape-menu"></use>
-  		</svg>
-  	</button>
-
-
-  	<footer>
-      <a href="http://linkedin.com/in/mvaneijgen/">
-        <svg viewBox="0 0 100 100" class="linkedin">
-          <use xlink:href="/images/svg-defs.svg#shape-linkedin"></use>
-        </svg>
-      </a>
-  		<a href="http://twitter.com/mvaneijgen">
-  			<svg viewBox="0 0 100 100" class="twitter">
-  				<use xlink:href="/images/svg-defs.svg#shape-twitter"></use>
-  			</svg>
-  		</a>
-  		<a href="http://github.com/mvaneijgen">
-  			<svg viewBox="0 0 100 100" class="github">
-  				<use xlink:href="/images/svg-defs.svg#shape-github"></use>
-  			</svg>
-  		</a>
-  		<a href="/">
-  			<svg viewBox="0 0 100 100" class="logo">
-  				<use xlink:href="/images/svg-defs.svg#shape-logo"></use>
-  			</svg>
-  		</a>
-  	</footer>
-  </aside>
-
-    <div class="container">
-      <div class="wrapper"><!-- wrapper needed for scroll -->
-        <!-- Top Navigation -->
-          <header>
-  <section class="navigation">
-    <h1><a href="">Graphic designer who loves technology.</a></h1>
-    <nav>
-      <a href="/" class="nav-item">Home</a>
-<a href="/projects" class="nav-item">Projects</a>
-<a href="/experiments" class="nav-item">Experiments</a>
-<a href="/contact" class="nav-item">Contact</a>
-    </nav> 
-  </section> 
-</header>
-
-<div class="gallery autoplay items-5">
-  <div id="item-1" class="control-operator"></div>
-  <div id="item-2" class="control-operator"></div>
-  <div id="item-3" class="control-operator"></div>
-  <div id="item-4" class="control-operator"></div>
-  <div id="item-5" class="control-operator"></div>
-
-  <figure class="item corpus">
-    <article>
-      <h1>Corpus Touch table</h1>
-      <p>Interactive multi-touch table designed and <br>developed for Corpus Expirance</p>
-    </article>
-  </figure>
-
-  <figure class="item inholland">
-    <article>
-      <h1>Inholland Magazine</h1>
-      <p>A digtial responsive magazine to fit every screen</p>
-    </article>
-  </figure>
-
-  <figure class="item pexion">
-    <article>
-      <h1>Pexion iPad presentation app</h1>
-      <p>Interactive presentation designed for iPad</p>
-    </article>
-  </figure>
-
-  <figure class="item umc">
-    <article>
-      <h1>UMC project icons</h1>
-      <p>Set of multi color icons for internal communication</p>
-    </article>
-  </figure>
-
-  <figure class="item fabstagram">
-    <article>
-      <h1>Web application</h1>
-      <p>Design your own phone case with the use of Instagram</p>
-    </article>
-  </figure>
-
-  <div class="controls">
-    <a href="#item-1" class="control-button">•</a>
-    <a href="#item-2" class="control-button">•</a>
-    <a href="#item-3" class="control-button">•</a>
-    <a href="#item-4" class="control-button">•</a>
-    <a href="#item-5" class="control-button">•</a>
-  </div>
-</div>
-
-<footer class="footer">
-	<section>
-			<a class="link-no-style" href="/contact">Gasthuisvest 47, 2011 EV</a><br>
-			<a class="link-no-style" href="tel:0638632735">06 38 63 27 35</a><br>
-			<a class="" href="mailto:mvaneijgen@gmail.com">mvaneijgen@gmail.com</a>
-	</section>
-</footer>
-
-      </div><!-- wrapper -->
-    </div><!-- /container -->
-      <nav class="outer-nav right vertical">
-      <a href="/" class="nav-item">Home</a>
-<a href="/projects" class="nav-item">Projects</a>
-<a href="/experiments" class="nav-item">Experiments</a>
-<a href="/contact" class="nav-item">Contact</a>
-      <h1>Graphic designer<br> who loves technology</h1>
-      <p>Mitchel van Eijgen<br>
-        <a href="mailto:mvaneijgen@gmail.com">mvaneijgen@gmail.com</a> <br>
-        <a href="tel:0638632735">06 38 63 27 35</a> <br>
-        Gasthuisvest 47 <br>
-        2011 KA Haarlem</p>
-    </nav>
-  </div><!-- /perspective -->
-  <script src="/js/classie.js"></script>
-  <script src="/js/menu.js"></script>
-    <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', '', 'auto');
-  ga('send', 'pageview');
-
-  </script>
-</body>
+  </body>
 
 </html>

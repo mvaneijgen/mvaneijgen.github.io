@@ -1,0 +1,5 @@
+<svg class="line" viewBox="0 0 150 150" xmlns="http://www.w3.org/2000/svg">
+    <path d="M110 39.55V20H20v60L10 90h10v10h20.315" />
+    <path d="M40 40h90v60l10 10h-10v10H40V40z" />
+    <path d="M60 80h10M80 80h10M100 80h10" />
+</svg>

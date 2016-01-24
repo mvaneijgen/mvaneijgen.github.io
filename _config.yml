@@ -1,41 +1,40 @@
 # Site settings
-
-title: Portfolio website 
+title: M van Eijgen
 name: M van Eijgen
 tagline: Graphic designer who loves technology.
 email: mvaneijgen@gmail.com
 copyright: Mitchel van Eijgen
-keywords: 
+keywords:
 phone: 06 38 63 27 35
 twitter_username: mvaneijgen
 github_username:  mvaneijgen
 avatar: "http://0.gravatar.com/avatar/8a68ce0259bbb16411035e487ecb27c5"
 
-description: I am a graphic desigher from The Netherlands, working for my self since 2009 and recently under the name <a href="http://s210.nl">Studio 210</a> as a collective of creative designer and developers.
+description: I am a graphic desigher from The Netherlands, working for my self since 2009 and recently under the name <a href="http://studioalloy.nl">Studio Alloy</a> as a collective of creative designer and developers.
 
 # the base hostname & protocol for your site
 url: "http://mvaneijgen.nl/"
 baseurl: "http://mvaneijgen.nl/"
 default_image: /mvaneijgen-grafisch-ontwerper.jpg
 
+# Collections
+collections:
+  cases:
+    output: true
+    permalink: /case/:title/
+  product:
+    output: true
+  team:
+    output: true
+    permalink: /team/:title/
+
 # Pre-processing
 
-markdown: redcarpet
+markdown: kramdown
 highlighter: pygments
 safe: true
-# permalink: pretty # YYYY/MM/DD/page-title/index.html
-permalink: /blog/:title/
-collections:
-  experiments:
-    output: true
-    permalink: /experiments/:path/
-  projects:
-    output: true
-    permalink: /projects/:path/
+permalink: /blog/:title/ # YYYY/MM/DD/page-title/index.html
 lsi: true # Lexical analysis (true) takes longer for higher quality
-
-excerpt_separator: <!--more-->
-
 # sass:
 #  style: :compressed
 
@@ -51,13 +50,12 @@ related_items: 5  # Applies to related posts and apps lists
 
 # Features
 
-reading_time: true    # Show est. reading time for posts
 facebook: false       # Use facebook features
-comments: disqus      # Switch disqus | facebook | none - comments. facebook = true required for facebook comments
+comments: none      # Switch disqus | facebook | none - comments. facebook = true required for facebook comments
 
 # Embeds
 
-disqus_name:             # Your site name at Disqus
+disqus_name: 		              # Your site name at Disqus
 
 youtube_controls: 0               # Turn on=1/off=0 Youtube player features when embedding videos
 
@@ -68,7 +66,7 @@ google_map_height: 450            # Default map height. Width adjusts to contain
 # API Keys. PLEASE DO NOT USE THESE KEYS. Get your own at links in comments.
 
 google_api_key: "" # https://code.google.com/apis/console/
-google_analytics_ua: "UA-48882774-1" # Google Analytics site specific id
+google_analytics_ua: "UA-70503218-1" # Google Analytics site specific id
 google_cse_id: "" # Google Custom Search Engine unique id
 
 mapbox: ""
@@ -83,18 +81,3 @@ addthis_pubid: "" # Get your pubid at https://www.addthis.com/dashboard
 pingdom_rum: "" # https://my.pingdom.com/dashboard. Real User experience (speed) monitoring.
 
 uservoice: ""
-
-exclude: [
-  .git,
-  .gitignore,
-  .DS_Store,
-  CNAME,
-  svg-icons,
-  svg-decorations,
-  scss,
-  .sass-cache,
-  package.json,
-  Gruntfile.js,
-  node_modules,
-  readme.md
-]

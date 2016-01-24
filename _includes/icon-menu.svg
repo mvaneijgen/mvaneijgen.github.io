@@ -1,0 +1,5 @@
+<svg class="line" viewBox="0 0 150 150" xmlns="http://www.w3.org/2000/svg">
+    <path d="M60 30h60" transform="matrix(.83333 0 0 1 0 30)"/>
+    <path d="M60 30h60" transform="matrix(.83333 0 0 1 0 45)"/>
+    <path d="M60 30h60" transform="matrix(.83333 0 0 1 0 60)"/>
+</svg>

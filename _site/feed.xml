@@ -1,98 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Portfolio website</title>
-    <description>I am a graphic desigher from The Netherlands, working for my self since 2009 and recently under the name &lt;a href=&quot;http://s210.nl&quot;&gt;Studio 210&lt;/a&gt; as a collective of creative designer and developers.</description>
-    <link>http://mvaneijgen.nl//</link>
-    <atom:link href="http://mvaneijgen.nl//feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 16 Apr 2015 11:42:16 +0200</pubDate>
-    <lastBuildDate>Thu, 16 Apr 2015 11:42:16 +0200</lastBuildDate>
+    <title>M van Eijgen</title>
+    <description>I am a graphic desigher from The Netherlands, working for my self since 2009 and recently under the name &lt;a href=&quot;http://studioalloy.nl&quot;&gt;Studio Alloy&lt;/a&gt; as a collective of creative designer and developers.</description>
+    <link>/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 24 Jan 2016 18:57:50 +0100</pubDate>
+    <lastBuildDate>Sun, 24 Jan 2016 18:57:50 +0100</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
-        <title>The Apple Watch launched and I bought a Pebble</title>
-        <description>&lt;p&gt;March 10th the Apple watch launched and I ordered a Pebble. I always loved the idea of the Pebble and it looked great especially the black Pebble Steel and after the launch of the Apple watch in my head I already ordered a Pebble, so I did and it arrived the next day and im the happiest Pebble owner since. &lt;/p&gt;
+        <title>Welcome to Jekyll!</title>
+        <description>&lt;p&gt;You’ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
 
-&lt;!--more--&gt;
+&lt;p&gt;To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
 
-&lt;p&gt;I know the Pebble Time has a Kickstarter project at the moment, but I like it simple and cheap. It is a tool just like any other device in my life and tools are here for being used and not to be pretty. I would be fairly caseous with a €400+ device around my wrist and that is not what I want from a smartwatch. Another big kicker to go with the Pebble is it’s battery live 7 days! Ok I get like 4 at the moment but that is mostly because im excited and trying it out all the time. &lt;/p&gt;
+&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
 
-&lt;p&gt;Their are a few apps that already got me hooked on the Pebble.&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;Tom&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &amp;#39;Hi, Tom&amp;#39; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Wunderlist&lt;/strong&gt; acces to all my todo’s right from my wrist I can quickly glance over them check them of or open them to see the whole note.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Run Keeper&lt;/strong&gt; I don’t run, but longboard and as soon as I start a trip the watch face changes to the Run Keeper stats and shows the distance, total time and the average speed. &lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Next Train&lt;/strong&gt; This is a transit time checker for the dutch railroads. Based on your location it will check the nearest station and when you selected one it will show all trains departing at what hour and which tack. &lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://github.com/jekyll/jekyll-help&quot;&gt;Jekyll’s dedicated Help repository&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;This last one really shows the power of the Pebble and where it is coming from. I was in a Hurry to the train station without knowing what time the train was leaving and thought it would be really cool if I could see that on my watch, so I got on the train did a quick google search and found there was an app for that. That is why the Pebble is awesome. The community is really helpful, just check &lt;a href=&quot;http://www.reddit.com/r/pebble/&quot;&gt;/r/Pebble&lt;/a&gt; and within minutes you have a response back, sometimes even from the Pebble team! &lt;/p&gt;
-
-&lt;p&gt;Next is the notification and they work, nothing fancy just all your notification on your wrist. I really don’t like checking my phone in company with other people, but when you feel your phone virating it really hard to stop wondering what it could be and now I can just take a sneak peak to check what it is and unnoticed dismiss the notification. It just a lot more socially accepted to check your watch than it is to check your phone when in company with others and I like it a lot more.&lt;/p&gt;
-
-&lt;p&gt;This all aren’t life saving features and you clearly don’t need them, but for me it are the little time savers and the connivance of having it around your wrist.  When out shopping with my hands full in the store to check my shopping list is just cool or when going on a longboard trip just checking the wind direction at a glance is just awesome for me. Quickly skipping sections of my podcast (im a heavy podcast listener) is amazing. &lt;/p&gt;
-
-&lt;p&gt;I got my Pebble for a week now and it keeps amazing me. I can’t wait for the new firmware that is going to be available for every Pebble not just the new one. Im excited to create my own watch faces or even apps with the amazing developer interface Pebble provides to everyone. &lt;/p&gt;
 </description>
-        <pubDate>Sun, 29 Mar 2015 18:41:48 +0200</pubDate>
-        <link>http://mvaneijgen.nl//blog/The-Apple-Watch-launched-and-I-bought-a-Pebble/</link>
-        <guid isPermaLink="true">http://mvaneijgen.nl//blog/The-Apple-Watch-launched-and-I-bought-a-Pebble/</guid>
+        <pubDate>Sun, 10 Jan 2016 19:16:06 +0100</pubDate>
+        <link>/blog/welcome-to-jekyll/</link>
+        <guid isPermaLink="true">/blog/welcome-to-jekyll/</guid>
         
         
-        <category>product</category>
+        <category>jekyll</category>
         
-      </item>
-    
-      <item>
-        <title>Getting started with automator</title>
-        <description>&lt;p&gt;I have been a Mac users for more that five years, but only recently I started thinking around with Automator. There where some recurring task that I did often and took me some time to setup, the one that took the most time was setting up project folders for new projects. There where a few basic files/folders we create with every project like “Submitted”, “Preview” and a folder called “old”. We have also created a template file with every social media avatar/banner size. It happend more often than I like to admit that I dragged over the assets files and forgot to copy them, so later when we wanted to create a new folder the files where gone and we had to reconstruct them from other files. An other tedious task as getting the clients initials and the date of the start of the project in the file name. This process took only a minute of so, but there was to much room for error and was just not fun. &lt;/p&gt;
-
-&lt;!--more--&gt;
-
-&lt;p&gt;We already played around a lot with &lt;a href=&quot;http://ifttt.com&quot;&gt;IFTTT&lt;/a&gt; and saw the potential of automating your workflow for a lot of clients of ours. So this got us thinking with the build in application Automator that comes with every Mac. This is an amazing GUI app that lets you create fairly powerful application with just a few drag and drops. The only thing is you need a stepping stone to help you get started to see the great potential. It really helps to just browses true every action that is build into the library and try some things out that seem interesting, so that is what what we did. In a few minutes we had a simple workflow that copied our asset files/folders and copied them to a place we wanted. This workflow we build out more and more complets and we created into a ’service’ (a service is a action you can connect to the right click menu of your Mac). Now if we want to create a new project folder we navigate to the client folder &amp;gt; right click the client folder go to services &amp;gt; click “New project folder” and the service will prompt a project name and create a folder with all our assets named [project name]&lt;em&gt;MMYY&lt;/em&gt;[client initials]. &lt;/p&gt;
-
-&lt;p&gt;Now when we get a task that we do often we try to keep Automator in the back of our heads to see if we can make things easier on our self. The ‘Create project folder’ task was our stepping stone to get familiar with Automator and it has been a great eye opener. Just recently we got a project of redesigning a clients website and we had to manualy download all the sources images from the webpage, which was a tidius task. Right clicking all the images saving them at the desired location and there where a lot more pages to go when it hit me on page five. What if I get the open webpage from safari and let Automator look for all the linked images and than store them in a folder named the same as the title of the page. &lt;/p&gt;
-
-&lt;p&gt;Just humor me next time you get a tidius task and are wondering if you could automate, open Automator and try to create something. It will open up a whole new world to you. &lt;/p&gt;
-</description>
-        <pubDate>Sun, 29 Mar 2015 18:41:48 +0200</pubDate>
-        <link>http://mvaneijgen.nl//blog/Getting-started-with-automator/</link>
-        <guid isPermaLink="true">http://mvaneijgen.nl//blog/Getting-started-with-automator/</guid>
-        
-        
-        <category>gerneral</category>
-        
-      </item>
-    
-      <item>
-        <title>SVG animation on the web</title>
-        <description>&lt;p&gt;Twee jaar geleden dachten wij een goed idee te hebben, een HTML app maken voor alle mobiele platformen en omdat we houden van schaalbare (responsive) oplossingen, zou SVG de perfecte oplossingen zijn geweest. Alleen werd SVG niet ondersteund op android 2.X wat op dat moment de grootste versie was. Nu zijn wij een aantal jaar later en ben ik zelf nog artikelen tegen gekomen over SVG, maar heb deze altijd afgehouden omdat ik wist dat er zo weinig support voor was. Nu was ik aan het luisteren naar een podcast (&lt;a href=&quot;http://5by5.tv/webahead/67&quot;&gt;The Web Ahead aflevering 67)&lt;/a&gt; deze aflevering staat helemaal in het teken van SVG, door deze aflevering zijn wij er weer helemaal in gedoken. Persoonlijk dacht ik zelf nooit dat het zin zou hebben icon fonts te vervangen voor SVG icons, maar daar ben ik nu van terug gekomen.&lt;/p&gt;
-
-&lt;!--more--&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://www.s210.nl/wp-content/uploads/2014/08/peekeye.png&quot; &lt;span style=&quot;font-size: 40px;&quot;&gt;vs&lt;/span&gt;&lt;img src=&quot;http://www.s210.nl/wp-content/uploads/2014/08/peekeye.svg&quot;&gt;&lt;/p&gt;
-
-&lt;p&gt;Ik wil hieronder een kleine sprong in de wereld van SVG maken (Scalable Vector Graphics) en laten zien wat er mogelijk is. Het eerste wat ik wil aan aankaarten is het voorbeeld hierboven. Niet alleen is de file veel kleiner, het hele element is stijlbaar met CSS.&lt;/p&gt;
-
-&lt;p data-height=&quot;268&quot; data-theme-id=&quot;0&quot; data-slug-hash=&quot;pfoil&quot; data-default-tab=&quot;result&quot; data-user=&quot;mvaneijgen&quot; class=&#39;codepen&#39;&gt;See the Pen &lt;a href=&#39;http://codepen.io/mvaneijgen/pen/pfoil/&#39;&gt;Test icon for blogpost on S210.nl&lt;/a&gt; by Mitchel van Eijgen (&lt;a href=&#39;http://codepen.io/mvaneijgen&#39;&gt;@mvaneijgen&lt;/a&gt;) on &lt;a href=&#39;http://codepen.io&#39;&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
-
-&lt;script async src=&quot;//assets.codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;
-
-&lt;p&gt;Zie hier precies dezelfde SVG element als net, alleen wat kleuren veranderd. Ook blijft het altijd haarscherp in tegenstelling tot het PNG formaat schaalt het SVG element mee. Met de kennis dat SVG elementen te stijlen zijn met CSS kun je het ook één stap verder gaan met de CSS animaties.&lt;/p&gt;
-
-&lt;p data-height=&quot;268&quot; data-theme-id=&quot;0&quot; data-slug-hash=&quot;GaIyC&quot; data-default-tab=&quot;result&quot; data-user=&quot;mvaneijgen&quot; class=&#39;codepen&#39;&gt;See the Pen &lt;a href=&#39;http://codepen.io/mvaneijgen/pen/GaIyC/&#39;&gt;SVG animation pure CSS &lt;/a&gt; by Mitchel van Eijgen (&lt;a href=&#39;http://codepen.io/mvaneijgen&#39;&gt;@mvaneijgen&lt;/a&gt;) on &lt;a href=&#39;http://codepen.io&#39;&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
-
-&lt;script async src=&quot;//assets.codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;
-
-&lt;p&gt;Omdat dit geen technische blog is zal ik niet te diep op alle aspecten van SVG, maar als je geïnteresseerd bent zou ik voorstellen wat rond te spelen met de hierboven gegeven voorbeelden of als je vragen hebt mail mij op mvaneijgen@gmail.com.&lt;/p&gt;
-
-&lt;p&gt;Nog een kleine recap SVG files zijn meestal kleiner, blijven schaalbaar en bewerkbaar met CSS en zijn heel makkelijk te animeren en responsive te maken.&lt;/p&gt;
-</description>
-        <pubDate>Wed, 25 Feb 2015 17:41:48 +0100</pubDate>
-        <link>http://mvaneijgen.nl//blog/SVG-for-web/</link>
-        <guid isPermaLink="true">http://mvaneijgen.nl//blog/SVG-for-web/</guid>
-        
-        
-        <category>experiment</category>
+        <category>update</category>
         
       </item>
     

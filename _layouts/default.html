@@ -1,17 +1,69 @@
-{% include doctype-and-head.html %}
+<!DOCTYPE html>
+<html>
 
-<body class="{{ page.layout }} {{ page.categories }} {{ page.tags }}">
-  <div id="perspective" class="perspective effect-moveleft">
-        {% include aside.html %}
-    <div class="container">
-      <div class="wrapper"><!-- wrapper needed for scroll -->
-        <!-- Top Navigation -->
+  {% include head.html %}
+
+  <body>
+    <div id="perspective" class="perspective effect-moveleft">
+        {% include header.html %}
+        <div class="container">
+        <div class="wrapper"><!-- wrapper needed for scroll -->
           {{ content }}
-
       </div><!-- wrapper -->
     </div><!-- /container -->
-  {% include outer-nav.html %}
-  {% include google-analytics.html %}
-</body>
+    <nav class="outer-nav right vertical">
+      <a href="#" class="icon-home">Home</a>
+      <a href="#" class="icon-news">News</a>
+      <a href="#" class="icon-image">Images</a>
+      <a href="#" class="icon-upload">Uploads</a>
+      <a href="#" class="icon-star">Favorites</a>
+      <a href="#" class="icon-mail">Messages</a>
+      <a href="#" class="icon-lock">Security</a>
+    </nav>
+  </div><!-- /perspective -->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+  <script src="js/classie.js"></script>
+  <script src="js/menu.js"></script>
+
+  <script src="/js/imgCoverEffect.min.js"></script>
+  <script type="text/javascript">
+  $(document).ready(function() {
+    if(navigator.platform == "iPad") {
+      $("a").each(function() { // have to use an `each` here - either a jQuery `each` or a `for(...)` loop
+        var onClick; // this will be a function
+        var firstClick = function() {
+          onClick = secondClick;
+          return false;
+        };
+        var secondClick = function() {
+          onClick = firstClick;
+          return true;
+        };
+        onClick = firstClick;
+        $(this).click(function() {
+          return onClick();
+        });
+      });
+    }
+  });
+  document.addEventListener("DOMContentLoaded", function(event) {
+    var img = document.getElementsByClassName('cover');
+
+    console.debug(img);
+    for(var i = 0; i < img.length; i++){
+        var curr = img[i];
+        //hier de code
+        imgCoverEffect(curr, {
+          alignX: 'center',
+          alignY: 'middle',
+          watchResize: true
+        });
+
+    }
+  });
+  </script>
+
+  </body>
 
 </html>

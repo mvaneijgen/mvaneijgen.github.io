@@ -1,0 +1,10 @@
+<svg viewBox="0 0 90 80" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414">
+  <g transform="matrix(.6 0 0 .53333 -198 0)">
+    <clipPath id="a">
+      <path d="M330 0h150v150H330z"/>
+    </clipPath>
+    <g clip-path="url(#a)">
+      <path d="M330 40.966l37.574-13.653 37.535 13.655 37.38-13.653L480 40.968v62.964l-74.89 27.318L330 103.934V40.966z" fill-rule="nonzero"/>
+    </g>
+  </g>
+</svg>
