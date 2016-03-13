@@ -5,10 +5,10 @@ title: iPad Detailer Animal Health
 date: 2015-05-30 16:22:48
 categories: interactief, huisstijl
 excerpt: iPad detailer serie voor interactieve productbrochures
-featured: false
+featured: "true"
 url:
 image:
-status: "published"
+published: false
 ---
 De rayon managers van de Animal Health afdeling van Boehringer Ingelheim bezoeken dagelijks dierenartsenpraktijken en geven voorlichting over diverse ziektebeelden bij honden en katten en advies hoe deze kunnen worden behandeld. Het kennisniveau van dierenartsen is verschillend, dus een standaard presentatie geven van begin tot eind is niet efficiënt gebleken.
 

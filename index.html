@@ -3,28 +3,39 @@ layout: default
 ---
 
 <div class="row intro">
-	{% include line.svg %}
 	<div class="inner">
 		<h1>{{ site.title }}</h1>
 		<p>{{ site.description }}</p>
 	</div>
+	{% include line.svg %}
 </div>
 <div class="row">
-	{% assign published = (site.cases | where:"status","published") %}
-	{% for post in published %}
+	{% assign published = (site.cases | where:"featured","true") %}
+	{% for post in published limit:6%}
 	<a href="{{ post.url }}" class="thumb">
-		<img class="cover" src="/img/cases/{{ post.title | slugify }}-thumb.jpg" alt="{{ post.title }} | {{ post.excerpt }}">
-		<img class="logo" src="/img/cases/{{ post.title | slugify }}-logo.png" alt="{{ post.opdrachtgever }}">
-		<!-- <div class="meta">
-			<h2>{{ post.title }}</h2>
-			<p>{{ post.excerpt }}</p>
-		</div> -->
+		<img class="cover" src="/img/work/{{ post.title | slugify }}-thumb.jpg" alt="{{ post.title }} | {{ post.excerpt }}">
+		<img class="logo" src="/img/work/{{ post.title | slugify }}-logo.png" alt="{{ post.opdrachtgever }}">
 	</a>
 	{% endfor %}
 </div>
-<div class="row">
+<div class="row me">
 	<div class="inner">
-		<h1>{{ site.title }}</h1>
-		<p>{{ site.description }}</p>
+		<img src="img/team/{{ site.name | slugify }}.jpg" alt="" class="clip"/>
+		{{ site.name }}
+		<div class="">
+			{% for post in site.team %}
+			<h4>{{ post.title }}</h4>
+			{% endfor %}
+		</div>
+	</div>
+</div>
+<div class="row team">
+	<div class="inner">
+		{% for post in site.team %}
+		<div class="team-member">
+			<img src="img/team/{{ post.title | slugify }}.jpg" alt="{{ post.title }}" class="cover"/>
+			<h4>{{ post.title }}</h4>
+		</div>
+		{% endfor %}
 	</div>
 </div>

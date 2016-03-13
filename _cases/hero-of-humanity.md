@@ -8,7 +8,7 @@ excerpt: Online game voor het Rode Kruis over behulpzaamheid onder jongeren
 featured: "true"
 url: //heroofhumanity.nl
 image:
-status: "published"
+published: false
 ---
 Vrijwilligers van het Rode Kruis wagen zich dagelijks in gevaarlijke situaties om de veiligheid en gezondheid van mensen in nood te garanderen. Overal, altijd, iedereen. Het Rode Kruis stelt zich altijd onafhankelijk op en biedt hulp aan mensen in nood. Zonder vooroordelen, zonder uitzondering, zonder gevaar voor eigen leven. Het Rode Kruis zoekt vrijwilligers onder jongeren die zich ook op deze manier willen inzetten.
 

@@ -1,31 +1,33 @@
 <!DOCTYPE html>
 <html>
 
-  {% include head.html %}
+{% include head.html %}
 
-  <body>
-    <div id="perspective" class="perspective effect-moveleft">
-        {% include header.html %}
-        <div class="container">
-        <div class="wrapper"><!-- wrapper needed for scroll -->
-          {{ content }}
+<body class="{{ page.layout }} {{ page.path | remove: ".html" }}">
+  <div id="perspective" class="perspective effect-moveleft">
+    {% include header.html %}
+    <div class="container">
+      <div class="wrapper"><!-- wrapper needed for scroll -->
+        {{ content }}
+        {% include footer.html %}
       </div><!-- wrapper -->
     </div><!-- /container -->
+
+    {% if site.perspective == true %}
     <nav class="outer-nav right vertical">
-      <a href="#" class="icon-home">Home</a>
-      <a href="#" class="icon-news">News</a>
-      <a href="#" class="icon-image">Images</a>
-      <a href="#" class="icon-upload">Uploads</a>
-      <a href="#" class="icon-star">Favorites</a>
-      <a href="#" class="icon-mail">Messages</a>
-      <a href="#" class="icon-lock">Security</a>
+      <a href="/" class="">Home</a>
+      <a href="work" class="">Work</a>
+      <a href="blog" class="">Blog</a>
+      <a href="contact" class="">Contact</a>
     </nav>
+    {% endif %}
   </div><!-- /perspective -->
   <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
-  <script src="js/classie.js"></script>
-  <script src="js/menu.js"></script>
-
+  {% if site.perspective == true %}
+  <script src="/js/classie.js"></script>
+  <script src="/js/menu.js"></script>
+  {% endif %}
   <script src="/js/imgCoverEffect.min.js"></script>
   <script type="text/javascript">
   $(document).ready(function() {
@@ -52,18 +54,18 @@
 
     console.debug(img);
     for(var i = 0; i < img.length; i++){
-        var curr = img[i];
-        //hier de code
-        imgCoverEffect(curr, {
-          alignX: 'center',
-          alignY: 'middle',
-          watchResize: true
-        });
+      var curr = img[i];
+      //hier de code
+      imgCoverEffect(curr, {
+        alignX: 'center',
+        alignY: 'middle',
+        watchResize: true
+      });
 
     }
   });
   </script>
 
-  </body>
+</body>
 
 </html>

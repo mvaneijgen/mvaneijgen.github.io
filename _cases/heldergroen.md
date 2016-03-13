@@ -8,7 +8,7 @@ excerpt: Dynamische website voor een Haarlems communicatiebureau
 featured: false
 url: //heldergroen.nl
 image: 5
-status: "published"
+published: false
 vimeo: 148217804
 ---
 Het Haarlemse communicatiebureau Heldergroen werkt voornamelijk voor bedrijven en organisaties die iets wezenlijks willen toevoegen aan de maatschappij. Zij bouwen aan het merk van deze organisaties door middel van het zichtbaar maken van aansprekende verhalen die op visuele wijze worden gepresenteerd.

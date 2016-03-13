@@ -8,5 +8,6 @@ excerpt: Design en ontwikkeling verschillende uitingen van Noeser
 featured: false
 url: //noeser.eu
 image:
-status: "concept"
+published: false
+output: false
 ---

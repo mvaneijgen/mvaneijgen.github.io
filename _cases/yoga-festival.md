@@ -8,7 +8,7 @@ excerpt: Ontwikkeling website met online kaartverkoop
 featured: false
 url: //yogafestivalhaarlem.nl
 image: 3
-status: "published"
+published: false
 vimeo: 147093548
 ---
 Sinds 2014 wordt elk jaar vroeg in de zomer tijdens een heel weekend het Yogafestival Haarlem georganiseerd op landgoed Elswoud in Overveen. Beginnende en ervaren yogi krijgen op het festival de kans om verschillende yogastijlen uit te proberen. Er zijn veel verschillende yogaworkshops en -lessen, lezingen, massages en relaxplekken. En dat samen met een diversiteit aan gezonde eet- en drinkgelegenheden op een food court.
