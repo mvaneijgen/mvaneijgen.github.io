@@ -10,6 +10,7 @@ url: //vanzwartnaargroen.nl
 image: 3
 published: false
 vimeo:
+order: 100
 ---
 De app ‘Van zwart naar groen’ is een tool waarmee de gebruiker een overzicht krijgt van de Nederlandse energieproductie. Vervolgens kunnen bezoekers met de app energiecentrales met niet-hernieuwbare brandstof deactiveren en de resultaten aan CO2 uitstoot te zien. Het andere resultaat van het deactiveren is natuurlijk dat de hoeveelheid opgewekte energie ook daalt. Om deze verminderde opwekking op te vangen kunnen er windmolens, zonnepanelen of misschien wel een andere effectievere oplossing bijgeplaatst worden.
 

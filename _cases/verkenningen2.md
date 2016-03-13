@@ -10,6 +10,7 @@ url: //verkenningen2.nl
 image: 5
 published: false
 vimeo: 147101423
+order: 100
 ---
 Verkenningen II is een visueel onderzoek naar de mogelijkheden van online storytelling en datavisualisatie. Als onderwerp gebruikten we de jaarlijkse tochten van Klaas van der Veen naar Schotland. Met deze 14 jaar aan ruwe (en soms fictieve) data gingen we aan de slag. Als uitgangspunt hebben we gekozen dat de bezoeker van de website zelf de reizen van Klaas door kan speuren. Hiervoor zijn verschillende ingangen zoals de kaart, de dagboekteksten en datavisualisaties.
 

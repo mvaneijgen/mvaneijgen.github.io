@@ -9,6 +9,7 @@ featured: false
 url: //mediaspoor.nl
 image:
 published: false
+order: 100
 ---
 
 Plein C is van mening dat mediawijsheid over meer gaat dan enkel technische vaardigheden. Hiervoor werd Mediaspoor ontwikkeld, een leerlijn van groep 1 t/m 8 die kinderen per onderwerp laat zien wat de effecten van media (kunnen) zijn. Onderwerpen waar aangehaakt wordt zijn echt/nep, archiveren en journalistiek.

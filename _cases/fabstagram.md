@@ -9,6 +9,7 @@ featured: "false"
 url: //fabstagram.nl
 image: 2
 published: false
+order: 100
 ---
 Wanneer je inlogt met Instagram of Facebook worden al je foto's in de website geladen en kun je op een intuïtieve manier een smartphone case ontwerpen met je eigen foto's. Je kunt zo veel variaties proberen en opslaan in je persoonlijke profiel.
 

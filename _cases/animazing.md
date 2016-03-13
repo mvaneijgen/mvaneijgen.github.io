@@ -9,6 +9,7 @@ featured: false
 url: //animazing.nl
 image: 3
 published: true
+order: 100
 ---
 
 Animazing is een zelfbedacht concept met een eigen identiteit om een doelgroep aan te spreken die hun boodschap op een visuele wijze wil uitleggen aan de hand van een infographic of animatie video.

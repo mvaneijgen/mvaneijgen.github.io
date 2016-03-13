@@ -10,6 +10,7 @@ url:
 image:
 published: false
 output: false
+order: 100
 ---
 Chronisch nierfalen is een veelvoorkomende aandoening bij katten. Een probleem die doorgaans gedurende de rest van een kattenleven behandeld moet worden. Boerhinger Ingelheim heeft een vloeibaar medicijn ontwikkeld, zodat de eigenaar van de kat het makkelijker kan toedienen. Bovendien is uit studies gebleken dat dit medicijn ook nog effectiever is dan bestaande medicatie voor dezelfde aandoening.
 

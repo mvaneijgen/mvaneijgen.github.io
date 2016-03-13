@@ -9,6 +9,7 @@ featured: false
 url: //corpusexperience.nl
 image:
 published: true
+order: 100
 ---
 
 CORPUS 'Reis door de Mens' biedt een podium voor o.a. goede doelen die zich inzetten voor de gezondheid en het welzijn van de mens. Zo is het Nederlands kankerfonds KWF een partner van Corpus en ontwikkelde wij in samenwerking met beide partijen het concept ‘Selfie van je toekomst’. In deze attractie ga je als bezoeker op de foto en je neemt plaats in het fotohokje achter een van de vier touchscreens. En wat je aanvankelijk als bezoeker niet weet is dat je selfie een gruwelijke bewerking zal ondergaan.

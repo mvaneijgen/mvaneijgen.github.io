@@ -9,6 +9,7 @@ featured: false
 url: //flexibelwerkenenwonen.nl
 image: 4
 published: false
+order: 100
 ---
 Flexibel werken en wonen is een campagne van de Nederlandse Vereniging van Banken (NVB). Met de campagne wil het NVB informatie geven aan ZZP'ers en flexwerkers over veelgestelde vragen en onduidelijkheden die er zijn over het verkrijgen van een hypotheek.
 

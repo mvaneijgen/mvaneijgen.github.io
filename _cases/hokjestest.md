@@ -9,6 +9,7 @@ featured: "true"
 url: //hokjestest.nl
 image:
 published: false
+order: 100
 ---
 
 Voor stichting Critical Mass ontwikkelde wij de Hokjestest. Door de Hokjestest worden jongeren geconfronteerd met hun eigen vooroordelen. De Hokjestest laat zien hoe je mensen soms totaal verkeerd kunt inschatten op basis van slechts het bekijken van een profielfoto. Een speler upload zijn of haar foto en geeft anoniem antwoord op 10 ja-nee vragen, zoals ‘Ben je gelovig?’ of ‘Ga je op all-inclusive vakantie?’. Vervolgens kan je zelf het spel spelen waarbij je willekeurig foto’s krijgt te zien met dezeflde vragen. Wat vertelt jou uiterlijk? Hoe schatten mensen jou in op basis van 1 profielfoto? Wat mensen hebben ingevuld vind je terug op je persoonlijke pagina.

@@ -9,6 +9,7 @@ featured: "true"
 url: //diabetestrefpunt.nl
 image: 3
 published: false
+order: 100
 ---
 
 Samen met Diabetes Vereniging Nederland hebben we een platform opgezet waar medische deskundigen en ervaringsdeskundige hun ervaringen op het gebied van diabetes kunnen bespreken. Mensen die worden gediagnosticeerd met diabetes zitten vaak met veel vragen en op Diabetestrefpunt vinden mensen elkaar om vragen en informatie uit te wisselen.

@@ -10,6 +10,7 @@ url: //viteau.nl
 image: 4
 published: false
 vimeo: 147093537
+order: 100
 ---
 Viteau is een organisatie de is ontsprongen vanuit een waterbron in het Drentse Hunzedal en waterkoelers levert aan werkend Nederland. In opdracht van Viteau heeft Heldergroen een gehele nieuwe huisstijl en positionering ontwikkeld. Hierbij hoorde ook een nieuwe website.
 

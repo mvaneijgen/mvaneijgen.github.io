@@ -1,4 +1,4 @@
-<footer class="site-footer">
+<footer class="site-footer column">
 
 <div class="inner">
   <div class="footer-posts">
@@ -8,7 +8,7 @@
       {% for post in site.cases limit: 3 %}
     	<a href="{{ post.url }}">
         {% capture post_list %}{{ post.title }} | {{ post.excerpt }}{% endcapture %}
-    		<p>{{ post_list | truncate: 30 }}</p>
+    		{{ post_list | truncate: 30 }}
     	</a>
     	{% endfor %}
     </div>
@@ -18,7 +18,8 @@
     <div class="footer-work-list">
       {% for post in site.post limit: 3 %}
       <a href="{{ post.url }}" class="thumb">
-        <p>{{ post.title }} | {{ post.excerpt }}</p>
+        {% capture post_list %}{{ post.title }} | {{ post.excerpt }}{% endcapture %}
+    		{{ post_list | truncate: 30 }}
       </a>
       {% endfor %}
     </div>
@@ -28,10 +29,11 @@
     <img src="img/team/{{ site.name | slugify }}.jpg" alt="" class="clip"/>
     <div class="">
       <h4>{{ site.name }}</h4>
+      <address>
+        {{ site.address }}
+      </address>
       <p>{{ site.phone }}</p>
       <p>{{ site.email }}</p>
-      <p>{{ site.linkedin }}</p>
-      <p>{{ site.github }}</p>
     </div>
   </div>
 </div>
