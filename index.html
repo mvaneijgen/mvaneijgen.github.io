@@ -10,7 +10,7 @@ layout: default
 	{% include line.svg %}
 </div>
 <div class="row">
-	{% assign published = (site.cases | where:"featured","true") %}
+	{% assign published = (site.work | where:"featured","true") %}
 	{% for post in published limit:6%}
 	<a href="{{ post.url }}" class="thumb">
 		<img class="cover" src="/img/work/{{ post.title | slugify }}-thumb.jpg" alt="{{ post.title }} | {{ post.excerpt }}">

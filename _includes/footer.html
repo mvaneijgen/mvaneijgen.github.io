@@ -5,7 +5,7 @@
   <div class="footer-work">
     <h4>Work</h4>
     <div class="footer-work-list">
-      {% for post in site.cases limit: 3 %}
+      {% for post in site.work limit: 3 %}
     	<a href="{{ post.url }}">
         {% capture post_list %}{{ post.title }} | {{ post.excerpt }}{% endcapture %}
     		{{ post_list | truncate: 30 }}

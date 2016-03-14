@@ -4,7 +4,7 @@ permalink: work/
 ---
 
 <div class="row">
-	{% assign published = (site.cases | sort: "date" reversed) %}
+	{% assign published = (site.work | sort: "date" reversed) %}
 	{% for post in published reversed %}
 	<a href="{{ post.url }}" class="thumb">
 		<img class="cover" src="/img/work/{{ post.title | slugify }}-thumb.jpg" alt="{{ post.title }} | {{ post.excerpt }}">

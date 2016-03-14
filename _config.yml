@@ -22,11 +22,11 @@ default_image: /mvaneijgen-grafisch-ontwerper.jpg
 
 # Collections
 collections:
-  cases:
+  work:
     output: true
-    permalink: /case/:title/
+    permalink: /work/:title/
   product:
-    output: true
+    output: false
   team:
     output: false
     permalink: /team/:title/
