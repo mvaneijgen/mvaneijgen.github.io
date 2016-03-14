@@ -227,8 +227,8 @@ body {
 	line-height: 1.6rem;
 }
 h1 {
-	font-size: 3rem;
-	line-height: 3.6rem;
+  font-size: 1.8rem;
+  line-height: 3.4rem;
 }
 h2 {
 	font-size: 2.6rem;
@@ -355,6 +355,18 @@ body:not(.index) .site-header:hover > * {
 .index .intro {
 	position: relative;
 }
+.index .intro h1 {
+	text-transform: inherit;
+}
+.index .intro h1 a {
+  background: #344;
+  color: #fff;
+  animation: in .8s forwards;
+	transition: background .6s ease;
+}
+.index .intro h1 a:hover {
+  background: #0ba;
+}
 .index .intro svg.line.animate {
 	width: 100%;
 	height: 100%;
@@ -363,7 +375,7 @@ body:not(.index) .site-header:hover > * {
 	left: 0;
 }
 .index .intro svg.line.animate > * {
-	stroke: #0ba;
+	stroke: #ccc;
 	stroke-width: 4px;
 }
 .index .inner {
