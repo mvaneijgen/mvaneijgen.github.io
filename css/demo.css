@@ -227,8 +227,8 @@ body {
 	line-height: 1.6rem;
 }
 h1 {
-  font-size: 1.8rem;
-  line-height: 3.4rem;
+  font-size: 3rem;
+  line-height: 3.6rem;
 }
 h2 {
 	font-size: 2.6rem;
@@ -265,9 +265,6 @@ p {
 	max-width: 900px;
 	margin: 0 auto;
 	padding: 50px;
-}
-.intro {
-	min-height: 90vh;
 }
 .column .inner > * {
 	width: 49%;
@@ -352,35 +349,50 @@ body:not(.index) .site-header:hover > * {
 ———————————————————————————————————— */
 /* Homepage
 ———————————————————————————————————— */
-.index .intro {
+.index .title {
 	position: relative;
 }
-.index .intro h1 {
-	text-transform: inherit;
+.index .title svg.line.animate > * {
+	stroke: #0ba;
+	stroke-width: 2px;
 }
-.index .intro h1 a {
-  background: #344;
-  color: #fff;
-  animation: in .8s forwards;
-	transition: background .6s ease;
+.index .title svg.line.animate {
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+}
+.index .intro {
+	z-index: 9;
+}
+.index .intro .inner {
+  background: #fff;
 }
 .index .intro h1 a:hover {
   background: #0ba;
 }
-.index .intro svg.line.animate {
-	width: 100%;
-	height: 100%;
-	position: absolute;
-	top: 0;
-	left: 0;
+.index .intro h2 {
+  text-align: left;
+  font-size: 2rem;
+  text-transform: inherit;
 }
-.index .intro svg.line.animate > * {
-	stroke: #ccc;
-	stroke-width: 4px;
+.index .intro h2 a {
+	color: #334;
+  border-bottom: 2px solid;
+	/*animation: in .8s forwards;*/
+	transition: color .3s ease;
 }
-.index .inner {
-	z-index: 9;
+.index .intro h2 a:hover {
+	color: #0ba;
 }
+.index .intro h2 a:nth-of-type(1) { animation-delay: .2s; }
+.index .intro h2 a:nth-of-type(2) { animation-delay: .4s; }
+.index .intro h2 a:nth-of-type(3) { animation-delay: .6s; }
+.index .intro h2 a:nth-of-type(4) { animation-delay: .8s; }
+.index .intro h2 a:nth-of-type(5) { animation-delay: .10s; }
+.index .intro h2 a:nth-of-type(6) { animation-delay: .12s; }
+.index .intro h2 a:nth-of-type(7) { animation-delay: .14s; }
 /* Me */
 .me {
   padding: 150px 0;
