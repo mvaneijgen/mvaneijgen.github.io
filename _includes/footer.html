@@ -7,7 +7,7 @@
     <div class="footer-work-list">
       {% for post in site.work limit: 3 %}
     	<a href="{{ post.url }}">
-        {% capture post_list %}{{ post.title }} | {{ post.excerpt }}{% endcapture %}
+        {% capture post_list %}{{ post.title }}  /  {{ post.excerpt | strip_html }}{% endcapture %}
     		{{ post_list | truncate: 30 }}
     	</a>
     	{% endfor %}
@@ -16,9 +16,9 @@
   <div class="footer-post">
     <h4>Blog</h4>
     <div class="footer-work-list">
-      {% for post in site.post limit: 3 %}
-      <a href="{{ post.url }}" class="thumb">
-        {% capture post_list %}{{ post.title }} | {{ post.excerpt }}{% endcapture %}
+      {% for post in site.posts limit: 3 %}
+      <a href="{{ post.url }}">
+        {% capture post_list %}{{ post.title }}  /  {{ post.excerpt | strip_html }}{% endcapture %}
     		{{ post_list | truncate: 30 }}
       </a>
       {% endfor %}

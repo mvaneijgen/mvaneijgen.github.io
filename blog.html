@@ -1,0 +1,16 @@
+---
+layout: default
+permalink: blog/
+---
+
+<div class="row">
+	<h2>Blog</h2>
+	{% for post in site.posts %}
+	<a href="{{ post.url }}" class="post-list">
+		<div class="inner">
+			<h3>{{ post.title }}</h3>
+			<span>{{ post.excerpt | truncate: 60 | strip_html }}</span>
+		</div>
+	</a>
+	{% endfor %}
+</div>
