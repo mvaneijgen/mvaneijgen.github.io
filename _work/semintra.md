@@ -8,7 +8,7 @@ excerpt: 2D animatie over Semintra, een vloeibaar medicijn voor katten met chron
 featured: false
 url:
 image:
-published: false
+published: true
 output: false
 order: 100
 ---

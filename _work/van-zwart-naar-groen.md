@@ -8,7 +8,7 @@ excerpt: Mobiele app over energieproductie in Nederland
 featured: "true"
 url: //vanzwartnaargroen.nl
 image: 3
-published: false
+published: true
 vimeo:
 order: 100
 ---

@@ -8,7 +8,7 @@ excerpt: Digitale lespakketten voor het basisonderwijs over mediawijsheid
 featured: false
 url: //mediaspoor.nl
 image:
-published: false
+published: true
 order: 100
 ---
 

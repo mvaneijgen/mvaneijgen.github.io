@@ -8,7 +8,7 @@ excerpt: Online community voor diabetespatiënten en deskundigen
 featured: "true"
 url: //diabetestrefpunt.nl
 image: 3
-published: false
+published: true
 order: 100
 ---
 

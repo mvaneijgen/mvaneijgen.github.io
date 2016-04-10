@@ -261,6 +261,10 @@ p {
 	margin: 0 auto;
 	padding: 50px;
 }
+.row {
+	display: flex;
+	flex-flow: row wrap;
+}
 .column .inner > * {
 	width: 49%;
 	display: inline-block;
@@ -275,6 +279,10 @@ p {
 .image-container img {
 	display: block;
 	width: 100%;
+}
+.no-flexbox .thumb {
+	display: inline-block;
+	width: 48%;
 }
 /* END Layout
 ———————————————————————————————————— */
@@ -518,8 +526,6 @@ body:not(.index) .site-header:hover > * {
 	padding: 120px;
 	text-align: center;
 	color: #fff;
-	-webkit-clip-path: polygon(100% 0, 100% 100%, 60% 100%, 50% 80%, 40% 100%, 0 100%, 0 0);
-	clip-path: polygon(100% 0, 100% 100%, 60% 100%, 50% 80%, 40% 100%, 0 100%, 0 0);
 	background-size: contain !important;
 	background-repeat: no-repeat !important;
 }
@@ -537,7 +543,7 @@ body:not(.index) .site-header:hover > * {
 	stroke: #0ba;
 	stroke-width: 9;
 }
-.contact-social .social g > * {
+.contact-social .social * {
 	fill: #0ba;
 }
 .address .inner > * {

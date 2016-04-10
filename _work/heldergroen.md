@@ -8,7 +8,7 @@ excerpt: Dynamische website voor een Haarlems communicatiebureau
 featured: false
 url: //heldergroen.nl
 image: 5
-published: false
+published: true
 vimeo: 148217804
 order: 100
 ---

@@ -8,7 +8,7 @@ excerpt: Online nieuwsbrief publicatieplatform voor Hogeschool InHolland
 featured: false
 url:
 image: 1
-published: false
+published: true
 vimeo: 147093545
 order: 100
 ---

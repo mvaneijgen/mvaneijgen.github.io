@@ -8,7 +8,7 @@ excerpt: iPad detailer serie voor interactieve productbrochures
 featured: "true"
 url:
 image:
-published: false
+published: true
 order: 100
 ---
 De rayon managers van de Animal Health afdeling van Boehringer Ingelheim bezoeken dagelijks dierenartsenpraktijken en geven voorlichting over diverse ziektebeelden bij honden en katten en advies hoe deze kunnen worden behandeld. Het kennisniveau van dierenartsen is verschillend, dus een standaard presentatie geven van begin tot eind is niet efficiënt gebleken.
