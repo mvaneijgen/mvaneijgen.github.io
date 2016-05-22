@@ -8,7 +8,7 @@ layout: default
 	</div>
 	{% include line.svg %}
 </div>
-<div class="row">
+<div class="row work">
 	{% assign published = (site.work | where:"featured","true") %}
 	{% for post in published limit:6%}
 	<a href="{{ post.url }}" class="thumb">

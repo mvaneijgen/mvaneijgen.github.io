@@ -3,7 +3,7 @@ layout: default
 permalink: work/
 ---
 
-<div class="row">
+<div class="row work">
 	{% assign published = (site.work | sort: "date" reversed) %}
 	{% for post in published reversed %}
 	<a href="{{ post.url }}" class="thumb">

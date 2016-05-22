@@ -259,12 +259,30 @@ p {
 .inner {
 	max-width: 900px;
 	margin: 0 auto;
-	padding: 50px;
 }
-.row {
+.inner,
+.site-footer .footer-work,
+.site-footer .footer-post,
+.site-footer .footer-info {
+	padding: 15px;
+}
+@media only screen and (min-width : 768px) {
+	/* Styles */
+	.inner,
+	.site-footer .footer-work,
+	.site-footer .footer-post,
+	.site-footer .footer-info {
+		padding: 50px;
+	}
+}
+.work {
+  display: flex;
+  flex-flow: row wrap;
+}
+/*.row {
 	display: flex;
 	flex-flow: row wrap;
-}
+}*/
 .column .inner > * {
 	width: 49%;
 	display: inline-block;
@@ -409,13 +427,14 @@ body:not(.index) .site-header:hover > * {
 /* Me */
 .me {
   padding: 150px 0;
-	background-size: contain !important;
-	background-position: center !important;
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+	text-align: center;
 }
 .me img {
   max-width: 300px;
   max-height: 300px;
-  margin: 0 auto;
 }
 /* Team */
 .team {
@@ -429,6 +448,7 @@ body:not(.index) .site-header:hover > * {
 }
 .team-member {
 	position: relative;
+	min-width: 200px;
 }
 .team-member h4 {
   position: absolute;
@@ -494,9 +514,16 @@ body:not(.index) .site-header:hover > * {
 }
 .next {
   display: block;
-  padding: 120px;
+  padding: 120px 15px;
   background: #e64;
   color: #fff
+}
+@media only screen and (min-width : 768px) {
+	/* Styles */
+	.post-header,
+	.next {
+	  padding: 120px;
+	}
 }
 .next span {
   text-transform: uppercase;
@@ -523,11 +550,12 @@ body:not(.index) .site-header:hover > * {
   transform: translateY(-30px);
 }
 .post-header {
-	padding: 120px;
+	padding: 120px 15px;
 	text-align: center;
 	color: #fff;
 	background-size: contain !important;
 	background-repeat: no-repeat !important;
+	text-align: left;
 }
 /* End Post
 ———————————————————————————————————— */
@@ -545,10 +573,6 @@ body:not(.index) .site-header:hover > * {
 }
 .contact-social .social * {
 	fill: #0ba;
-}
-.address .inner > * {
-	display: inline-block;
-	width: 49%
 }
 .contact-info span {
 	display: block;
@@ -591,11 +615,6 @@ body:not(.index) .site-header:hover > * {
 .site-footer,
 .site-footer a {
 	color: #fff;
-}
-.site-footer .footer-work,
-.site-footer .footer-post,
-.site-footer .footer-info {
-	padding: 50px;
 }
 .site-footer .footer-info > * {
 	display: inline-block;
@@ -655,6 +674,9 @@ header svg {
 address {
   font-style: normal;
 }
+nav.outer-nav.right.vertical {
+  overflow: hidden;
+}
 /* END Bits
 ———————————————————————————————————— */
 /* Media Queries */
@@ -682,6 +704,10 @@ address {
 	header .nav-main li {
 		margin-bottom: 20px;
 	}
+	.address .inner > * {
+		display: inline-block;
+		width: 49%
+	}
 }
 @media only screen and (max-width : 769px) {
 	/* Styles */
@@ -694,11 +720,22 @@ address {
 	header li {
 		display: inline;
 	}
+	.title {
+  	overflow: hidden;
+	}
+	.index .title svg.line.animate {
+  	width: 200%;
+  	left: -50%;
+	}
 }
 @media only screen and (max-width : 520px) {
 	/* Styles */
 	.nav-social {
 		display: none;
+	}
+	h1 {
+		font-size: 1.4rem;
+		line-height: 2rem;
 	}
 }
 @media screen and (max-width: 77em) {
