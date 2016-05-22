@@ -1,0 +1,7 @@
+<svg class="line" viewBox="0 0 150 150" xmlns="http://www.w3.org/2000/svg" >
+  <path d="M20 40h110v80H20z"/>
+  <path d="M50 40V20h50v20" />
+  <path d="M20 80h40" />
+  <path d="M60 70h30v20H60z"/>
+  <path d="M90 80h40" />
+</svg>

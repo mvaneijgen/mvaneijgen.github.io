@@ -1,17 +1,69 @@
-{% include doctype-and-head.html %}
+<!DOCTYPE html>
+<html>
 
-<body class="{{ page.layout }} {{ page.categories }} {{ page.tags }}">
+{% include head.html %}
+
+<body class="{{ page.layout }} {{ page.path | remove: ".html" }}">
   <div id="perspective" class="perspective effect-moveleft">
-        {% include aside.html %}
+    {% include header.html %}
     <div class="container">
       <div class="wrapper"><!-- wrapper needed for scroll -->
-        <!-- Top Navigation -->
-          {{ content }}
-
+        {{ content }}
+        {% include footer.html %}
       </div><!-- wrapper -->
     </div><!-- /container -->
-  {% include outer-nav.html %}
-  {% include google-analytics.html %}
+
+    {% if site.perspective == true %}
+    <nav class="outer-nav right vertical">
+      <a href="/" class="">Home</a>
+      <a href="work" class="">Work</a>
+      <a href="blog" class="">Blog</a>
+      <a href="contact" class="">Contact</a>
+    </nav>
+    {% endif %}
+  </div><!-- /perspective -->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+  {% if site.perspective == true %}
+  <script src="/js/classie.js"></script>
+  <script src="/js/menu.js"></script>
+  {% endif %}
+  <script src="/js/imgCoverEffect.min.js"></script>
+  <script type="text/javascript">
+  $(document).ready(function() {
+    if(navigator.platform == "iPad") {
+      $("a").each(function() { // have to use an `each` here - either a jQuery `each` or a `for(...)` loop
+        var onClick; // this will be a function
+        var firstClick = function() {
+          onClick = secondClick;
+          return false;
+        };
+        var secondClick = function() {
+          onClick = firstClick;
+          return true;
+        };
+        onClick = firstClick;
+        $(this).click(function() {
+          return onClick();
+        });
+      });
+    }
+  });
+  document.addEventListener("DOMContentLoaded", function(event) {
+    var img = document.getElementsByClassName('cover');
+    for(var i = 0; i < img.length; i++){
+      var curr = img[i];
+      //hier de code
+      imgCoverEffect(curr, {
+        alignX: 'center',
+        alignY: 'middle',
+        watchResize: true
+      });
+
+    }
+  });
+  </script>
+
 </body>
 
 </html>

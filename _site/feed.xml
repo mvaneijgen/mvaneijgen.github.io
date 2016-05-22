@@ -4,9 +4,9 @@
     <title>M van Eijgen</title>
     <description>I am a graphic desigher from The Netherlands, working for my self since 2009 and recently under the name &lt;a href=&quot;http://studioalloy.nl&quot;&gt;Studio Alloy&lt;/a&gt; as a collective of creative designer and developers.</description>
     <link>//</link>
-    <atom:link href="//feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 22 May 2016 10:21:44 +0200</pubDate>
-    <lastBuildDate>Sun, 22 May 2016 10:21:44 +0200</lastBuildDate>
+    <atom:link href="//feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 22 May 2016 10:22:32 +0200</pubDate>
+    <lastBuildDate>Sun, 22 May 2016 10:22:32 +0200</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
     
       <item>
@@ -43,6 +43,25 @@
       </item>
     
       <item>
+        <title>Offline airplay</title>
+        <description>&lt;p&gt;I love to sketch on my iPad to show in a client in a meeting what our ideas are, but the screen of the iPad is not that big to have five people looking at it at once. So the solution was installing this software on my laptop to have it mirror the iPads screen, but after that I ran into another problem you need to have a stable wifi connection to connect both the iPad and laptop to and I always feel a bit odd to ask for the wifi password at a client’s workplace, so there must be a better way, right?&lt;/p&gt;
+
+&lt;p&gt;I knew I’ll could buy a Airport express to create a personal network but I found that a bit to expensive and I have to carry a extra device everywhere I go.&lt;/p&gt;
+
+&lt;p&gt;So the solution: Make a personal hotspot from your phone and connect both your laptop and ipad to the newly created network and your good to go! For safety I turned off all data for the 3G network of my phone.&lt;/p&gt;
+
+&lt;p&gt;For all ya’ll grammar nazis around here, my spelling is really bad. I know this, but i still want to write and not have to wait till there is somebody around to check my spelling. Most of you like to point out the mistakes and make it better I like that attitude, so i’m starting a new project. Everything i blog will be open to edit for everyone to fix. I will provide a link after any blog post with a editable file. 0913_offlineairplay_ENZO&lt;/p&gt;
+</description>
+        <pubDate>Sun, 29 Mar 2015 18:41:48 +0200</pubDate>
+        <link>//blog/Local-Airplay/</link>
+        <guid isPermaLink="true">//blog/Local-Airplay/</guid>
+        
+        
+        <category>Product</category>
+        
+      </item>
+    
+      <item>
         <title>Getting started with automator</title>
         <description>&lt;p&gt;I have been a Mac users for more that five years, but only recently I started thinking around with Automator. There where some recurring task that I did often and took me some time to setup, the one that took the most time was setting up project folders for new projects. There where a few basic files/folders we create with every project like “Submitted”, “Preview” and a folder called “old”. We have also created a template file with every social media avatar/banner size. It happend more often than I like to admit that I dragged over the assets files and forgot to copy them, so later when we wanted to create a new folder the files where gone and we had to reconstruct them from other files. An other tedious task as getting the clients initials and the date of the start of the project in the file name. This process took only a minute of so, but there was to much room for error and was just not fun.&lt;/p&gt;
 
@@ -69,7 +88,7 @@
 
 &lt;!--more--&gt;
 
-&lt;p&gt;&amp;lt;img src=”http://www.s210.nl/wp-content/uploads/2014/08/peekeye.png” &lt;span style=&quot;font-size: 40px;&quot;&gt;vs&lt;/span&gt;&lt;img src=&quot;http://www.s210.nl/wp-content/uploads/2014/08/peekeye.svg&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://www.s210.nl/wp-content/uploads/2014/08/peekeye.png&quot; /&gt; &lt;span style=&quot;font-size: 40px;&quot;&gt;vs&lt;/span&gt;&lt;img src=&quot;http://www.s210.nl/wp-content/uploads/2014/08/peekeye.svg&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Ik wil hieronder een kleine sprong in de wereld van SVG maken (Scalable Vector Graphics) en laten zien wat er mogelijk is. Het eerste wat ik wil aan aankaarten is het voorbeeld hierboven. Niet alleen is de file veel kleiner, het hele element is stijlbaar met CSS.&lt;/p&gt;
 

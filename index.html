@@ -1,66 +1,42 @@
 ---
 layout: default
-title: M van Eijgen
-categories: index
 ---
-<header>
-  <section class="navigation">
-    <h1><a href="{{ site.baseurl }}">{{ site.tagline }}</a></h1>
-    <nav>
-      {% include nav.html %}
-    </nav> 
-  </section> 
-</header>
 
-<div class="gallery autoplay items-5">
-  <div id="item-1" class="control-operator"></div>
-  <div id="item-2" class="control-operator"></div>
-  <div id="item-3" class="control-operator"></div>
-  <div id="item-4" class="control-operator"></div>
-  <div id="item-5" class="control-operator"></div>
-
-  <figure class="item corpus">
-    <article>
-      <h1>Corpus Touch table</h1>
-      <p>Interactive multi-touch table designed and <br>developed for Corpus Expirance</p>
-    </article>
-  </figure>
-
-  <figure class="item inholland">
-    <article>
-      <h1>Inholland Magazine</h1>
-      <p>A digtial responsive magazine to fit every screen</p>
-    </article>
-  </figure>
-
-  <figure class="item pexion">
-    <article>
-      <h1>Pexion iPad presentation app</h1>
-      <p>Interactive presentation designed for iPad</p>
-    </article>
-  </figure>
-
-  <figure class="item umc">
-    <article>
-      <h1>UMC project icons</h1>
-      <p>Set of multi color icons for internal communication</p>
-    </article>
-  </figure>
-
-  <figure class="item fabstagram">
-    <article>
-      <h1>Web application</h1>
-      <p>Design your own phone case with the use of Instagram</p>
-    </article>
-  </figure>
-
-  <div class="controls">
-    <a href="#item-1" class="control-button">•</a>
-    <a href="#item-2" class="control-button">•</a>
-    <a href="#item-3" class="control-button">•</a>
-    <a href="#item-4" class="control-button">•</a>
-    <a href="#item-5" class="control-button">•</a>
-  </div>
+<div class="row title">
+	<div class="inner flex">
+		<h1><a href="#me">{{ site.name }}</a> {{ site.tagline }}</h1>
+	</div>
+	{% include line.svg %}
+</div>
+<div class="row work">
+	{% assign published = (site.work | where:"featured","true") %}
+	{% for post in published limit:6%}
+	<a href="{{ post.url }}" class="thumb">
+		<img class="cover" src="/img/work/{{ post.title | slugify }}-thumb.jpg" alt="{{ post.title }} | {{ post.excerpt }}">
+		<img class="logo" src="/img/work/{{ post.title | slugify }}-logo.png" alt="{{ post.opdrachtgever }}">
+	</a>
+	{% endfor %}
 </div>
 
-{% include footer.html %}
+<div class="row me" id="me" style="background: url(img/cover.png);">
+	<img src="img/team/{{ site.name | slugify }}.jpg" alt="" class="clip"/>
+</div>
+<div class="row about min-margin">
+	<div class="inner">
+		<h2>{{ site.name }}</h2>
+		{{ site.about }}
+	</div>
+</div>
+<div class="row">
+	<div class="inner">
+		<h2>Meet the people I work with</h2>
+	</div>
+</div>
+<div class="row team">
+	{% for post in site.team %}
+	<div class="team-member gradiant">
+		<img src="img/team/{{ post.title | slugify }}.jpg" alt="{{ post.title }}" class="cover"/>
+		<h4>{{ post.title }}</h4>
+	</div>
+	{% endfor %}
+</div>
