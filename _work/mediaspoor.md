@@ -6,7 +6,7 @@ date: 2015-05-30 16:22:48
 categories: lespakketten, website, interactief
 excerpt: Digitale lespakketten voor het basisonderwijs over mediawijsheid
 featured: false
-url: //mediaspoor.nl
+website: //mediaspoor.nl
 image:
 published: true
 order: 100

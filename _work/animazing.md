@@ -6,7 +6,7 @@ date: 2015-05-30 16:22:48
 categories: huisstijl, 2d animatie, website, wordpress
 excerpt: Een door Alloy ontwikkeld label voor productie van 2D animaties
 featured: false
-url: //animazing.nl
+website: //animazing.nl
 image: 3
 published: true
 order: 100

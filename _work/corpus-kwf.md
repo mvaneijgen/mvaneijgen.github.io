@@ -6,7 +6,7 @@ date: 2015-05-30 16:22:48
 categories: tentoonstelling, installatie, 3d animatie
 excerpt: Het KWF fotohokje maak een 'Selfie van je toekomst'
 featured: false
-url: //corpusexperience.nl
+website: //corpusexperience.nl
 image:
 published: true
 order: 100

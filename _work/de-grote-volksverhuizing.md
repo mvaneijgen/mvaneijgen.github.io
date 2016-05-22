@@ -6,7 +6,7 @@ date: 2015-05-30 16:22:48
 categories: lespakketten, website, interactief
 excerpt: Interactieve lespakketen basisonderwijs over de Atlantikwall
 featured: "true"
-url: //degrotevolksverhuizing.nl
+website: //degrotevolksverhuizing.nl
 image: 11
 published: true
 order: 1

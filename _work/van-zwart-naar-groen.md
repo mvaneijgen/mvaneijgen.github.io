@@ -6,7 +6,7 @@ date: 2015-05-30 16:22:48
 categories: website, interactief, infographic
 excerpt: Mobiele app over energieproductie in Nederland
 featured: "true"
-url: //vanzwartnaargroen.nl
+website: //vanzwartnaargroen.nl
 image: 3
 published: true
 vimeo:

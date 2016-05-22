@@ -6,7 +6,7 @@ date: 2015-05-30 16:22:48
 categories: lespakketten, website, interactief
 excerpt: Online interactief spel over vooroordelen op basis van een selfie
 featured: "true"
-url: //hokjestest.nl
+website: //hokjestest.nl
 image:
 published: false
 order: 100

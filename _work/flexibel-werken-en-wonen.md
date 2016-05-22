@@ -6,7 +6,7 @@ date: 2015-05-30 16:22:48
 categories: website, wordpress
 excerpt: Campagnewebsite over hypotheken voor ZZP’ers en flexwerkers
 featured: false
-url: //flexibelwerkenenwonen.nl
+website: //flexibelwerkenenwonen.nl
 image: 4
 published: true
 order: 100

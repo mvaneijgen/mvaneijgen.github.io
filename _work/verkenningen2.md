@@ -6,7 +6,7 @@ date: 2015-05-30 16:22:48
 categories: website, interactief, infographic
 excerpt: Online storytelling met interactieve routes
 featured: false
-url: //verkenningen2.nl
+website: //verkenningen2.nl
 image: 5
 published: false
 vimeo: 147101423

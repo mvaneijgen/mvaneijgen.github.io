@@ -6,7 +6,7 @@ date: 2015-05-30 16:22:48
 categories: 3d animatie, tentoonstelling, lespakketten, interactief, game
 excerpt: Game & touch table CORPUS 'De Anatomische Les'
 featured: true
-url: //corpusexperience.nl/
+website: //corpusexperience.nl/
 image: 4
 published: true
 order: 100

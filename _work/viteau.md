@@ -6,7 +6,7 @@ date: 2015-05-30 16:22:48
 categories: website, wordpress
 excerpt: Bedrijfswebsite met CMS voor Viteau waterkoelers
 featured: false
-url: //viteau.nl
+website: //viteau.nl
 image: 4
 published: false
 vimeo: 147093537

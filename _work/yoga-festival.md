@@ -6,7 +6,7 @@ date: 2015-05-30 16:22:02
 categories: website, wordpress, webshop
 excerpt: Ontwikkeling website met online kaartverkoop
 featured: false
-url: //yogafestivalhaarlem.nl
+website: //yogafestivalhaarlem.nl
 image: 3
 published: false
 vimeo: 147093548

@@ -6,7 +6,7 @@ date: 2015-05-30 16:22:48
 categories: website
 excerpt: Dynamische website voor een Haarlems communicatiebureau
 featured: false
-url: //heldergroen.nl
+website: //heldergroen.nl
 image: 5
 published: true
 vimeo: 148217804

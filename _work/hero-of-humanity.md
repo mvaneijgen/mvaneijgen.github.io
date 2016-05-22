@@ -6,7 +6,7 @@ date: 2015-05-30 16:22:48
 categories: lespakketten, website, interactief
 excerpt: Online game voor het Rode Kruis over behulpzaamheid onder jongeren
 featured: "true"
-url: //heroofhumanity.nl
+website: //heroofhumanity.nl
 image:
 published: true
 order: 100

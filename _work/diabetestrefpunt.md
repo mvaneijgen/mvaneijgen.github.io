@@ -6,7 +6,7 @@ date: 2015-05-30 16:22:48
 categories: website, interactief, community
 excerpt: Online community voor diabetespatiënten en deskundigen
 featured: "true"
-url: //diabetestrefpunt.nl
+website: //diabetestrefpunt.nl
 image: 3
 published: true
 order: 100
