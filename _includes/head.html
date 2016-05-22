@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+{% if site.baseurl == "" %}
+<html lang="en" class="dev">
+{% else %}
+<html lang="en">
+{% endif %}
+
+<head>
+  <meta name="viewport" content="width=device-width">
+
+  <title>{{ page.title }}</title>
+  <meta name="description" content="Portfolio website of M van Eijgen" />
+  <meta name="keywords" content="Graphic design, 3d page, menu, navigation, mobile, perspective, css transform, web development, web design" />
+  <meta name="author" content="M van Eijgen" />
+  <base href="{{ site.baseurl }}">
+
+  <link rel="stylesheet" href="/css/demo.css">
+  <!-- Begin PERSPECTIVE PAGE VIEW NAVIGATION -->
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- csstransforms3d-shiv-cssclasses-prefixed-teststyles-testprop-testallprops-prefixes-domprefixes-load -->
+  <script src="/js/modernizr.custom.25376.js"></script>
+  <!-- END PERSPECTIVE PAGE VIEW NAVIGATION -->
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,700' rel='stylesheet' type='text/css'>
+</head>

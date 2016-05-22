@@ -1,8 +1,20 @@
 ---
 layout: default
 ---
-
-<img src="/images/work/{{ page.categories }}.jpg">
-<div class="site-width">
-  {{ content }}
+<header class="work-header flex">
+  <img class="cover" src="/img/work/{{ page.title | slugify }}-header.jpg" alt="{{ page.excerpt }}" />
+  <div class="inner">
+    <h1>{{ page.title }}</h1>
+  </div>
+</header>
+<div class="row min-margin">
+  <div class="inner">
+    <p class="excerpt">{{ page.excerpt }}</p>
+    {{ content }}
+  </div>
+</div>
+<div class="image-container">
+  {% for i in (1..page.image) %}
+     <img src="/img/work/{{ page.title | slugify }}-{{ i }}.jpg">
+  {% endfor %}
 </div>

@@ -1,8 +1,35 @@
 ---
-layout: blog
+layout: default
 ---
-<header style="background: #{{ page.colour }};"><img src="{{ site.baseurl }}/images/blog/{{ page.title }}.jpg"></header>
-<div class="site-width">
-	<h1>{{ page.title }}</h1>
-	{{ content }}
+<div class="post">
+  <header class="post-header">
+    <div class="inner">
+    <h1 class="post-title">{{ page.title }}</h1>
+    <p class="post-meta">{{ page.date | date: "%-d %b, %Y" }}{% if page.author %} / {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+  </div>
+  </header>
+  <div class="inner">
+  <article class="post-content">
+    {{ content }}
+  </article>
+  </div>
+  {% if page.previous.url %}
+    <a class="next" href="{{page.previous.url}}">
+      <span>Read next</span>
+      <h2>{{ page.previous.title }}</h2>
+    </a>
+  {% elsif page.next.url %}
+    <a class="next" href="{{page.next.url}}">
+      <span>Read next</span>
+      <h2>{{ page.next.title }}</h2>
+    </a>
+  {% endif %}
 </div>
+<style media="screen">
+.post-header {
+  background-color: #{{ page.color }};
+  background-image: url(img/blog/{{ page.image }});
+  -webkit-clip-path: {{ page.clippath }};
+	clip-path: {{ page.clippath }};
+  }
+</style>

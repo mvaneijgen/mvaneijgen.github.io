@@ -1,7 +1,41 @@
-<footer class="footer">
-	<section>
-			<a class="link-no-style" href="{{ site.baseurl }}/contact">Gasthuisvest 47, 2011 EV</a><br>
-			<a class="link-no-style" href="tel:{{ site.phone | remove: " " }}">{{ site.phone }}</a><br>
-			<a class="" href="mailto:{{ site.email }}">{{ site.email }}</a>
-	</section>
+<footer class="site-footer column">
+
+<div class="inner">
+  <div class="footer-posts">
+  <div class="footer-work">
+    <h4>Work</h4>
+    <div class="footer-work-list">
+      {% for post in site.work limit: 3 %}
+    	<a href="{{ post.url }}">
+        {% capture post_list %}{{ post.title }}  /  {{ post.excerpt | strip_html }}{% endcapture %}
+    		{{ post_list | truncate: 30 }}
+    	</a>
+    	{% endfor %}
+    </div>
+  </div>
+  <div class="footer-post">
+    <h4>Blog</h4>
+    <div class="footer-work-list">
+      {% for post in site.posts limit: 3 %}
+      <a href="{{ post.url }}">
+        {% capture post_list %}{{ post.title }}  /  {{ post.excerpt | strip_html }}{% endcapture %}
+    		{{ post_list | truncate: 30 }}
+      </a>
+      {% endfor %}
+    </div>
+  </div>
+  </div>
+  <div class="footer-info">
+    <img src="img/team/{{ site.name | slugify }}.jpg" alt="" class="clip"/>
+    <div class="">
+      <h4>{{ site.name }}</h4>
+      <address>
+        {{ site.address }}
+      </address>
+      <p>{{ site.phone }}</p>
+      <p>{{ site.email }}</p>
+    </div>
+  </div>
+</div>
+
 </footer>
