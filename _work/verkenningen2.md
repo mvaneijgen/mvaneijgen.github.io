@@ -8,7 +8,7 @@ excerpt: Online storytelling met interactieve routes
 featured: false
 website: //verkenningen2.nl
 image: 5
-published: false
+published: true
 vimeo: 147101423
 order: 100
 ---

@@ -8,7 +8,7 @@ excerpt: Bedrijfswebsite met CMS voor Viteau waterkoelers
 featured: false
 website: //viteau.nl
 image: 4
-published: false
+published: true
 vimeo: 147093537
 order: 100
 ---

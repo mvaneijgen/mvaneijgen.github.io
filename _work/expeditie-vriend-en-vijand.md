@@ -1,6 +1,6 @@
 ---
 layout: project
-opdrachtgever: Heldergroen, Critical Mass
+opdrachtgever: Critical Mass
 title: Expeditie Vriend en Vijand
 date: 2015-05-30 16:22:48
 categories: website, wordpress

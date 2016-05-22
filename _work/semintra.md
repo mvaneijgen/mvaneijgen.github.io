@@ -6,8 +6,8 @@ date: 2015-05-30 16:22:48
 categories: infographic, 2d animatie
 excerpt: 2D animatie over Semintra, een vloeibaar medicijn voor katten met chronisch nierfalen
 featured: false
-url:
-image:
+webiste:
+image: 3
 published: true
 output: false
 order: 100

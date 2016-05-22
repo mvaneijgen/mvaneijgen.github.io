@@ -8,7 +8,7 @@ excerpt: Campagne website ‘Science can change the world’
 featured: false
 website: //sciencecanchangetheworld.com
 image: 3
-published: false
+published: true
 vimeo: 147093536
 order: 100
 ---

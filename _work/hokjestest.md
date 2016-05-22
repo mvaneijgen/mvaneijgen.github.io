@@ -7,8 +7,8 @@ categories: lespakketten, website, interactief
 excerpt: Online interactief spel over vooroordelen op basis van een selfie
 featured: "true"
 website: //hokjestest.nl
-image:
-published: false
+image: 5
+published: true
 order: 100
 ---
 
