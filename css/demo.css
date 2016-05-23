@@ -264,7 +264,7 @@ p {
 .site-footer .footer-work,
 .site-footer .footer-post,
 .site-footer .footer-info {
-	padding: 15px;
+	padding: 30px 15px;
 }
 @media only screen and (min-width : 768px) {
 	/* Styles */
@@ -275,9 +275,13 @@ p {
 		padding: 50px;
 	}
 }
-.work {
-  display: flex;
-  flex-flow: row wrap;
+.work .thumb {
+  float: left;
+}
+.work:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 /*.row {
 	display: flex;

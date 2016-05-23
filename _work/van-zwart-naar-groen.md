@@ -2,7 +2,7 @@
 layout: project
 opdrachtgever: Studio Alloy
 title: Van Zwart naar Groen
-date: 2015-05-30 16:22:48
+date: 2015-07-30 16:22:48
 categories: website, interactief, infographic
 excerpt: Mobiele app over energieproductie in Nederland
 featured: "true"
