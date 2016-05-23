@@ -442,7 +442,8 @@ body:not(.index) .site-header:hover > * {
 }
 /* Team */
 .team {
-	display: flex;
+  display: flex;
+  flex-flow: row wrap;
 }
 .team > *{
 	flex-grow: 1;
