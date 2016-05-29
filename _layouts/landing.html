@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+{% include head.html %}
+
+<body class="{{ page.layout }} {{ page.path | remove: ".html" }}">
+  <link rel="stylesheet" href="/css/landing.css">
+  <div class="wrapper"><!-- wrapper needed for scroll -->
+    {{ content }}
+    {% include footer.html %}
+  </div><!-- wrapper -->
+
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
+  <script type="text/javascript" src="js/dragboard.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+  <script type="text/javascript" src="/js/owl.carousel.min.js"></script>
+  <script type="text/javascript">
+  $(document).ready(function(){
+    var owl = $('#owl-carousel');
+    owl.owlCarousel({
+      autoplay:true,
+      autoplayTimeout:7500,
+      loop:true,
+      margin:0,
+      nav:false,
+      center:true,
+      responsive:{
+        0:{
+          items:1
+        },
+      }
+    });
+  });
+  </script>
+</body>
+
+</html>
