@@ -15,7 +15,6 @@
   <meta name="author" content="M van Eijgen" />
   <base href="/">
 
-  <link rel="stylesheet" href="/css/style.css">
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -239,15 +238,15 @@
   </div><!-- /perspective -->
   <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
   <script>
-        var cb = function() {
-          var l = document.createElement('link'); l.rel = 'stylesheet';
-          l.href = 'styles.css';
-          var h = document.getElementsByTagName('head')[0]; h.parentNode.insertBefore(l, h);
-        };
-        var raf = requestAnimationFrame || mozRequestAnimationFrame ||
-            webkitRequestAnimationFrame || msRequestAnimationFrame;
-        if (raf) raf(cb);
-        else window.addEventListener('load', cb);
+    var cb = function() {
+      var l = document.createElement('link'); l.rel = 'stylesheet';
+      l.href = 'css/style.css';
+      var h = document.getElementsByTagName('head')[0]; h.parentNode.insertBefore(l, h);
+    };
+    var raf = requestAnimationFrame || mozRequestAnimationFrame ||
+        webkitRequestAnimationFrame || msRequestAnimationFrame;
+    if (raf) raf(cb);
+    else window.addEventListener('load', cb);
   </script>
   
   <script type="text/javascript">
