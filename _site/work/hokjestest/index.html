@@ -15,14 +15,11 @@
   <meta name="author" content="M van Eijgen" />
   <base href="/">
 
-  <link rel="stylesheet" href="/css/demo.css">
-  <!-- Begin PERSPECTIVE PAGE VIEW NAVIGATION -->
+  <link rel="stylesheet" href="/css/style.css">
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- csstransforms3d-shiv-cssclasses-prefixed-teststyles-testprop-testallprops-prefixes-domprefixes-load -->
-  <script src="/js/modernizr.custom.25376.js"></script>
-  <!-- END PERSPECTIVE PAGE VIEW NAVIGATION -->
+  <!-- <script src="/js/modernizr.custom.25376.js"></script> -->
   <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,700' rel='stylesheet' type='text/css'>
 </head>
 
@@ -251,8 +248,8 @@
   <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
   
-  <script src="/js/classie.js"></script>
-  <script src="/js/menu.js"></script>
+  <!-- <script src="/js/classie.js"></script>
+  <script src="/js/menu.js"></script> -->
   
   <script src="/js/imgCoverEffect.min.js"></script>
   <script type="text/javascript">
@@ -288,6 +285,26 @@
 
     }
   });
+  </script>
+  <script type="text/javascript">
+    // flag : says "remove class when click reaches background"
+var removeClass = true;
+var perspective = $('#perspective');
+// when clicking the button : toggle the class, tell the background to leave it as is
+$("#showMenu").click(function () {
+    perspective.addClass('modalview animate');
+    removeClass = false;
+});
+// when click event reaches "html" : remove class if needed, and reset flag
+$("html").click(function () {
+    if (removeClass) {
+        perspective.removeClass('animate');
+        setTimeout(function() {
+          perspective.removeClass('modalview');
+         }, 800);
+    }
+    removeClass = true;
+});
   </script>
 
 </body>

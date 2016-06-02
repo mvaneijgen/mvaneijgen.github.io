@@ -25,8 +25,8 @@
   <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
   {% if site.perspective == true %}
-  <script src="/js/classie.js"></script>
-  <script src="/js/menu.js"></script>
+  <!-- <script src="/js/classie.js"></script>
+  <script src="/js/menu.js"></script> -->
   {% endif %}
   <script src="/js/imgCoverEffect.min.js"></script>
   <script type="text/javascript">
@@ -62,6 +62,26 @@
 
     }
   });
+  </script>
+  <script type="text/javascript">
+    // flag : says "remove class when click reaches background"
+var removeClass = true;
+var perspective = $('#perspective');
+// when clicking the button : toggle the class, tell the background to leave it as is
+$("#showMenu").click(function () {
+    perspective.addClass('modalview animate');
+    removeClass = false;
+});
+// when click event reaches "html" : remove class if needed, and reset flag
+$("html").click(function () {
+    if (removeClass) {
+        perspective.removeClass('animate');
+        setTimeout(function() {
+          perspective.removeClass('modalview');
+         }, 800);
+    }
+    removeClass = true;
+});
   </script>
 
 </body>
