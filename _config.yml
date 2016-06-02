@@ -38,13 +38,11 @@ collections:
 # Pre-processing
 
 markdown: kramdown
-highlighter: pygments
 safe: true
 permalink: /blog/:title/ # YYYY/MM/DD/page-title/index.html
 lsi: true # Lexical analysis (true) takes longer for higher quality
-# sass:
-#  style: :compressed
-
+sass:
+    style: compressed
 # Exclude from Jekyll processing
 
 exclude: ["vendor", "README.md", "node_modules", "gulpfile.js", "package.json"]
