@@ -429,8 +429,8 @@ body:not(.index) .site-header:hover > * {
 /* Me */
 .me {
   padding: 150px 0;
-  background-size: cover !important;
-  background-position: center !important;
+  background-size: cover;
+  background-position: top;
   background-repeat: no-repeat !important;
 	text-align: center;
 }
