@@ -598,10 +598,11 @@ body:not(.index) .site-header:hover > * {
 	margin-bottom: 15px;
 }
 .site-footer a {
-	margin: 0;
-	display: block;
-	opacity: .6;
-	transition: opacity .4s ease;
+  margin: 0;
+  display: block;
+  opacity: .6;
+  transition: opacity .4s ease;
+  margin-bottom: 10px;
 }
 .site-footer a:hover {
 	opacity: 1;
