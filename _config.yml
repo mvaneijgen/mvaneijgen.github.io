@@ -22,7 +22,7 @@ about: <p>Al sinds jonge twintiger is Mitchel van Eijgen actief als ondernemer i
 # the base hostname & protocol for your site
 url: "//mvaneijgen.nl/"
 baseurl: "//mvaneijgen.nl/"
-default_image: /mvaneijgen-grafisch-ontwerper.jpg
+default_image: img/mvaneijgen-grafisch-ontwerper.jpg
 
 # Collections
 collections:
@@ -54,7 +54,6 @@ recent_items: 10  # Applies to recent posts, apps lists
 related_items: 5  # Applies to related posts and apps lists
 
 # Features
-
 facebook: false       # Use facebook features
 comments: none      # Switch disqus | facebook | none - comments. facebook = true required for facebook comments
 perspective: true
