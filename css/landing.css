@@ -86,10 +86,13 @@ h2 {
 section {
   background-color: #fff;
 }
-
-.min-vh {
-  margin-top: -200px;
+@media only screen and (min-width : 768px) {
+	/* Styles */
+  .min-vh {
+    margin-top: -200px;
+  }
 }
+
 .half-vh {
   height: 50vh;
   min-height: 500px;
@@ -234,7 +237,7 @@ nav img {
   margin: 40px 0;
 }
 .vertical-centered {
-  padding-top: 160px;
+  padding-top: 160px !important;
 }
 .alloy-bg h3 {
   color: #fff;
