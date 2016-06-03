@@ -59,8 +59,8 @@ padding-left: 0;
 }
 h1 {
   letter-spacing: 0.5rem;
+  margin-bottom: 30px;
 }
-
 h2 {
   font-size: 1.5rem;
   line-height: 2rem;
@@ -188,11 +188,12 @@ nav img {
 .qoute-box {
   padding: 80px 0;
 }
-
-.logos img {
-  margin: 40px 0;
+.logos {
+  text-align: center;
 }
-
+.logos img {
+  margin: 30px;
+}
 .checklist-box {
   background: #fff;
   box-shadow: 0 0 60px rgba(0, 0, 0, 0.3);
@@ -232,7 +233,13 @@ nav img {
 .checklist-box button {
   margin: 40px 0;
 }
-
+.vertical-centered {
+  padding-top: 160px;
+}
+.alloy-bg h3 {
+  color: #fff;
+  margin-bottom: 60px;
+}
 /* Slider
 ———————————————————————————————————— */
 .slider {
@@ -470,6 +477,7 @@ form {
   }
 }
 /*Drag game*/
+
 .dragboard {
   position: relative;
   -ms-transform: translate3d(0, 0, 0);
@@ -485,7 +493,10 @@ form {
   background-size: 100%;
   overflow: hidden;
 }
-
+.dragboard {
+  margin-left: auto;
+  margin-right: auto;
+}
 .dragboard .dragger {
   z-index: 100;
   -ms-transform: translate3d(0, 0, 0);
@@ -599,7 +610,7 @@ testing mode
 /* werkruimte
 ------------------------------------------- */
 .max-width {
-  max-width: 100%;
+  width: 100%;
 }
 .werkruimte p {
   margin-bottom: 20px;
@@ -618,9 +629,6 @@ testing mode
 
 .werkruimte .col h4 {
   margin-bottom: 0;
-}
-.werkruimte .bg * {
-  color: #fff !important;
 }
 .werkruimte .col {
   border: 1px solid;
@@ -653,6 +661,15 @@ testing mode
 .share-buttons svg {
   width: 30px;
   height: 30px;
+}
+.share-buttons > * {
+  display: inline-block;
+  fill: #fff;
+}
+.share-buttons {
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 .werkruimte .min-height {
   min-height: 500px !important;
@@ -882,4 +899,7 @@ testing mode
 .owl-carousel .owl-video-frame {
   position: relative;
   z-index: 1;
+}
+a {
+  color: #344;
 }

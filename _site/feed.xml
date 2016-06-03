@@ -3,10 +3,10 @@
   <channel>
     <title>M van Eijgen</title>
     <description>I am a graphic desigher from The Netherlands, working for my self since 2009 and recently under the name Studio Alloy as a collective of creative designer and developers.</description>
-    <link>//</link>
-    <atom:link href="//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 03 Jun 2016 12:51:34 +0200</pubDate>
-    <lastBuildDate>Fri, 03 Jun 2016 12:51:34 +0200</lastBuildDate>
+    <link>http://mvaneijgen.nl//</link>
+    <atom:link href="http://mvaneijgen.nl//feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Fri, 03 Jun 2016 13:44:53 +0200</pubDate>
+    <lastBuildDate>Fri, 03 Jun 2016 13:44:53 +0200</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
     
       <item>
@@ -34,8 +34,8 @@
 &lt;p&gt;I got my Pebble for a week now and it keeps amazing me. I can’t wait for the new firmware that is going to be available for every Pebble not just the new one. Im excited to create my own watch faces or even apps with the amazing developer interface Pebble provides to everyone.&lt;/p&gt;
 </description>
         <pubDate>Sun, 29 Mar 2015 18:41:48 +0200</pubDate>
-        <link>//blog/The-Apple-Watch-launched-and-I-bought-a-Pebble/</link>
-        <guid isPermaLink="true">//blog/The-Apple-Watch-launched-and-I-bought-a-Pebble/</guid>
+        <link>http://mvaneijgen.nl//blog/The-Apple-Watch-launched-and-I-bought-a-Pebble/</link>
+        <guid isPermaLink="true">http://mvaneijgen.nl//blog/The-Apple-Watch-launched-and-I-bought-a-Pebble/</guid>
         
         
         <category>Product</category>
@@ -53,8 +53,8 @@
 &lt;p&gt;For all ya’ll grammar nazis around here, my spelling is really bad. I know this, but i still want to write and not have to wait till there is somebody around to check my spelling. Most of you like to point out the mistakes and make it better I like that attitude, so i’m starting a new project. Everything i blog will be open to edit for everyone to fix. I will provide a link after any blog post with a editable file. 0913_offlineairplay_ENZO&lt;/p&gt;
 </description>
         <pubDate>Sun, 29 Mar 2015 18:41:48 +0200</pubDate>
-        <link>//blog/Local-Airplay/</link>
-        <guid isPermaLink="true">//blog/Local-Airplay/</guid>
+        <link>http://mvaneijgen.nl//blog/Local-Airplay/</link>
+        <guid isPermaLink="true">http://mvaneijgen.nl//blog/Local-Airplay/</guid>
         
         
         <category>Product</category>
@@ -74,8 +74,8 @@
 &lt;p&gt;Just humor me next time you get a tidius task and are wondering if you could automate, open Automator and try to create something. It will open up a whole new world to you.&lt;/p&gt;
 </description>
         <pubDate>Sun, 29 Mar 2015 18:41:48 +0200</pubDate>
-        <link>//blog/Getting-started-with-automator/</link>
-        <guid isPermaLink="true">//blog/Getting-started-with-automator/</guid>
+        <link>http://mvaneijgen.nl//blog/Getting-started-with-automator/</link>
+        <guid isPermaLink="true">http://mvaneijgen.nl//blog/Getting-started-with-automator/</guid>
         
         
         <category>Gerneral</category>
@@ -105,8 +105,8 @@
 &lt;p&gt;Nog een kleine recap SVG files zijn meestal kleiner, blijven schaalbaar en bewerkbaar met CSS en zijn heel makkelijk te animeren en responsive te maken.&lt;/p&gt;
 </description>
         <pubDate>Wed, 25 Feb 2015 17:41:48 +0100</pubDate>
-        <link>//blog/SVG-for-web/</link>
-        <guid isPermaLink="true">//blog/SVG-for-web/</guid>
+        <link>http://mvaneijgen.nl//blog/SVG-for-web/</link>
+        <guid isPermaLink="true">http://mvaneijgen.nl//blog/SVG-for-web/</guid>
         
         
         <category>Experiment</category>

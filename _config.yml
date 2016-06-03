@@ -20,7 +20,7 @@ about: <p>Al sinds jonge twintiger is Mitchel van Eijgen actief als ondernemer i
 
 
 # the base hostname & protocol for your site
-url: "//mvaneijgen.nl/"
+url: "http://mvaneijgen.nl"
 baseurl: "//mvaneijgen.nl/"
 default_image: img/mvaneijgen-grafisch-ontwerper.jpg
 
