@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="896px" height="464px" viewBox="0 0 896 464" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.8.3 (29802) - http://www.bohemiancoding.com/sketch -->
+    <title>cover-line</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="cover-line" stroke="#334444">
+            <path d="M-5,175 L900.000138,175" id="line"></path>
+            <path d="M-5,184 L900.000138,184" id="line"></path>
+            <path d="M-5,220 L900.000138,220" id="line"></path>
+            <path d="M-5,256 L900.000138,256" id="line"></path>
+            <path d="M-5,265 L900.000138,265" id="line"></path>
+            <path d="M-5,274 L900.000138,274" id="line"></path>
+            <path d="M-5,283 L900.000138,283" id="line"></path>
+            <path d="M-5,292 L900.000138,292" id="line"></path>
+            <path d="M-5,301 L900.000138,301" id="line"></path>
+            <path d="M-5,310 L900.000138,310" id="line"></path>
+            <path d="M-5,364 L900.000138,364" id="line"></path>
+            <path d="M-5,373 L900.000138,373" id="line"></path>
+            <path d="M-5,382 L900.000138,382" id="line"></path>
+            <path d="M-5,391 L900.000138,391" id="line"></path>
+            <path d="M-5,400 L900.000138,400" id="line"></path>
+            <path d="M-5,409 L900.000138,409" id="line"></path>
+            <path d="M-5,418 L900.000138,418" id="line"></path>
+            <path d="M-5,427 L900.000138,427" id="line"></path>
+            <path d="M-5,436 L900.000138,436" id="line"></path>
+            <path d="M-5,445 L900.000138,445" id="line"></path>
+            <path d="M-5,454 L900.000138,454" id="line"></path>
+            <path d="M-5,463 L900.000138,463" id="line"></path>
+            <polyline id="fill" fill="#FFFFFF" points="-5 148 42.5 148 123 41.5 184 122.5 215.5 66.5 346 148 900.000138 148"></polyline>
+            <polyline id="fill" fill="#FFFFFF" points="-5 157 54 157 142.5 39.5 198 118.5 216.5 84.5 331.5 157 900.000138 157"></polyline>
+            <polyline id="fill" fill="#FFFFFF" points="-5 166 71 166 133 83.5 193 166 230 152 267 166 900.000138 166"></polyline>
+            <polyline id="fill" fill="#FFFFFF" points="-5 193 398 193 464.5 125.5 628 125.5 695.5 193 900.000138 193"></polyline>
+            <polyline id="fill" fill="#FFFFFF" points="-5 202 403.5 202 470 135 621.5 135 690 202 900.000138 202"></polyline>
+            <polyline id="fill" fill="#FFFFFF" points="-5 211 411 211 474.5 147.5 588.5 211 900.000138 211"></polyline>
+            <polyline id="fill" fill="#FFFFFF" points="-5 247 131 247 202 280 336 273.5 364.5 247 900.000138 247"></polyline>
+            <polyline id="fill" fill="#FFFFFF" points="-5 355 314 355 413 410 605 418.5 725.5 355 900.000138 355"></polyline>
+            <polyline id="fill" fill="#FFFFFF" points="-5 238 134.5 238 187 264 239 238 900.000138 238"></polyline>
+            <polyline id="fill" fill="#FFFFFF" points="-5 229 137.5 229 187 252.5 234.5 229 900.000138 229"></polyline>
+            <polyline id="fill" fill="#FFFFFF" points="-5 346 483.5 346 529 382.5 610.5 393 722 346 900.000138 346"></polyline>
+            <polyline id="fill" fill="#FFFFFF" points="-5 338 530.5 338 624.5 374.5 715.5 338 900.000138 338"></polyline>
+            <polyline id="fill" fill="#FFFFFF" points="-5 319 568 319 628.5 274 693 274 765 197 872.5 319 900.000138 319"></polyline>
+            <polyline id="fill" fill="#FFFFFF" points="-5 328 667 328 765.5 219.5 861.5 328 900.000138 328"></polyline>
+        </g>
+    </g>
+</svg>

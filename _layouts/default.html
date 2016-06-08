@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+{% include head.html %}
+
+<body class="{{ page.layout }} {{ page.path | remove: ".html" }}">
+  <div id="perspective" class="perspective effect-moveleft">
+    {% include header.html %}
+    <div class="container">
+      <div class="wrapper"><!-- wrapper needed for scroll -->
+        {{ content }}
+        {% include footer.html %}
+      </div><!-- wrapper -->
+    </div><!-- /container -->
+
+    {% if site.perspective == true %}
+    <nav class="outer-nav right vertical">
+      <a href="/" class="">Home</a>
+      <a href="work" class="">Work</a>
+      <a href="blog" class="">Blog</a>
+      <a href="contact" class="">Contact</a>
+    </nav>
+    {% endif %}
+  </div><!-- /perspective -->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+  
+  {% if site.perspective == true %}
+  <script type="text/javascript">
+  // flag : says "remove class when click reaches background"
+  var removeClass = true;
+  var perspective = $('#perspective');
+  // when clicking the button : toggle the class, tell the background to leave it as is
+  $("#showMenu").click(function () {
+    perspective.addClass('modalview animate');
+    removeClass = false;
+  });
+  // when click event reaches "html" : remove class if needed, and reset flag
+  $("html").click(function () {
+    if (removeClass) {
+      perspective.removeClass('animate');
+      setTimeout(function() {
+        perspective.removeClass('modalview');
+      }, 800);
+    }
+    removeClass = true;
+  });
+  </script>
+  {% endif %}
+  <script src="/js/imgCoverEffect.min.js"></script>
+  <script type="text/javascript">
+  $(document).ready(function() {
+    if(navigator.platform == "iPad") {
+      $("a").each(function() { // have to use an `each` here - either a jQuery `each` or a `for(...)` loop
+        var onClick; // this will be a function
+        var firstClick = function() {
+          onClick = secondClick;
+          return false;
+        };
+        var secondClick = function() {
+          onClick = firstClick;
+          return true;
+        };
+        onClick = firstClick;
+        $(this).click(function() {
+          return onClick();
+        });
+      });
+    }
+  });
+  document.addEventListener("DOMContentLoaded", function(event) {
+    var img = document.getElementsByClassName('cover');
+    for(var i = 0; i < img.length; i++){
+      var curr = img[i];
+      //hier de code
+      imgCoverEffect(curr, {
+        alignX: 'center',
+        alignY: 'middle',
+        watchResize: true
+      });
+
+    }
+  });
+  </script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.5.18/webfont.js"></script>
+  <script>
+  WebFont.load({
+    google: {
+      families: ['Roboto:100,700']
+    }
+  });
+  </script>
+
+</body>
+
+</html>

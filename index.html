@@ -1,0 +1,42 @@
+---
+layout: default
+---
+
+<div class="row title">
+	<div class="inner flex">
+		<h1><a href="#me">{{ site.name }}</a> {{ site.tagline }}</h1>
+	</div>
+	{% include line.svg %}
+</div>
+<div class="row work">
+	{% assign published = (site.work | where:"featured","true") %}
+	{% for post in published limit:6%}
+	<a href="{{ post.url }}" class="thumb">
+		<img class="cover" src="/img/work/{{ post.title | slugify }}-thumb.jpg" alt="{{ post.title }} | {{ post.excerpt }}">
+		<img class="logo" src="/img/work/{{ post.title | slugify }}-logo.png" alt="{{ post.opdrachtgever }}">
+	</a>
+	{% endfor %}
+</div>
+
+<div class="row me" id="me" style="background-image: url(img/cover-line.svg);">
+	<img src="img/team/{{ site.name | slugify }}.jpg" alt="" class="clip"/>
+</div>
+<div class="row about min-margin">
+	<div class="inner">
+		<h2>{{ site.name }}</h2>
+		{{ site.about }}
+	</div>
+</div>
+<div class="row">
+	<div class="inner">
+		<h2>Meet the people I work with</h2>
+	</div>
+</div>
+<div class="row team">
+	{% for post in site.team %}
+	<div class="team-member gradiant">
+		<img src="img/team/{{ post.title | slugify }}.jpg" alt="{{ post.title }}" class="cover"/>
+		<h4>{{ post.title }}</h4>
+	</div>
+	{% endfor %}
+</div>
