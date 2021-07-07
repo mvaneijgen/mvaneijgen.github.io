@@ -32,11 +32,3 @@ layout: default
 		<h2>Meet the people I work with</h2>
 	</div>
 </div>
-<div class="row team">
-	{% for post in site.team %}
-	<div class="team-member gradiant">
-		<img src="img/team/{{ post.title | slugify }}.jpg" alt="{{ post.title }}" class="cover"/>
-		<h4>{{ post.title }}</h4>
-	</div>
-	{% endfor %}
-</div>
